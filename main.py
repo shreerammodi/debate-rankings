@@ -71,6 +71,15 @@ def run_round(tournament: str, round: str, is_prelim: bool) -> None:
         neg_hash = str(round_row["Neg"])
         winner = str(round_row["Win"]).lower()
 
+        # Skip bye rounds or missing data
+        if (
+            "nan" in aff_hash
+            or "nan" in neg_hash
+            or "bye" in aff_hash.lower()
+            or "bye" in neg_hash.lower()
+        ):
+            continue
+
         aff_competitor = glicko_competitors[aff_hash]
         neg_competitor = glicko_competitors[neg_hash]
 
@@ -103,6 +112,7 @@ def replace_codes_with_hashes(
     code_to_hash = create_code_to_hash_dict(tournament)
 
     round_data["Aff"] = round_data["Aff"].map(code_to_hash)
+    round_data["Neg"] = round_data["Neg"].map(code_to_hash)
 
     return round_data
 
@@ -111,8 +121,6 @@ def update_from_tournament(tournament: str) -> None:
     """Updates debaters with all prelim and elim rounds from a tournament"""
 
     parse_debaters_from_tournament(tournament)
-
-    code_to_hash = create_code_to_hash_dict(tournament)
 
     prelims_folder = f"./tournaments/{tournament}/prelims/"
     if os.path.exists(prelims_folder):
@@ -133,7 +141,28 @@ def main():
     update_from_tournament("greenhill")
     update_from_tournament("college-prep")
 
-    print(debaters.to_string())
+    # Create rankings data
+    rankings_data = []
+    for index, debater in debaters.iterrows():
+        hash = debater["hash"]
+        competitor = glicko_competitors[hash]
+        rankings_data.append(
+            {
+                "School": debater["Institution"],
+                "Name": debater["Entry"],
+                "Rating": competitor.rating,
+            }
+        )
+
+    # Sort by glicko rating (highest to lowest)
+    rankings_df = pd.DataFrame(rankings_data)
+    rankings_df = rankings_df.sort_values(by="Rating", ascending=False)
+
+    # Add rank column
+    rankings_df.insert(0, "Rank", range(1, len(rankings_df) + 1))
+
+    # Output to CSV
+    rankings_df.to_csv("rankings.csv", index=False)
 
 
 main()
