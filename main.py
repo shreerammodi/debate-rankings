@@ -5,6 +5,7 @@ import elote as elo
 import pandas as pd
 
 debaters = pd.DataFrame()
+glicko_competitors = {}
 
 
 def generate_player_id(institution: str, full_name: str) -> str:
@@ -30,6 +31,7 @@ def create_player_hashes(tournament: str) -> pd.DataFrame:
 def parse_debaters_from_tournament(tournament: str) -> None:
     """Adds tournament entries to global debaters DataFrame"""
     global debaters
+    global glicko_competitors
 
     teams = create_player_hashes(tournament)
 
@@ -47,10 +49,13 @@ def parse_debaters_from_tournament(tournament: str) -> None:
 
         if not is_already_in_debaters:
             debaters = pd.concat([debaters, team_row.to_frame().T], ignore_index=True)
+            glicko_competitors[hash] = elo.GlickoCompetitor()
 
 
-def update_with_round(tournament: str, round: str, is_prelim: bool) -> None:
-    """Updates debaters list with wins and losses from a round"""
+def run_round(tournament: str, round: str, is_prelim: bool) -> None:
+    """Updates elos with wins and losses from a round"""
+
+    global glicko_competitors
 
     if is_prelim:
         file = f"./tournaments/{tournament}/prelims/{round}.csv"
@@ -61,26 +66,19 @@ def update_with_round(tournament: str, round: str, is_prelim: bool) -> None:
 
     round_data = replace_codes_with_hashes(round_data, tournament)
 
-    if is_prelim:
-        update_from_prelim(round_data)
-    else:
-        update_from_elim(round_data)
-
-
-def update_from_prelim(round_data: pd.DataFrame):
-    """Updates debater ratings based on prelim round results"""
-    global debaters
-
-    round_data.columns = round_data.columns.str.strip()
-
     for _, round_row in round_data.iterrows():
-        aff_code = round_row["Aff"]
-        neg_code = round_row["Neg"]
-        winner = round_row["Win"]
+        aff_hash = str(round_row["Aff"])
+        neg_hash = str(round_row["Neg"])
+        winner = str(round_row["Win"]).lower()
 
+        aff_competitor = glicko_competitors[aff_hash]
+        neg_competitor = glicko_competitors[neg_hash]
 
-def update_from_elim(round_data: pd.DataFrame):
-    return
+        if "aff" in winner:
+            aff_competitor.beat(neg_competitor)
+
+        if "neg" in winner:
+            neg_competitor.beat(aff_competitor)
 
 
 def create_code_to_hash_dict(tournament: str) -> dict:
@@ -121,14 +119,14 @@ def update_from_tournament(tournament: str) -> None:
         prelim_files = [f for f in os.listdir(prelims_folder) if f.endswith(".csv")]
         for prelim_file in prelim_files:
             round_name = prelim_file.replace(".csv", "")
-            update_with_round(tournament, round_name, is_prelim=True)
+            run_round(tournament, round_name, is_prelim=True)
 
     elims_folder = f"./tournaments/{tournament}/elims/"
     if os.path.exists(elims_folder):
         elim_files = [f for f in os.listdir(elims_folder) if f.endswith(".csv")]
         for elim_file in elim_files:
             round_name = elim_file.replace(".csv", "")
-            update_with_round(tournament, round_name, is_prelim=False)
+            run_round(tournament, round_name, is_prelim=False)
 
 
 def main():
