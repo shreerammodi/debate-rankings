@@ -59,7 +59,6 @@ def run_round(tournament: str, round: str, weight: int = 1) -> None:
     Args:
         tournament: tournament name
         round: round name
-        weight: how many times to process each match (higher = more impact on ratings)
     """
 
     global glicko_model
@@ -88,13 +87,12 @@ def run_round(tournament: str, round: str, weight: int = 1) -> None:
         ):
             continue
 
-        # Process the match 'weight' times to give it more impact
-        for _ in range(weight):
-            if "aff" in winner:
-                glicko_model.update(aff_hash, neg_hash, round_timestamp)
+        # Process each match exactly once (no multiplication weighting)
+        if "aff" in winner:
+            glicko_model.update(aff_hash, neg_hash, round_timestamp)
 
-            if "neg" in winner:
-                glicko_model.update(neg_hash, aff_hash, round_timestamp)
+        if "neg" in winner:
+            glicko_model.update(neg_hash, aff_hash, round_timestamp)
 
     # Only increment counter once per round, not per match
     match_counter += 1
@@ -182,19 +180,25 @@ def update_from_tournament(tournament: str) -> None:
 
         weight = determine_weight(tournament, round_name)
 
-        run_round(tournament, round_name, weight)
+        run_round(tournament, round_name)
 
 
 def main():
     update_from_tournament("loyola")
     update_from_tournament("grapevine")
+    update_from_tournament("greenhill-rr")
     update_from_tournament("greenhill")
     update_from_tournament("jack-howe")
+    update_from_tournament("valley")
     update_from_tournament("nano-nagle")
     update_from_tournament("heart-of-texas")
     update_from_tournament("nyc")
     update_from_tournament("apple-valley")
     update_from_tournament("glenbrooks")
+    update_from_tournament("longhorn")
+    update_from_tournament("strake")
+    update_from_tournament("blake")
+    update_from_tournament("college-prep")
 
     # Create rankings data
     rankings_data = []
@@ -202,12 +206,21 @@ def main():
         hash = debater["hash"]
         rating_data = glicko_model.get(hash)
         # rating_data["rating"] is a tuple of (mu, phi, sigma)
-        # We only want mu (the actual rating value)
+        mu = rating_data["rating"][0]  # Rating
+        phi = rating_data["rating"][1]  # Rating deviation (uncertainty)
+        sigma = rating_data["rating"][2]  # Volatility
+
+        # Count how many matches this debater has played
+        # This is a rough estimate based on rating history
+        match_count = len(glicko_model.ratings.get(hash, [])) - 1
+
         rankings_data.append(
             {
                 "School": debater["Institution"],
                 "Name": debater["Entry"],
-                "Rating": rating_data["rating"][0],
+                "Rating": mu,
+                "Deviation": phi,
+                "Matches": match_count,
             }
         )
 
