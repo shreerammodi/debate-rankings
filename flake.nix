@@ -45,10 +45,10 @@
               # Activate the virtual environment
               source .venv/bin/activate
 
-              # Install elote if not already installed
-              if ! python -c "import elote" 2>/dev/null; then
-                echo "Installing elote..."
-                pip install elote
+              # Install skelo if not already installed
+              if ! python -c "import skelo" 2>/dev/null; then
+                echo "Installing skelo..."
+                pip install skelo
               fi
             '';
           };

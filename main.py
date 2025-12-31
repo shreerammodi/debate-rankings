@@ -1,11 +1,12 @@
 import hashlib
 import os
 
-import elote as elo
 import pandas as pd
+from skelo.model.glicko2 import Glicko2Model
 
 debaters = pd.DataFrame()
-glicko_competitors = {}
+glicko_model = Glicko2Model()
+match_counter = 0
 
 
 def generate_player_id(institution: str, full_name: str) -> str:
@@ -31,7 +32,7 @@ def create_player_hashes(tournament: str) -> pd.DataFrame:
 def parse_debaters_from_tournament(tournament: str) -> None:
     """Adds tournament entries to global debaters DataFrame"""
     global debaters
-    global glicko_competitors
+    global glicko_model
 
     teams = create_player_hashes(tournament)
 
@@ -49,13 +50,20 @@ def parse_debaters_from_tournament(tournament: str) -> None:
 
         if not is_already_in_debaters:
             debaters = pd.concat([debaters, team_row.to_frame().T], ignore_index=True)
-            glicko_competitors[hash] = elo.GlickoCompetitor()
+            glicko_model.add(hash)
 
 
-def run_round(tournament: str, round: str) -> None:
-    """Updates elos with wins and losses from a round"""
+def run_round(tournament: str, round: str, weight: int = 1) -> None:
+    """Updates elos with wins and losses from a round
 
-    global glicko_competitors
+    Args:
+        tournament: tournament name
+        round: round name
+        weight: how many times to process each match (higher = more impact on ratings)
+    """
+
+    global glicko_model
+    global match_counter
 
     file = f"./tournaments/{tournament}/{round}.csv"
 
@@ -77,14 +85,15 @@ def run_round(tournament: str, round: str) -> None:
         ):
             continue
 
-        aff_competitor = glicko_competitors[aff_hash]
-        neg_competitor = glicko_competitors[neg_hash]
+        # Process the match 'weight' times to give it more impact
+        for _ in range(weight):
+            if "aff" in winner:
+                glicko_model.update(aff_hash, neg_hash, match_counter)
 
-        if "aff" in winner:
-            aff_competitor.beat(neg_competitor)
+            if "neg" in winner:
+                glicko_model.update(neg_hash, aff_hash, match_counter)
 
-        if "neg" in winner:
-            neg_competitor.beat(aff_competitor)
+            match_counter += 1
 
 
 def create_code_to_hash_dict(tournament: str) -> dict:
@@ -114,6 +123,26 @@ def replace_codes_with_hashes(
     return round_data
 
 
+def determine_weight(round_name: str) -> int:
+    """Determines weight of round"""
+
+    round_lower = round_name.lower()
+
+    match round_lower:
+        case "doubles":
+            return 2
+        case "octos":
+            return 3
+        case "quarters":
+            return 4
+        case "semis":
+            return 5
+        case "finals":
+            return 6
+
+    return 1
+
+
 def update_from_tournament(tournament: str) -> None:
     """Updates debaters with all prelim and elim rounds from a tournament"""
 
@@ -121,11 +150,18 @@ def update_from_tournament(tournament: str) -> None:
 
     tournament_folder = f"./tournaments/{tournament}/"
 
-    files = [f for f in os.listdir(tournament_folder) if f.endswith(".csv") and not f.startswith("entries")]
+    files = [
+        f
+        for f in os.listdir(tournament_folder)
+        if f.endswith(".csv") and not f.startswith("entries")
+    ]
 
     for file in files:
         round_name = file.replace(".csv", "")
-        run_round(tournament, round_name)
+
+        weight = determine_weight(round_name)
+
+        run_round(tournament, round_name, weight)
 
 
 def main():
@@ -136,12 +172,14 @@ def main():
     rankings_data = []
     for index, debater in debaters.iterrows():
         hash = debater["hash"]
-        competitor = glicko_competitors[hash]
+        rating_data = glicko_model.get(hash)
+        # rating_data["rating"] is a tuple of (mu, phi, sigma)
+        # We only want mu (the actual rating value)
         rankings_data.append(
             {
                 "School": debater["Institution"],
                 "Name": debater["Entry"],
-                "Rating": competitor.rating,
+                "Rating": rating_data["rating"][0],
             }
         )
 
