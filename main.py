@@ -11,6 +11,10 @@ match_counter = 0
 # Debaters who compete for multiple teams
 MULTI_TEAM_DEBATERS = {
     "Tilak Datta Iyer",
+    "Sreekarthikeya Kankanala",
+    "William Li",
+    "James Moon",
+    "Kylin Wu",
 }
 
 
