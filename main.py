@@ -184,25 +184,33 @@ def update_from_tournament(tournament: str) -> None:
 
 def main():
     print("Running tournaments...")
-    update_from_tournament("loyola")
-    update_from_tournament("ukso")
-    update_from_tournament("grapevine")
-    update_from_tournament("greenhill-rr")
-    update_from_tournament("greenhill")
-    update_from_tournament("jack-howe")
-    update_from_tournament("valley")
-    update_from_tournament("nano-nagle")
-    update_from_tournament("heart-of-texas")
-    update_from_tournament("nyc")
-    update_from_tournament("fbk-rr")
-    update_from_tournament("fbk")
-    update_from_tournament("apple-valley")
-    update_from_tournament("glenbrooks")
-    update_from_tournament("dsds1")
-    update_from_tournament("longhorn")
-    update_from_tournament("strake")
-    update_from_tournament("blake")
-    update_from_tournament("college-prep")
+
+    tournaments = [
+        "loyola",
+        "ukso",
+        "grapevine",
+        "greenhill-rr",
+        "greenhill",
+        "jack-howe",
+        "valley",
+        "nano-nagle",
+        "heart-of-texas",
+        "nyc",
+        "fbk-rr",
+        "fbk",
+        "apple-valley",
+        "damus",
+        "glenbrooks",
+        "dsds1",
+        "longhorn",
+        "strake",
+        "blake",
+        "college-prep",
+    ]
+
+    for tournament in tournaments:
+        print(f"{tournament}")
+        update_from_tournament(tournament)
 
     print("Creating Rankings...")
 
