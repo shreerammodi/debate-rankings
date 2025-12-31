@@ -186,8 +186,15 @@ def update_from_tournament(tournament: str) -> None:
 
 
 def main():
+    update_from_tournament("loyola")
+    update_from_tournament("grapevine")
     update_from_tournament("greenhill")
-    update_from_tournament("college-prep")
+    update_from_tournament("jack-howe")
+    update_from_tournament("nano-nagle")
+    update_from_tournament("heart-of-texas")
+    update_from_tournament("nyc")
+    update_from_tournament("apple-valley")
+    update_from_tournament("glenbrooks")
 
     # Create rankings data
     rankings_data = []
