@@ -213,14 +213,19 @@ def main():
             }
         )
 
-    # Sort by conservative rating (highest to lowest)
     rankings_df = pd.DataFrame(rankings_data)
     rankings_df = rankings_df.sort_values(by="Adjusted Rating", ascending=False)
 
-    # Add rank column
     rankings_df.insert(0, "Rank", range(1, len(rankings_df) + 1))
 
-    # Output to CSV
+    rankings_df.to_csv("full_rankings.csv", index=False)
+
+    rankings_df = rankings_df.drop(columns=["Deviation", "Matches", "Rating"])
+
+    rankings_df["Adjusted Rating"] = rankings_df["Adjusted Rating"].round(2)
+
+    rankings_df.rename(columns={"Adjusted Rating": "Rating"}, inplace=True)
+
     rankings_df.to_csv("rankings.csv", index=False)
 
 
