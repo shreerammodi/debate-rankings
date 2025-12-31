@@ -59,6 +59,7 @@ def run_round(tournament: str, round: str, weight: int = 1) -> None:
     Args:
         tournament: tournament name
         round: round name
+        weight: how many times to process each match (1 for regular, 2 for majors)
     """
 
     global glicko_model
@@ -87,12 +88,14 @@ def run_round(tournament: str, round: str, weight: int = 1) -> None:
         ):
             continue
 
-        # Process each match exactly once (no multiplication weighting)
-        if "aff" in winner:
-            glicko_model.update(aff_hash, neg_hash, round_timestamp)
+        # Process match 'weight' times for tournament importance
+        # (1x for regular tournaments, 2x for majors)
+        for _ in range(weight):
+            if "aff" in winner:
+                glicko_model.update(aff_hash, neg_hash, round_timestamp)
 
-        if "neg" in winner:
-            glicko_model.update(neg_hash, aff_hash, round_timestamp)
+            if "neg" in winner:
+                glicko_model.update(neg_hash, aff_hash, round_timestamp)
 
     # Only increment counter once per round, not per match
     match_counter += 1
@@ -126,40 +129,18 @@ def replace_codes_with_hashes(
 
 
 def determine_weight(tournament_name: str, round_name: str) -> int:
-    """Determines weight of round
+    """Determines weight of round based on tournament importance
 
-    Weights are scaled by 10 to allow fractional ratios:
-    - Prelims: 10 (baseline = 1.0x)
-    - Doubles: 11 (1.1x)
-    - Octos: 12 (1.2x)
-    - Quarters: 13 (1.3x)
-    - Semis: 14 (1.4x)
-    - Finals: 15 (1.5x)
+    - Regular tournaments: 1x (each match processed once)
+    - Major tournaments: 2x (each match processed twice)
     """
-
-    round_lower = round_name.lower()
-
-    # Base weight for prelims is 10 (represents 1.0x)
-    weight = 10
-
-    match round_lower:
-        case "doubles":
-            weight = 11
-        case "octos":
-            weight = 12
-        case "quarters":
-            weight = 13
-        case "semis":
-            weight = 14
-        case "finals":
-            weight = 15
 
     majors = ["heart-of-texas", "glenbrooks", "greenhill", "emory", "cal"]
 
     if tournament_name in majors:
-        weight += 1
-
-    return weight
+        return 2
+    else:
+        return 1
 
 
 def update_from_tournament(tournament: str) -> None:
@@ -180,7 +161,7 @@ def update_from_tournament(tournament: str) -> None:
 
         weight = determine_weight(tournament, round_name)
 
-        run_round(tournament, round_name)
+        run_round(tournament, round_name, weight)
 
 
 def main():
@@ -193,8 +174,11 @@ def main():
     update_from_tournament("nano-nagle")
     update_from_tournament("heart-of-texas")
     update_from_tournament("nyc")
+    update_from_tournament("fbk-rr")
+    update_from_tournament("fbk")
     update_from_tournament("apple-valley")
     update_from_tournament("glenbrooks")
+    update_from_tournament("dsds1")
     update_from_tournament("longhorn")
     update_from_tournament("strake")
     update_from_tournament("blake")
@@ -214,19 +198,24 @@ def main():
         # This is a rough estimate based on rating history
         match_count = len(glicko_model.ratings.get(hash, [])) - 1
 
+        # Adjusted rating: Rating - 2*Deviation
+        # This penalizes debaters with high uncertainty (few matches)
+        adjusted_rating = mu - 2 * phi
+
         rankings_data.append(
             {
                 "School": debater["Institution"],
                 "Name": debater["Entry"],
-                "Rating": mu,
+                "Adjusted Rating": adjusted_rating,
                 "Deviation": phi,
                 "Matches": match_count,
+                "Rating": mu,
             }
         )
 
-    # Sort by glicko rating (highest to lowest)
+    # Sort by conservative rating (highest to lowest)
     rankings_df = pd.DataFrame(rankings_data)
-    rankings_df = rankings_df.sort_values(by="Rating", ascending=False)
+    rankings_df = rankings_df.sort_values(by="Adjusted Rating", ascending=False)
 
     # Add rank column
     rankings_df.insert(0, "Rank", range(1, len(rankings_df) + 1))
