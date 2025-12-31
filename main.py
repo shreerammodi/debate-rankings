@@ -71,6 +71,9 @@ def run_round(tournament: str, round: str, weight: int = 1) -> None:
 
     round_data = replace_codes_with_hashes(round_data, tournament)
 
+    # Use the same timestamp for all matches in this round to avoid recency bias
+    round_timestamp = match_counter
+
     for _, round_row in round_data.iterrows():
         aff_hash = str(round_row["Aff"])
         neg_hash = str(round_row["Neg"])
@@ -88,12 +91,13 @@ def run_round(tournament: str, round: str, weight: int = 1) -> None:
         # Process the match 'weight' times to give it more impact
         for _ in range(weight):
             if "aff" in winner:
-                glicko_model.update(aff_hash, neg_hash, match_counter)
+                glicko_model.update(aff_hash, neg_hash, round_timestamp)
 
             if "neg" in winner:
-                glicko_model.update(neg_hash, aff_hash, match_counter)
+                glicko_model.update(neg_hash, aff_hash, round_timestamp)
 
-            match_counter += 1
+    # Only increment counter once per round, not per match
+    match_counter += 1
 
 
 def create_code_to_hash_dict(tournament: str) -> dict:
