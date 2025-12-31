@@ -127,24 +127,41 @@ def replace_codes_with_hashes(
     return round_data
 
 
-def determine_weight(round_name: str) -> int:
-    """Determines weight of round"""
+def determine_weight(tournament_name: str, round_name: str) -> int:
+    """Determines weight of round
+
+    Weights are scaled by 10 to allow fractional ratios:
+    - Prelims: 10 (baseline = 1.0x)
+    - Doubles: 11 (1.1x)
+    - Octos: 12 (1.2x)
+    - Quarters: 13 (1.3x)
+    - Semis: 14 (1.4x)
+    - Finals: 15 (1.5x)
+    """
 
     round_lower = round_name.lower()
 
+    # Base weight for prelims is 10 (represents 1.0x)
+    weight = 10
+
     match round_lower:
         case "doubles":
-            return 2
+            weight = 11
         case "octos":
-            return 3
+            weight = 12
         case "quarters":
-            return 4
+            weight = 13
         case "semis":
-            return 5
+            weight = 14
         case "finals":
-            return 6
+            weight = 15
 
-    return 1
+    majors = ["heart-of-texas", "glenbrooks", "greenhill", "emory", "cal"]
+
+    if tournament_name in majors:
+        weight += 1
+
+    return weight
 
 
 def update_from_tournament(tournament: str) -> None:
@@ -163,7 +180,7 @@ def update_from_tournament(tournament: str) -> None:
     for file in files:
         round_name = file.replace(".csv", "")
 
-        weight = determine_weight(round_name)
+        weight = determine_weight(tournament, round_name)
 
         run_round(tournament, round_name, weight)
 
