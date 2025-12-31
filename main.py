@@ -8,10 +8,24 @@ debaters = pd.DataFrame()
 glicko_model = Glicko2Model()
 match_counter = 0
 
+# Debaters who compete for multiple teams
+MULTI_TEAM_DEBATERS = {
+    "Tilak Datta Iyer",
+}
+
 
 def generate_player_id(institution: str, full_name: str) -> str:
-    """Generates a unique player ID by hashing the debater's institution and full name together."""
-    combined = f"{institution}{full_name}"
+    """Generates a unique player ID by hashing the debater's institution and full name together.
+
+    For debaters who compete for multiple teams, only the name is used to ensure
+    a unified ranking across all their appearances.
+    """
+
+    if full_name in MULTI_TEAM_DEBATERS:
+        combined = full_name
+    else:
+        combined = f"{institution}{full_name}"
+
     return hashlib.sha256(combined.encode()).hexdigest()
 
 
@@ -165,7 +179,9 @@ def update_from_tournament(tournament: str) -> None:
 
 
 def main():
+    print("Running tournaments...")
     update_from_tournament("loyola")
+    update_from_tournament("ukso")
     update_from_tournament("grapevine")
     update_from_tournament("greenhill-rr")
     update_from_tournament("greenhill")
@@ -183,6 +199,8 @@ def main():
     update_from_tournament("strake")
     update_from_tournament("blake")
     update_from_tournament("college-prep")
+
+    print("Creating Rankings...")
 
     # Create rankings data
     rankings_data = []
