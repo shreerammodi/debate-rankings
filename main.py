@@ -52,15 +52,12 @@ def parse_debaters_from_tournament(tournament: str) -> None:
             glicko_competitors[hash] = elo.GlickoCompetitor()
 
 
-def run_round(tournament: str, round: str, is_prelim: bool) -> None:
+def run_round(tournament: str, round: str) -> None:
     """Updates elos with wins and losses from a round"""
 
     global glicko_competitors
 
-    if is_prelim:
-        file = f"./tournaments/{tournament}/prelims/{round}.csv"
-    else:
-        file = f"./tournaments/{tournament}/elims/{round}.csv"
+    file = f"./tournaments/{tournament}/{round}.csv"
 
     round_data = pd.read_csv(file)
 
@@ -122,19 +119,13 @@ def update_from_tournament(tournament: str) -> None:
 
     parse_debaters_from_tournament(tournament)
 
-    prelims_folder = f"./tournaments/{tournament}/prelims/"
-    if os.path.exists(prelims_folder):
-        prelim_files = [f for f in os.listdir(prelims_folder) if f.endswith(".csv")]
-        for prelim_file in prelim_files:
-            round_name = prelim_file.replace(".csv", "")
-            run_round(tournament, round_name, is_prelim=True)
+    tournament_folder = f"./tournaments/{tournament}/"
 
-    elims_folder = f"./tournaments/{tournament}/elims/"
-    if os.path.exists(elims_folder):
-        elim_files = [f for f in os.listdir(elims_folder) if f.endswith(".csv")]
-        for elim_file in elim_files:
-            round_name = elim_file.replace(".csv", "")
-            run_round(tournament, round_name, is_prelim=False)
+    files = [f for f in os.listdir(tournament_folder) if f.endswith(".csv") and not f.startswith("entries")]
+
+    for file in files:
+        round_name = file.replace(".csv", "")
+        run_round(tournament, round_name)
 
 
 def main():
