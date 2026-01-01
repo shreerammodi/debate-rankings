@@ -153,7 +153,15 @@ def determine_weight(tournament_name: str, round_name: str) -> int:
     - Major tournaments: 2x (each match processed twice)
     """
 
-    majors = ["heart-of-texas", "glenbrooks", "greenhill", "emory", "cal"]
+    majors = [
+        "heart-of-texas",
+        "glenbrooks",
+        "greenhill",
+        "emory",
+        "cal",
+        "harvard",
+        "hwl",
+    ]
 
     if tournament_name in majors:
         return 2
@@ -191,6 +199,7 @@ def main():
         "grapevine",
         "greenhill-rr",
         "greenhill",
+        "yale",
         "jack-howe",
         "valley",
         "nano-nagle",
@@ -198,6 +207,7 @@ def main():
         "nyc",
         "fbk-rr",
         "fbk",
+        "meadows",
         "apple-valley",
         "damus",
         "glenbrooks",
