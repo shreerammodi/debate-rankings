@@ -15,6 +15,7 @@ MULTI_TEAM_DEBATERS = {
     "William Li",
     "James Moon",
     "Kylin Wu",
+    "Jonah Kim",
 }
 
 
