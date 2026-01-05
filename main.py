@@ -183,6 +183,10 @@ def update_from_tournament(tournament: str) -> None:
         if f.endswith(".csv") and not f.startswith("entries")
     ]
 
+    files.sort()
+
+    print(files)
+
     for file in files:
         round_name = file.replace(".csv", "")
 
