@@ -1,0 +1,43 @@
+{
+  "multi_team_debaters": [
+    "Tilak Datta Iyer",
+    "Sreekarthikeya Kankanala",
+    "William Li",
+    "James Moon",
+    "Kylin Wu",
+    "Jonah Kim"
+  ],
+  "tournaments": [
+    "loyola",
+    "ukso",
+    "grapevine",
+    "greenhill-rr",
+    "greenhill",
+    "yale",
+    "jack-howe",
+    "valley",
+    "nano-nagle",
+    "heart-of-texas",
+    "nyc",
+    "fbk-rr",
+    "fbk",
+    "meadows",
+    "apple-valley",
+    "damus",
+    "glenbrooks",
+    "dsds1",
+    "longhorn",
+    "strake",
+    "blake",
+    "college-prep"
+  ],
+  "majors": [
+    "heart-of-texas",
+    "glenbrooks",
+    "greenhill",
+    "emory",
+    "cal",
+    "harvard",
+    "hwl"
+  ]
+}
