@@ -31,6 +31,22 @@ def generate_player_id(
     return hashlib.sha256(combined.encode()).hexdigest()
 
 
+def sort_entry_names(entry: str, format: str) -> str:
+    """Sorts the names in an entry alphabetically for consistent display
+
+    For CPD format, splits by '&' and sorts names.
+    For HSLD format, returns the entry as-is.
+    """
+    if format == "hsld":
+        return entry
+
+    name_arr = entry.split("&")
+    clean_name_arr = [name.strip() for name in name_arr]
+    clean_name_arr.sort()
+
+    return " & ".join(clean_name_arr)
+
+
 def create_player_hashes(
     tournament: str, multi_team_debaters: list, format: str
 ) -> pd.DataFrame:
@@ -44,6 +60,12 @@ def create_player_hashes(
         lambda row: generate_player_id(
             row["Institution"], row["Entry"], multi_team_debaters, format
         ),
+        axis=1,
+    )
+
+    # Sort names in the Entry field for consistent display
+    teams["Entry"] = teams.apply(
+        lambda row: sort_entry_names(row["Entry"], format),
         axis=1,
     )
 
