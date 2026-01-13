@@ -161,6 +161,7 @@ class RankingSystem:
                     "Deviation": phi,
                     "Matches": match_count,
                     "Rating": mu,
+                    "Hash": debater["hash"],
                 }
             )
 
