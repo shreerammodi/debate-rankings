@@ -172,6 +172,8 @@ class RankingSystem:
 
         rankings_df.to_csv(f"output/{output_prefix}full_rankings.csv", index=False)
 
+        rankings_df.drop("Hash", inplace=True, axis=1)
+
         rankings_df = rankings_df.drop(columns=["Deviation", "Matches", "Rating"])
 
         rankings_df["Adjusted Rating"] = rankings_df["Adjusted Rating"].round(2)

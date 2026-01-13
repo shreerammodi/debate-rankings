@@ -1,245 +1,245 @@
-Rank,School,Name,Rating,Hash
-1,Kansas,Larson & Schultz,2119.89,f90fa31e0071d2c837f913fd72be7bbcf78ac4f9cb60827add21e8d61bba7b6a
-2,Emory,Gallagher & Song,2061.43,1ddfdefc74a94c170af702beb9f6936709a81fdad578e7155cd545c88e401b10
-3,Michigan,Barrett & Park,2053.76,d30b7d1f1165c53633796489511714cec99c073a442c3d278b75e2121c238e53
-4,Georgetown,Aggarwal & Cowan,1935.26,40cbdfd14b415f339dbd7ffeab2619658679c882f09bd7427c560aa5e0bcbc5d
-5,Michigan,Shah & Shih,1902.48,574925532b6d4ff165297692fa59a2499231d6d72b76f94e94404023599f5b19
-6,Northwestern,Li & Rubin,1892.72,d1025dc898ac4f1e0055944d4d94ac8492887fd39e05e127d835fd8752c360e0
-7,Iowa,Anderson McElligott & Parfenoff,1877.13,658fd040cb0a4380aa7954e4323f67acc9b33bc0438d6e1fe6476c0515b9a71f
-8,Binghamton,Cohn & King,1846.13,1966b54ce3fb7071dd311292cbc15b2a3f2452b18a55efa941f80ee6fca6dc91
-9,Michigan State,Gusis & Lewis,1839.09,afa5e5e133d3d08523f9973a37f8f25e3baebabdb147d3fe6aea9d67ebe5c1e8
-10,CSU Long Beach,Medina & Ortega,1834.49,92c6d63cbc9e66aff9dcaa7b54c526c2c9d5f86c876b1ed1ffd3b4986fc11833
-11,Kansas,Hato & Persinger,1831.39,935d516c4c761e7423e0d592d9f767a74689a8df1303ba5f31bf6a7c8cd40390
-12,Kansas,Marshall & Suleman,1819.46,6207fb51c3d25d6703f36cf1b009a1740330ead6d42443ff08712b44c6694123
-13,Kansas,Owings & Willingham,1758.71,0b8b78583e7e350747698c0fcd12c997ec45d6384721a0957250486ab5d4a0f3
-14,UC Berkeley,Menotti & Reichel,1758.0,ca5d91637c6bbd316587e14062a3a331690a802a8ee6eb0eae06345e0495f626
-15,Michigan,Esmailzadeh & Shetty,1750.22,e23292c274fcdbcac1bc23d4b68a3174ddf6adf36863d776d4c551491ddbb96c
-16,Emory,Lobo & Yang,1735.64,847f24a888a76f17f73711d8afb95a4dae962578f90b12abf367331769553709
-17,Kentucky,Rimpson & Washington,1714.14,dfa59c4df2925a307800adf1be98f8789db1f6f89d6e673ac85a328c974ad906
-18,Kansas,Ain & Ulven,1705.32,5192f58d4a4815870e6588e8f7611d386bd6347ade4b69e974bcc6f6da9d90b5
-19,Northwestern,Pacconi & Souchet,1695.91,63e783772ac6ff0247748be030980bb359455c985af652fb6b5343bc5e3ed166
-20,Emory,Kim & Shirts,1661.04,a02d76bf0da07a20b26868e8b28fd197f37ac3dddea2a0004166aa4958fa85d0
-21,Northwestern,Nestor & Patterson,1658.71,50914dabe8e057062130c496292b6ebf91f677be27936bb3ea4197beb5ad6adf
-22,Northwestern,Arney & Tahirkheli,1654.67,5a3aa36339a442f0085c18e11d22ad644bbef4f1346c4a4dbbf30a9baff406dd
-23,NYU,Makinde & Saigal,1636.95,c339df06fdfccd2a1dd8a3b71b395142639a1ba795ccfc1602d826ce21008526
-24,Emory,Rupp & Young,1632.3,f6bae466b8e97b5fea19efc5c95e232ee95ddaf640b37e2e974820fd906069bd
-25,Baylor,Darwish & Lassen,1617.65,eaae095389afa26f0ee420745984a25529c1ab5e6ad2316b6fa4084c811b1fd7
-26,Michigan,Chamarthy & Chen,1603.93,b7dad514f461892153899c318a1aa97d0d7bbfb652f125bc3922078088a4032d
-27,Iowa,Eltyeb & Weimar,1600.94,8f0a5eedb91fc91f604ca7bb87cd9025bf5cd2a165a09be5086dd1dfd821e541
-28,Michigan State,Foster & Martin,1586.48,37ccc3e7fc9d42c2164c1379029e0bb36fa7b55bd74fb3ff6cbb6d2e7d7a4d2f
-29,Harvard,Deshpande & Sridharan,1585.0,8c4664c3e85a0cc4bb1c69cde884bb15c41d1aca2312797acc7872f0bc6138ec
-30,UC Berkeley,Boguslavsky & Urfalian,1573.46,f5145466631de62626d2794083d05670efd1c54133d52fe804d0abc2a102e109
-31,Wake Forest,Leverett & Wolfe,1572.79,1ad4b2d818847744cfe715d122c3d2afc0599b4609da49e3ffdadc920ca6f3bb
-32,Kentucky,Gabay & Slish,1570.91,ac5d8738c8afafdc803b3ff146e31b62f15abf1c1a36ccf2f5ccb1a643e425fc
-33,Texas,Feinstein & Low,1569.98,36a92431aad844c542be3ff764178acc58fc934f8342f895dc625aa8c4ac4965
-34,Stanford,Lai & Lai,1565.86,57f2df2b457f8d1d4f3892529df1a9155f2f74c8466b7bb67277f8c347b595f2
-35,Emory,Cross & Shirts,1562.25,5f0473eacc0fcf6657f165e2fc3f20a822b970335553597919356822b9cb5eac
-36,Michigan State,Jarman & Scully,1558.67,02a4ea2b028c1fb1101ab3d506e2d182369c5fc3f04949e266b263c6bf379dcc
-37,Dartmouth,Cai & Goldberg,1551.23,c3b09b39ea0f295007bce36a875d56f7e8bcbddefe36dcf60c96d57b58f9c040
-38,Emory,Geevarghese & Maxwell,1550.34,018d1ccfede0494297accbd9696072496b29e492a55b29b831acd6fe0ee35ed3
-39,Michigan State,Gearring & Shehzad,1542.88,31cdc485517416b912015054f5a12742f242e49dfc8cef49728d8944b772a8a9
-40,George Mason,Witkov & Wright,1540.28,01b4a037e94c64e63f46c63bf6d1e23ef6e4702d89288735b0ad86fc6c28383c
-41,Michigan,Agustin & Ou,1533.92,9f8fd3f756e41c3393a18840f8cb3a529dc844a1bb7cfe79e8730152c2b746db
-42,Kansas,Shaw & Suleman,1531.74,73aab860d534f982fe0d810a1ef77325aa9a2784429f86fba1211fa630aef85b
-43,UTD,Hale & Karthik,1530.0,a3f13fae4a06221597534bebaf20a68311c4f01f9cc561c827e5ae2870ece5a9
-44,George Mason,Davis & Gorman,1529.41,ce8c1c7462efb253aefe104598016e919beb51024b6b566404b929d3684d17ba
-45,West Georgia,Keller & Kennon,1524.17,92b27ee20637bb14715ead2022cbc1d769ea168876e72c844faa697824a19cb5
-46,Wake Forest,Patel & Sencion,1521.68,7e74d6865f3d41e95232da84198a6a53163b92bb8cbb7b64997163f178ce2659
-47,UTD,Penumetcha & Ravi,1506.02,7d2ac3f5d9c1d34e5676070a2b65d543516b9d2bfe49e4ab69a142523403821e
-48,Liberty,Cunningham & Layton,1502.15,5b44f9f319086163cad421a066d023e1132a9114298f6d423891a133f490a1a9
-49,Southern California,Bhadani & Rahman,1498.8,d8c01391c642249a628db739d2d87a6870ada41e391fe3980a6a5600a3290944
-50,Wichita State,Griffith & Molina Chavez,1474.68,643a2f4d0b299a596023a7002aa0f02c0bbbb265887c9b180b6c8530ed9e32c0
-51,Emory,Tai & Taylor,1459.99,0b61f0b18edf82cb27b4cb5d0d84dacc11a2ac0005e9156c9c0e161a82a08d3f
-52,Stanford,Lai & Yan,1457.17,e8a9efaa040f6a2c6025d48c2e795910f309995feab7626f3fc3dd7622c358a8
-53,Emory,Aggarwal & Stumpff,1456.75,fc53d7931ee8d00ec9f4be9c4f71eb0478342910085395890e33e9b57817299e
-54,Michigan,Cho & Saudek,1447.88,dc2efd2af6c965a8a072fcf6c4a58c8b3d94e6574adc11512b259159810d0cfd
-55,Western Kentucky,Carter & Fournier,1445.39,fa61c4a437bd4cd5cceb1ba9743c90b2e2f361e3b17531816ce8d9dbebe49402
-56,Wake Forest,Dingley & Elliott,1426.02,04f1765f6a1304a942d1244eb52442eb1948f322d56476e2f1e7d969abcf762c
-57,Harvard,Aoki & Bodet,1422.3,713d109d4f145c8231a2603e99eaf83c065e6b6b788dbb79efdf44e7e7df57b6
-58,Northwestern,Leonard & Lundberg,1422.2,eee47582cdc1d4ea0e28060774a36130a8d9b55e77480b1caf875c73e86205ef
-59,Kansas,Brown & Walawender,1418.14,0d084d016924a8a9526c83354fab982bbfd4910acef0eae93a3b086d1aa59960
-60,Kansas,Blaser & Chidambaranathan,1413.1,f89b4b2b4faf3bb8bade077055c7f298975ebd14ffb444d150f98d4250ad9f74
-61,UTD,D'Antuono & Dickey,1409.36,b6aaad9d02b8e5715389298850ed4db89b71834bc0d13b97fab3afaec27e2c30
-62,Wake Forest,Hale & Namikas,1408.54,70c31a627e475b5abc94e67355295b2cab92c3e908c64e03694b3e99e38db5aa
-63,Kentucky,Rimpson & Schedler,1403.84,d6177aa0817fc43cd7b34acaf95158f5d49ed0570b0c7d7c2b1b7c2873f4f0c7
-64,Emory,Park & okahata,1399.38,cfe8931d540586fb64c0fafbdb7edbace53f3115fcff08c1550830ee35bc1eed
-65,Kansas,Blaser & Terreros,1396.81,c30796707b239ee248a2b4d91a12e69e51f372d27b15e46793ef816c0973491c
-66,Dartmouth,Majhail & Ross,1395.82,15725bd2b798a7268f1a808498fbba8c7644c4941fb9229ffeec55519cdcfc2e
-67,Dartmouth,Jones & Rao,1394.8,b57f027180262be7e705051b161ab352a4d70a5335634b4e3599a126b32e3ac1
-68,Georgia,Chapman & Kaidar-Heafetz,1393.28,455181582e03abba98a79a716c340fbe58eac21db17ce64894a9a86049f5442b
-69,Georgia,Cannon & Pack,1380.74,a859963999d97266a763f3801281bc5cd3cc18941449ed0330ca369fc6ea13d8
-70,Macalester,Kochel & Winters,1375.26,75d5857b6bfe673224ec65b39eb7fcfb7f044caf2b688d0739860b9e7f1f85fa
-71,Wake Forest,Leverett & Sampat,1374.36,66a30bf48e8ac1db16ebea8e477872a9af5a42307f8ebd989dff3adb8124959d
-72,Wake Forest,Aderibigbe & Brown,1371.61,b0ab007f9e9dfc0e0f486ed8b73072c25cfc5eefeadb36816cd7a995f1ad39ad
-73,Southern California,Bradley & Martin,1362.82,601039c3abf51a32f01c659d8010da45c995fb822f9ba6f421748e8b75a6c4a8
-74,Kansas,Boyle & June,1361.29,93e278c1462d45fce8446271f4c3c2d44bf9604b176c6894cf7dc32e241334c4
-75,Liberty,Cunningham & Soares,1354.34,c15adf0bfe0a9a5dcc082661887f54b8d6a3ab00297b11f0333c814d6f9f25a3
-76,Emory,Jindal & Ravikumar,1345.99,97b4c4863408f776ca44b50a17d0c20204c9e7dc421aba8efd16d6ba1eced61a
-77,Western Kentucky,Kumar & Ney,1343.04,686cf02f82ed2b96cacb723f2eb9f75f92dd197137c572aa54c7cbf425eaf444
-78,Kansas,Smith & Terreros,1341.31,15213faaff81f9c1a18b9ad019b275501265d2797457a3053e5df625c412c7d8
-79,Iowa,Bilicki & Sanderson,1330.27,f01eb3c04b658d70cd262966b81c680c614329f68384cffbd1d23741a61611ee
-80,Northwestern,Lee & Weisz,1329.37,93aeb73a4586475755fc80396f1ebcb19a56fe83d76f10f44eb42abd49a971d6
-81,Georgetown,Greenberg & Tamfu,1327.45,27d662cc1669b0a2712c53a45d72c9f6e5401fc1516a04f7454bb03f9c52a838
-82,Dartmouth,Ben-Abdallah & Carpenter,1325.09,7194536a4699743c7b7c4d12c07c5f2d79ac112cb9864824dd73bd3be588d555
-83,UC Berkeley,Gilrain-Lennon & Situ,1324.52,91da3fb46c024cec610795b4521a650eeac61f2a0ca2d4559ef722695170ff5a
-84,NYU,Jain & Theiding,1318.74,b38b81c7b58f67e050f0ed296d5e3b09e04f155501b5d5cb02a8e7959e6a39d5
-85,"Massachusetts, Amherst",Levitan & Moussavou,1313.02,c7bff30313e90b1804aeb51f86075e8d80f04f8c4e08daffb1498f8b6fbf9fbd
-86,Kansas State,Robertson & Sum,1310.09,1d9a99dca1a776a1d9fa09b8f10c17b9840e61dc6324c66b45fdabe60d16b905
-87,Minnesota,Haber-Fawcett & Usenov,1309.86,ae6c4a012c02617224f5be72ba5d62cd04d9e687f4e12be174ec78cf4af12fd6
-88,Harvard,Jin & Synn,1303.88,3559310b1c640e7fb354f599a0116d5695ae4e2bc6fe223f816a0b1d6bbf3358
-89,Gonzaga,Roe & Wellman,1301.91,4689d9df5f744a8b066aa9d013bd7103dff67eaa4c4525677872ebed8415cbe5
-90,UTD,Hoch & Humphrey,1300.65,f7a324f549c53b8544954266344f249ec2eb6b5d7046640e7d61c64f4dc418e5
-91,Kansas,Bath & McConnell,1290.42,9d3420edb226ad18f8c0b55aa7f0fd50917c42e49a1728eb58cd90b857b861f2
-92,Kansas,Chaudhry & Falin,1289.22,37605e90ea0140f91a4dac8922b1f041cf5cb325b6840b68fe426ff41fb649d2
-93,Southern California,Mills & Troup,1284.0,8e3b45f9ea479920eaf33c93dd1cdd0b6faede5b2cd66d6b2a319af26013a7f7
-94,Western Kentucky,Schintgen & StPeter,1282.43,adf0b4505edd96a0d88e2898c061f63062cea30a904a4a50dfc430c4effa17cc
-95,Southern California,Agrawal & Sood,1281.89,be38a85f907687dd19c2f9fbd780043c96ee203410eca66c6ab8bd2f6d264ab3
-96,Emory,Charabuddi & Ravikumar,1280.64,029e341fe47f58b550ea5ca5adc976eb39c91a249b5bffeb4195452202fc01f5
-97,Gonzaga,Weinhardt & Wellman,1279.39,28a026876650a872f444a280c44e917fd30ea2d0da43c14ee5d79b4c4b318f3e
-98,Wyoming,Widi & Willson,1275.56,1d8b8e25c69135d32ac3a5ffe9b720d36ca326a5ba5b57447d1bae08d2f05a82
-99,Emory,Cross & Taylor,1267.74,7c36a88f3d18e003fa207b6f5ea8176f2d9437cbaa5f6990f94ab595acf48dfd
-100,Georgetown,Lastelick & Nanji,1264.43,de22fee965f9ca3f7c089124687ffce776fd5e89441afee151550c16f72b7ef7
-101,George Mason,Davis & Esteves,1262.14,9a6a9e2210d0019f9e78a6f102cdca6735cb9329fa8e41e7a2b478f779adbf7c
-102,Kansas,Chidambaranathan & Suleman,1261.02,a5769dafefe350c3ba47d007413a8917a705aaff34f254f2cdda85bfc1b28f56
-103,Macalester,Harrison & Winters,1260.99,0b289491ad764e85a8ba962fd36cb3f31c8359609b44629239986cef2bb05f6e
-104,Southern California,Dollinger & Turner,1247.72,a598cf707277b671c08a46adf27cb942d6d1d81a7c5236e7a467bc58f1ac0c05
-105,MoState,Neal & Siever,1245.82,8850b9f78ad32cda97f5c847138991ed17510c657ed9d47c8e91955edffe144f
-106,Emory,Cannaday & Stearns,1243.37,7645c5003edf559b6604b991919be237bc6473b9e81c01419c1d7f509f63de7b
-107,Dartmouth,Guo & Hatton,1241.11,5f21100d366495757a2b07a70983ccdd51317837df0e00447ed56aab4da80809
-108,Michigan,Almand & Moon,1240.53,73a08f1e677d3b9b2fff1365736e756dc7005a74311b5db4c035e80e40df5b1a
-109,Missouri State,Neal & Siever,1239.9,b5078863f0e8b2eaa6e6769278510ef60a03817686f7071b5da85657d221f087
-110,Kansas,Blaser & Pace,1239.1,7023bf2de1d40d84d3c2d43541dd3b57685d8fa16e3c40b844212fbff4d09035
-111,Wake Forest,Kampine & Sampat,1238.57,dfb0ca4c7aba0156bd7e8c33d966a6c884005ba5e209ab75cb1e4b0ad4a996b7
-112,Southern California,Bhadani & Bradley,1236.57,f45266d4076ff3c8f911d7f33b377fe30a820068fb5834e65ab39ff857f459ad
-113,Iowa,Kleiman & Severson,1229.07,9978118f4b01f14328fcce54b107a6b6b8df8025ec0eb4e3eeaf39dd2cfbe1a2
-114,Northwestern,LippSmith & Olorunsola,1227.17,882d5afd232e8fe818c7570512d89f1210246896b0d37b8464d2d5e2f6c34161
-115,Baylor,Benton & Keeler,1226.94,18ed9c867c539ae83f82c3eac3825d5205c71926404150d4cedaa4f3fd3c2280
-116,Cal State Fullerton,Ayyala & Meza,1223.26,bf7e546df25b23eb5fd949b36ef76d44e7aaead2b241324ddebed2c71e5a2fb7
-117,Kansas State,Ardis & Sand,1218.71,34ce1cc0604541fd1daccbe6ee4a4c761124c986ef5910175ae2a511991dcc4a
-118,George Mason,Richter & Taxali,1216.03,f7741b1a6034d4f7cae5287b5e00fd4b9156be7a83cde906c67bbd4f3d1bcde0
-119,Iowa,Larsen & Severson,1206.11,d99a520e4a85042133467089e58b4d2a140ab274212bbef28df0828e72192a39
-120,Wake Forest,Mbye & Peters,1201.49,bab2d8bf33ae0a4afb8069a3f05d3364066f57f4098943eb31b5f863edd72b39
-121,Northwestern,Arceo & Kung,1201.18,150ded02955f9b40484e66054e60701f7436a72056ae9accc5bb6bd65bc2fb21
-122,Houston,Fernandez & Sheffield,1194.49,430f7dbe303cd6a64f60ff25b6355bc4fd0a6186bd4dfa72dbb18ac97ed3e707
-123,Emory,Charabuddi & Feldman,1193.4,efa4388ed40b58658f2e9560b93d51ca263b05a150a514ae8eb5cb2c53a84c4b
-124,Minnesota,Munson & Wells,1191.94,cdf26bd78e68f545fedef5b469fcf47504a20c7d4df633ff38ecc336697bd1af
-125,Emory,Stearns & Tai,1182.59,cc8e92a08a59fd831ef422e561aa4cb0228ad5e772beeefdcfafb1961ad91034
-126,Kansas,Foust & Sharman,1181.6,968272dde8ff274c5ea6a62e7ade07c50e580fa7760636ae8c851d0cda51fa81
-127,Liberty,Layton & Spencer,1171.65,0b8ce4ad24355742697e5cf857c3d4be774e7ea37370b8b22526e1dfbbf59cec
-128,James Madison,Matzen & Oehler,1170.33,f4044ea855783d57774881362f5ff016962d80acf681e90f4087d3e441fe48ac
-129,Kansas State,Day & Raines,1169.88,76bd07f3c93dd8a6d9e798c4db36e523116dae4900fd223094b1ccc387315348
-130,UC Berkeley,Liu & Smith,1165.43,d68ffb6fa58845a3e0d53997af9126a68c051e52221d2a0238547aec740d7bdd
-131,Arizona State,Saxena & Smith,1165.25,341ca8cf5b4d80eb21c882fed989ee839ad2294a4bd3a5d43e79e64089161975
-132,Wyoming,Campbell & Hawley,1161.03,2d5cb8a2696c8019322e70dcf3e6be2c2cee1374e0749f4a8f198eb08dc10cb7
-133,Michigan,Baba & Ledesma,1155.16,74c80599c6f6a69dbba28bdd20593c7e595eb913a769995542c2a61ad7080467
-134,Macalester,Costello & Winters,1151.1,07af3c0d4b13731e8c7a7309d9a57e193ef18d1cced6ca396ab90bea9cebc7b4
-135,Harvard,Aoki & Levitan,1138.82,aa0f5da02a0b82a3af5d0dd10d2fc575cfbe0e5673b344c82a8636972accc61e
-136,Texas,Gade & Stevenson,1137.78,9a0bdb262217aa91602bd8ea105869b88ebb74bae06069c7a7c4cc2e713b66d8
-137,Michigan,Garvey & Joyce,1132.6,4239993ab95cbe35495d9e80a5d4eeebd7bda0ca9cef2d3f8702d2e69285159e
-138,Missouri State,Cooper & Granger,1128.74,59a7f85ca0201aebf66b2921842e639fdacfbd4c14ed1bf89d524a3d0b76c8e6
-139,Dartmouth,Ben-Abdallah & Jones,1115.8,6e1a99cfd14b7fb21eeadb0daaa33242a2a1111ed95f9f6c7b79cba5bc229fb4
-140,Emory,Cannaday & Feldman,1112.72,df3610bb9775ef4c75a923f0ef0ba3ca501d82088c5ef40a0e69c04c3b0ec342
-141,Harvard,Chen & Saneyoshi,1111.92,28c785e9f1cea6e85e10c415e4e6de67b75d5ac5c29872769895e4bebfac8681
-142,Michigan,Hwang & McIlhenny,1111.72,b0a8a971c7a0aa0b6f23069c9d4c73344263550741aa18ccfe28df82dd6e8595
-143,Liberty,Koenig & Soares,1109.86,7912e16e02e83b9cfeed385eaa82902583e3956a10454bfae331260e1909098c
-144,Trinity,King & Patterson,1107.23,f6597d86f51bd0571e63dfa7769f09568b4183b5cd9e554c2cdd2b54124b6804
-145,Emory,Cross & Stumpff,1106.29,65d06ebe773a45e74142aa8c7a3bdbe872391b664e2ad8279e3494779720409a
-146,Wake Forest,Sampat & Williams,1097.01,2c86f862ad4a3633c03da53328ebdf29bf1467136cf991446b0ed3e97e490a47
-147,Missouri State,Hahn & Neal,1093.46,78543e44cd9ae431a2c026ab4859471c26b19a74bbcbf8f82c798654ce943626
-148,Missouri State,Burns & Kimmerle,1090.67,dde6255e0600d5b5a4cb486d77d566e1041e7fbe9e5339d59b896a9ee93067b7
-149,Kansas,Fordyce & Verma,1088.46,15123c2035acabae6d7c05c96cefec34d09d6dcd27d6e2caece6c69472599453
-150,Liberty,Soares & Spencer,1088.36,6b4a3eba752977e6422125dc6346b61f977b040741ff6c44af0094ef3918f364
-151,Harvard,Bodet & Shen,1081.31,af297ae711d9630054f397f3a22dafbdc83c4dc0c1cb673c2f4d577bc09e145a
-152,Louisville,Johnson & Van Dyke,1077.33,5f83a958740a23e9a788671eb3cd15acad6547ca991e4904024519d688276be5
-153,Liberty,Koenig & Tooley,1076.45,0589c2b24f76e1549381aab208ccf42b4cade987737f1c30228daba6a73c654d
-154,Georgetown,Klingler & Li,1073.59,c6b19c2ccb1dffb55a35b3893e8c4a8dbf6e99b57ebc27fbf6338c1baf546a36
-155,Navy,Lawrence & Satterfield,1073.26,c919581e493d7fea0a1842a282ff640d601404368540af72487efdfa8958f798
-156,Dartmouth,Guo & Morley,1072.28,ea081fabc07df814b3233aec1e0627581211a908bd702e3da02dea7e6fda3396
-157,Georgetown,Perez-Rubio & Valame,1065.16,d40bfea6e520cab477e3b719c557955de3747c90b79daff88959bedfcfd554b3
-158,Georgetown,Perez-Rubio & Tamfu,1060.82,bd681300ca17a41f0a16c3e8963efa8cf3fcaa060dfe7f994d1e2788baddc8e7
-159,Emory,Wang & Yang,1059.8,9a14354263e70c2c69ba6646b83e126751c35553efb417cacaf856699001fef3
-160,Dartmouth,Park & Tejavanija,1059.24,7c51c521f9868f988f35f9b5b2db12bd3173acc4c7d6338309fb542ef35aa4d8
-161,Oklahoma,Ballinger & Smith,1058.14,1e6e9c1ee91e4fd276c4ffa95aad1dad7f7705b9cacba7c190adf78f4f0c5622
-162,Gonzaga,Gibson & Weinhardt,1052.24,c8f0a699fe8fc0687f0f63ffe3c550fb180461cffad6632d856f2565caf9b9da
-163,UC Davis,Mijares & Shaikh,1048.17,6b3f806656b8df2d0c04213daee19206dbcf61206a938e04e8d7b4035765c963
-164,Navy,Connor & Rea,1044.11,a909137e961709acddacfa92bd1657f54e414b6830412f72c562f763aaecef1f
-165,West Georgia,Kennon & Missell,1043.22,4baf69e0fcb65aa6ec6951ea6b1bfd905a27131c5b4a26c52306a6553ac66c45
-166,Northwestern,Arceo & Hines,1040.86,43d82e0ca3a3e2cc8252484d720274ee69fd057c422769ffe8aaed4890999ad6
-167,Emory,Pelli & Stearns,1020.52,c8ad912b5d7467cfc9ad1c44036638cc35692bb37c6c65f7cd2372b1c998c958
-168,CSU Long Beach,Saenz & Smith,1015.62,d4a8d13334fc34a539a1eb027658040bb303ed59adfec0d4d3dd2f5a18f5b364
-169,Cal State Fullerton,Catapang & Dominguez,1013.51,97e6299b14d2c78e026ffb462a787850dbc7affe405e865ed2a4e30ba2a653e4
-170,Baylor,Li & LoCicero,1010.75,cff37bdb4cc4e5dbbcaafe14a43b4303babb5c7d9fd6bfb823a66721383f8a9b
-171,Houston,Hendrix & Ibarra,1009.69,363bbb1950bc2ecd3b75078234a42731ca47f147a8e5f643e2fa559e2e73ef9c
-172,Kansas,Harker & Levin,1009.68,6f3fbba44c1bbcfa2c2102c66adcbe1ebe6b5f962e7467382137b7c0ee464167
-173,UT San Antonio,Carrillo & Garza,1008.5,b3cee6cb32b33eafa163687a21a9959aa9cf62ac1bd6fe824d501f1a5d2e3fc3
-174,CSU Long Beach,Escobar & Saenz,1001.58,e206529d6a55cbec2e0d193f1abe1116f1e464d3beb4217e4dba3d6888ad2963
-175,Cal State Fullerton,Martinez & Nworgu,999.73,1092d38b0d3d619bab8da4ad50b5707b01b7f620a24a580c0fafc3d043458329
-176,Emory,So & Wang,995.09,7ccad23e088f12a8c1dfd24cf28c4550bfb1d86aaf7edd286c3d8ac22e843fbd
-177,Towson,Darden & Persaud,991.72,d25a4a123b84a5475d4c52923463777de811aac6c861122802d7cff67c4d4839
-178,Kansas,Bauman & Persson,991.22,b84231dc8eef57def6526055fa30bd4506b2a2af56ba38f7391e22bbba31e2d5
-179,Georgia,Chapman & Lackey,989.99,1f7c0af35cfce9a858dc2c781605e3f6c70a5f2845040b34dda48c5c0e0e7ad8
-180,Kentucky,Ervin & Rushing,988.36,b0758820a4446e591dd02f2ef4343b8a601118ead6ce43bafc43d1e027ed6615
-181,Emory,Kibe & Wang,987.58,9642687342e855149c26a393a4364425c304fda417f9b67fb68b0e3d7819f345
-182,Baylor,Phillips & merriwether,982.73,2492e0abfe8783538936bbe6f96c8b3ab4cde15b7c8ce0c86bc0fe26189bcc9f
-183,Western Kentucky,Ingram & Shockley,980.3,fa425fd7cc799afb9bc9cdd23f76cc27ada45db8234a4911c54ed98d04815801
-184,Trinity,Crowley & Khalikov,980.16,72405d279e336f5b215ba7ae726b98ca8f602575056e88bebaea22d54cad8ee6
-185,Iowa,Kleiman & Larsen,970.74,a5bd84c3a617cf79243362942642388857efed2dbe3b767aab6ab159de1bd93b
-186,Rochester,Ozcayir & Rahman,965.28,ffe55c3c34e992bbe4f73fb7115b51bae6ad8f8ab64ea9a2550300dea75cfdf8
-187,Southwestern,Figueroa & Munoz,963.28,df6ca2e84c9964ac65f448599a8f91db364de6cf8b6c94fb35896bbd9821bc8a
-188,Cornell,Dye & Marcy,963.18,f281534b417d65923be6ade1cd66e4426225865af1ecf0fab7e804c3671c6fb9
-189,Dartmouth,Hatton & Park,962.66,b0b88fd71b4c3a1643581998bc4e918a7b55236c562743f85cedc0f09c50055d
-190,Minnesota,Herzer & Kathner,961.28,6ae70c451494013accae305a48083a1b4c3b9618f6894bfddff35d4bcc25c976
-191,Purdue,Hansen & Hawksworth,958.42,2baf391ec20b63e486f9f2a69d28b5ed0e32dd0a31576aee17cd84f53c463a0c
-192,Emory,Aggarwal & Hu,954.04,d4ed55f73ee332b309ff5c8af060fe281157248a2e6ef332c84c840c54f9701a
-193,Missouri State,Cowdrey-Mota & Neal,953.66,f1583a6e185d63e9da3088e470b53309cc82a888383a33ad393eb51d243475e4
-194,Binghamton,Patel & Treulich,952.38,901b53eb749ecf8b2b78a8e0e4bdf7c74397f2d16b1d6dc9b4098ce4ca24ea4c
-195,Western Kentucky,Shockley & StPeter,947.48,614db4be80eb9bb0c2a28e7e0d31769432807a84319da9146662adda800aaed1
-196,Central Oklahoma,Kagiri & Walker,944.47,32ece54e7006327c1ab66f11a4394c8f635823cf0826b2c7d846c40deeb66425
-197,Northwestern,Heftman & Peltier,941.72,dc68d7ec3dfe64b91245e6a78dfdf30a0d19f2e515c550f066d1e29e472cfa02
-198,Oklahoma,Davis & Toro,941.4,d15ff3f1af1bf89422cfac7cd5304b68c281929e5f46de1751ed60bd21c7f56c
-199,Dartmouth,Brody & Goyal,933.31,e3fbe73190374ad89df06ec18b6945b1e34a0cf49cf41ae4de7ad2898ecd6fab
-200,Kentucky,Rushing & Schedler,921.58,657b8a744b40458b794c3608f24db59d0df7815953068b53827b075872811f03
-201,Dartmouth,Katyal & Rao,909.69,98929a9a6a58a935137b39776cd3598b74f3f23a4823ff04cbac8561626f3cfa
-202,Dartmouth,Gonzalez Arce & Hant,908.61,b70571473663e817ec616051bf8b09bef1a3ff55116319a9e4e89a3c6cca2613
-203,Southern California,Rueda & Wong,908.28,f9ebcca05289c43f505dc66431fe1053b8398235065b490dc96e597963808746
-204,Emory,Chen & granchi,904.28,f78699ebcd56162bbbf61e51b369028f6763c90960caa9cc6cd90430ecc46bbe
-205,Texas AandM University - College Station,Birkby & Cruz,903.02,b3d87227816a2904b9b9b87bec672a44f2a19ff1b9c6766003cbd172bdd87d7a
-206,North Texas,Hasper & Vazquez,897.63,a090895df0c7620ca74cb94e7ed90ec76ca1aa83cea9435f87511f787308efe2
-207,Indiana,Fish & Truemper,884.56,523398fee3c47263deb3c956dd05b15d650c3df156b872a84ed45ddb06345cf1
-208,Utah,Parrish & Powers,866.37,0160135eca814c1647894eb8ca8be788298e2f37bd1d3b03531e9cc5b56b8bff
-209,Harvard,Lourenco & Synn,860.06,cb27d239a5425438b7b59d6cd6ed1e640a392c7a4c0ca3caff379d14daec9d5a
-210,Kansas State,Draeger & Spurlock,860.01,fe4e1989edcb266d3e1abc2f22c1d6179bfba6825e33f4eb6362100f503ec286
-211,Trinity,Barden & Khalikov,857.87,d0f01eb681e3c0caf7bd67729565e4af87a0e80a57327b3cc6ffbb121be7b1ad
-212,UTD,Khakoo & Ramirez,849.93,aea922e11940ef0a614878a8bc5092510374f4dad2640b7889e4d60f238b3b1b
-213,Northwestern,Martinez & Olorunsola,849.25,72310c2b914475ac358b0c4961f83f9d5ed01102d739f04be37c4c05bfdf1d22
-214,Macalester,Costello & Durbin,848.45,159968ac28f36a56d6133015dd79cdb70c3025f4e99a261514e2b4dec2901980
-215,Western Kentucky,Ingram & Puranik,845.46,a820a9ebb66efd0e8344d5c44b3832c474add29060f33a6a0eeac8ea7e7b5931
-216,UTD,Khakoo & Underwood,840.22,8f4c9fc05565fc0e6e40863fb791ff6df80da58dcef27b783774a1b7576ed443
-217,NYU,Khade & Khalif,823.67,d45c26648c4e3aa6a0ffc6c75611df559962e80e858863a67d2ecde95aa398e4
-218,George Mason,Reyes & Shananier,820.5,40a8fbec50f5f0706b840901c0a079c966923b6cd71707e79722174e7a5322f1
-219,Baylor,Merriwether & Phillips,812.05,ae807ca073378d8059a2e52b85f0b5ebc19980abbd2c2d5f0d13875ed1e1a3d8
-220,Georgetown,Correa & Wang,801.77,f3160ad9d3f81aa55e6fbbada316b54caee60ad68e4d3ed6537022937f1b6bbb
-221,West Point,Opron & Song,800.66,2fc9e9aff1c345f61b0b5c6a8984a107c98f64dc18741a2d816f0341e0539ca0
-222,Northern Iowa,Chapman & Doyle,791.89,c2ece1b8d459241c11ad777922142349e3be083cd71af2ba5ba112877e3a3b34
-223,Southern Nazarene,Horton & Stockstill,787.84,790aced320915d4c5c17ae008ba3eaa3b05e6ed7aaeb8a518c0312cdd83e959c
-224,Louisville,Johnson & Naidugari,784.02,2ebba3b1e4be3cc06a4066dc4409f809ff91ba81e075d34a5f726508b9bd95ac
-225,Texas,Sutton & hamstra,783.44,bc40d3347ba2f68f76ee8803520d61d805509d6738d7174b311b11989f834e7f
-226,Kansas,Hernandez & Martinez,783.13,5a133f3d1928d685f722fc627d841800f7d42127870410dffb67e2d51c664691
-227,Missouri State,Busenhart & Cowdrey-Mota,771.37,f425ba0b4a8966bad54145e7ed89840333c0ab43e0bc25af308c00578425cc33
-228,Cornell,Dye & Vorontsova,765.5,0c51c5b9dc21a9284a40c9df53524968aacf7969e3ed56077d33e16924ac396e
-229,Kansas State,Lewis & Williamson,761.47,8a5593f27c0eb2f2da3d1f1f19812b027d8afa3b9cd460d7fcb352851cdaddcd
-230,North Texas,Ganesh & Vargas,740.25,ccd609b965b0e06c5ea2eab651fcea201f3685f4816f06278461cd3d37327837
-231,Liberty,Lib/JMU KJ,735.22,936895451db7298b7898cc90dd838003c32ab1dac84b72a7c53d4bbf433ce57b
-232,Purdue,Ahmed & Hawksworth,734.8,062c5618f6a114e62db7e0845c91e2acdce857bdcea2173509743d35a6092a83
-233,Oklahoma,Werner & bustos,728.31,1904c3b8c06cc3bc66de418be8d95dea42037ad463f1d83af18f12a7c4f77374
-234,Northern Iowa,Miller & Van Buren,725.47,ebe2d651c347c1ff2f4c4c7e0ecf82c503fc7daa716801e441640d5676ca879c
-235,Dartmouth,Johnson & Kirkpatrick,712.53,51372940394b6c3ed63993f90a41afa6459113e050d0bf149398baef29e3b836
-236,Wake Forest,Kampine & Shakarov,684.61,8a245f50bff87128681576439bf3cae6392f059df07372557e2c631267c5726f
-237,Texas AandM University - College Station,Langford & Sanchez,672.83,899d442f759130559f219a9f80cd1c15e3e4532e1346f3cff92c44364e7d91a8
-238,Dartmouth,Florence-Smith & Li,657.73,fbeb02da8457b190401b25f8f13ccc9fcbd6722f3fd16c6fde7a744382941f9f
-239,Wyoming,Lyday & Willson,649.09,c83f0f773ef1629f4d8e4576f6ff585305a6bd1993a4f7ba2f36b5f2e084c239
-240,James Madison,Kardos & Pinto,638.82,f831492d7129433a3577772f046025ca6c9cf5a7bd9255606a3a50f7faa44634
-241,Suffolk,Israel & Ludka,627.0,18845ced6d4decf5820075b5f0d5f94f2e0b23b99275273387b450fa69baff45
-242,Missouri State,DeAngelis & Lay,623.38,9c3837afd60dd7930f7247d915aa9dc74e90a56137b378394478f5f2c01c3500
-243,Wake Forest,Nguyen & Sferrazza,580.72,7a123d047340388bbc76e4815ab086b43f1b91ae21ec54423f526c297e416dd2
-244,Harvard,Facey & Kundu,512.46,635f1479b3bb202d8f5d9abe6509d9a76b7e64304addc20f00e6834d24eb32dc
+Rank,School,Name,Rating
+1,Kansas,Larson & Schultz,2119.89
+2,Emory,Gallagher & Song,2061.43
+3,Michigan,Barrett & Park,2053.76
+4,Georgetown,Aggarwal & Cowan,1935.26
+5,Michigan,Shah & Shih,1902.48
+6,Northwestern,Li & Rubin,1892.72
+7,Iowa,Anderson McElligott & Parfenoff,1877.13
+8,Binghamton,Cohn & King,1846.13
+9,Michigan State,Gusis & Lewis,1839.09
+10,CSU Long Beach,Medina & Ortega,1834.49
+11,Kansas,Hato & Persinger,1831.39
+12,Kansas,Marshall & Suleman,1819.46
+13,Kansas,Owings & Willingham,1758.71
+14,UC Berkeley,Menotti & Reichel,1758.0
+15,Michigan,Esmailzadeh & Shetty,1750.22
+16,Emory,Lobo & Yang,1735.64
+17,Kentucky,Rimpson & Washington,1714.14
+18,Kansas,Ain & Ulven,1705.32
+19,Northwestern,Pacconi & Souchet,1695.91
+20,Emory,Kim & Shirts,1661.04
+21,Northwestern,Nestor & Patterson,1658.71
+22,Northwestern,Arney & Tahirkheli,1654.67
+23,NYU,Makinde & Saigal,1636.95
+24,Emory,Rupp & Young,1632.3
+25,Baylor,Darwish & Lassen,1617.65
+26,Michigan,Chamarthy & Chen,1603.93
+27,Iowa,Eltyeb & Weimar,1600.94
+28,Michigan State,Foster & Martin,1586.48
+29,Harvard,Deshpande & Sridharan,1585.0
+30,UC Berkeley,Boguslavsky & Urfalian,1573.46
+31,Wake Forest,Leverett & Wolfe,1572.79
+32,Kentucky,Gabay & Slish,1570.91
+33,Texas,Feinstein & Low,1569.98
+34,Stanford,Lai & Lai,1565.86
+35,Emory,Cross & Shirts,1562.25
+36,Michigan State,Jarman & Scully,1558.67
+37,Dartmouth,Cai & Goldberg,1551.23
+38,Emory,Geevarghese & Maxwell,1550.34
+39,Michigan State,Gearring & Shehzad,1542.88
+40,George Mason,Witkov & Wright,1540.28
+41,Michigan,Agustin & Ou,1533.92
+42,Kansas,Shaw & Suleman,1531.74
+43,UTD,Hale & Karthik,1530.0
+44,George Mason,Davis & Gorman,1529.41
+45,West Georgia,Keller & Kennon,1524.17
+46,Wake Forest,Patel & Sencion,1521.68
+47,UTD,Penumetcha & Ravi,1506.02
+48,Liberty,Cunningham & Layton,1502.15
+49,Southern California,Bhadani & Rahman,1498.8
+50,Wichita State,Griffith & Molina Chavez,1474.68
+51,Emory,Tai & Taylor,1459.99
+52,Stanford,Lai & Yan,1457.17
+53,Emory,Aggarwal & Stumpff,1456.75
+54,Michigan,Cho & Saudek,1447.88
+55,Western Kentucky,Carter & Fournier,1445.39
+56,Wake Forest,Dingley & Elliott,1426.02
+57,Harvard,Aoki & Bodet,1422.3
+58,Northwestern,Leonard & Lundberg,1422.2
+59,Kansas,Brown & Walawender,1418.14
+60,Kansas,Blaser & Chidambaranathan,1413.1
+61,UTD,D'Antuono & Dickey,1409.36
+62,Wake Forest,Hale & Namikas,1408.54
+63,Kentucky,Rimpson & Schedler,1403.84
+64,Emory,Park & okahata,1399.38
+65,Kansas,Blaser & Terreros,1396.81
+66,Dartmouth,Majhail & Ross,1395.82
+67,Dartmouth,Jones & Rao,1394.8
+68,Georgia,Chapman & Kaidar-Heafetz,1393.28
+69,Georgia,Cannon & Pack,1380.74
+70,Macalester,Kochel & Winters,1375.26
+71,Wake Forest,Leverett & Sampat,1374.36
+72,Wake Forest,Aderibigbe & Brown,1371.61
+73,Southern California,Bradley & Martin,1362.82
+74,Kansas,Boyle & June,1361.29
+75,Liberty,Cunningham & Soares,1354.34
+76,Emory,Jindal & Ravikumar,1345.99
+77,Western Kentucky,Kumar & Ney,1343.04
+78,Kansas,Smith & Terreros,1341.31
+79,Iowa,Bilicki & Sanderson,1330.27
+80,Northwestern,Lee & Weisz,1329.37
+81,Georgetown,Greenberg & Tamfu,1327.45
+82,Dartmouth,Ben-Abdallah & Carpenter,1325.09
+83,UC Berkeley,Gilrain-Lennon & Situ,1324.52
+84,NYU,Jain & Theiding,1318.74
+85,"Massachusetts, Amherst",Levitan & Moussavou,1313.02
+86,Kansas State,Robertson & Sum,1310.09
+87,Minnesota,Haber-Fawcett & Usenov,1309.86
+88,Harvard,Jin & Synn,1303.88
+89,Gonzaga,Roe & Wellman,1301.91
+90,UTD,Hoch & Humphrey,1300.65
+91,Kansas,Bath & McConnell,1290.42
+92,Kansas,Chaudhry & Falin,1289.22
+93,Southern California,Mills & Troup,1284.0
+94,Western Kentucky,Schintgen & StPeter,1282.43
+95,Southern California,Agrawal & Sood,1281.89
+96,Emory,Charabuddi & Ravikumar,1280.64
+97,Gonzaga,Weinhardt & Wellman,1279.39
+98,Wyoming,Widi & Willson,1275.56
+99,Emory,Cross & Taylor,1267.74
+100,Georgetown,Lastelick & Nanji,1264.43
+101,George Mason,Davis & Esteves,1262.14
+102,Kansas,Chidambaranathan & Suleman,1261.02
+103,Macalester,Harrison & Winters,1260.99
+104,Southern California,Dollinger & Turner,1247.72
+105,MoState,Neal & Siever,1245.82
+106,Emory,Cannaday & Stearns,1243.37
+107,Dartmouth,Guo & Hatton,1241.11
+108,Michigan,Almand & Moon,1240.53
+109,Missouri State,Neal & Siever,1239.9
+110,Kansas,Blaser & Pace,1239.1
+111,Wake Forest,Kampine & Sampat,1238.57
+112,Southern California,Bhadani & Bradley,1236.57
+113,Iowa,Kleiman & Severson,1229.07
+114,Northwestern,LippSmith & Olorunsola,1227.17
+115,Baylor,Benton & Keeler,1226.94
+116,Cal State Fullerton,Ayyala & Meza,1223.26
+117,Kansas State,Ardis & Sand,1218.71
+118,George Mason,Richter & Taxali,1216.03
+119,Iowa,Larsen & Severson,1206.11
+120,Wake Forest,Mbye & Peters,1201.49
+121,Northwestern,Arceo & Kung,1201.18
+122,Houston,Fernandez & Sheffield,1194.49
+123,Emory,Charabuddi & Feldman,1193.4
+124,Minnesota,Munson & Wells,1191.94
+125,Emory,Stearns & Tai,1182.59
+126,Kansas,Foust & Sharman,1181.6
+127,Liberty,Layton & Spencer,1171.65
+128,James Madison,Matzen & Oehler,1170.33
+129,Kansas State,Day & Raines,1169.88
+130,UC Berkeley,Liu & Smith,1165.43
+131,Arizona State,Saxena & Smith,1165.25
+132,Wyoming,Campbell & Hawley,1161.03
+133,Michigan,Baba & Ledesma,1155.16
+134,Macalester,Costello & Winters,1151.1
+135,Harvard,Aoki & Levitan,1138.82
+136,Texas,Gade & Stevenson,1137.78
+137,Michigan,Garvey & Joyce,1132.6
+138,Missouri State,Cooper & Granger,1128.74
+139,Dartmouth,Ben-Abdallah & Jones,1115.8
+140,Emory,Cannaday & Feldman,1112.72
+141,Harvard,Chen & Saneyoshi,1111.92
+142,Michigan,Hwang & McIlhenny,1111.72
+143,Liberty,Koenig & Soares,1109.86
+144,Trinity,King & Patterson,1107.23
+145,Emory,Cross & Stumpff,1106.29
+146,Wake Forest,Sampat & Williams,1097.01
+147,Missouri State,Hahn & Neal,1093.46
+148,Missouri State,Burns & Kimmerle,1090.67
+149,Kansas,Fordyce & Verma,1088.46
+150,Liberty,Soares & Spencer,1088.36
+151,Harvard,Bodet & Shen,1081.31
+152,Louisville,Johnson & Van Dyke,1077.33
+153,Liberty,Koenig & Tooley,1076.45
+154,Georgetown,Klingler & Li,1073.59
+155,Navy,Lawrence & Satterfield,1073.26
+156,Dartmouth,Guo & Morley,1072.28
+157,Georgetown,Perez-Rubio & Valame,1065.16
+158,Georgetown,Perez-Rubio & Tamfu,1060.82
+159,Emory,Wang & Yang,1059.8
+160,Dartmouth,Park & Tejavanija,1059.24
+161,Oklahoma,Ballinger & Smith,1058.14
+162,Gonzaga,Gibson & Weinhardt,1052.24
+163,UC Davis,Mijares & Shaikh,1048.17
+164,Navy,Connor & Rea,1044.11
+165,West Georgia,Kennon & Missell,1043.22
+166,Northwestern,Arceo & Hines,1040.86
+167,Emory,Pelli & Stearns,1020.52
+168,CSU Long Beach,Saenz & Smith,1015.62
+169,Cal State Fullerton,Catapang & Dominguez,1013.51
+170,Baylor,Li & LoCicero,1010.75
+171,Houston,Hendrix & Ibarra,1009.69
+172,Kansas,Harker & Levin,1009.68
+173,UT San Antonio,Carrillo & Garza,1008.5
+174,CSU Long Beach,Escobar & Saenz,1001.58
+175,Cal State Fullerton,Martinez & Nworgu,999.73
+176,Emory,So & Wang,995.09
+177,Towson,Darden & Persaud,991.72
+178,Kansas,Bauman & Persson,991.22
+179,Georgia,Chapman & Lackey,989.99
+180,Kentucky,Ervin & Rushing,988.36
+181,Emory,Kibe & Wang,987.58
+182,Baylor,Phillips & merriwether,982.73
+183,Western Kentucky,Ingram & Shockley,980.3
+184,Trinity,Crowley & Khalikov,980.16
+185,Iowa,Kleiman & Larsen,970.74
+186,Rochester,Ozcayir & Rahman,965.28
+187,Southwestern,Figueroa & Munoz,963.28
+188,Cornell,Dye & Marcy,963.18
+189,Dartmouth,Hatton & Park,962.66
+190,Minnesota,Herzer & Kathner,961.28
+191,Purdue,Hansen & Hawksworth,958.42
+192,Emory,Aggarwal & Hu,954.04
+193,Missouri State,Cowdrey-Mota & Neal,953.66
+194,Binghamton,Patel & Treulich,952.38
+195,Western Kentucky,Shockley & StPeter,947.48
+196,Central Oklahoma,Kagiri & Walker,944.47
+197,Northwestern,Heftman & Peltier,941.72
+198,Oklahoma,Davis & Toro,941.4
+199,Dartmouth,Brody & Goyal,933.31
+200,Kentucky,Rushing & Schedler,921.58
+201,Dartmouth,Katyal & Rao,909.69
+202,Dartmouth,Gonzalez Arce & Hant,908.61
+203,Southern California,Rueda & Wong,908.28
+204,Emory,Chen & granchi,904.28
+205,Texas AandM University - College Station,Birkby & Cruz,903.02
+206,North Texas,Hasper & Vazquez,897.63
+207,Indiana,Fish & Truemper,884.56
+208,Utah,Parrish & Powers,866.37
+209,Harvard,Lourenco & Synn,860.06
+210,Kansas State,Draeger & Spurlock,860.01
+211,Trinity,Barden & Khalikov,857.87
+212,UTD,Khakoo & Ramirez,849.93
+213,Northwestern,Martinez & Olorunsola,849.25
+214,Macalester,Costello & Durbin,848.45
+215,Western Kentucky,Ingram & Puranik,845.46
+216,UTD,Khakoo & Underwood,840.22
+217,NYU,Khade & Khalif,823.67
+218,George Mason,Reyes & Shananier,820.5
+219,Baylor,Merriwether & Phillips,812.05
+220,Georgetown,Correa & Wang,801.77
+221,West Point,Opron & Song,800.66
+222,Northern Iowa,Chapman & Doyle,791.89
+223,Southern Nazarene,Horton & Stockstill,787.84
+224,Louisville,Johnson & Naidugari,784.02
+225,Texas,Sutton & hamstra,783.44
+226,Kansas,Hernandez & Martinez,783.13
+227,Missouri State,Busenhart & Cowdrey-Mota,771.37
+228,Cornell,Dye & Vorontsova,765.5
+229,Kansas State,Lewis & Williamson,761.47
+230,North Texas,Ganesh & Vargas,740.25
+231,Liberty,Lib/JMU KJ,735.22
+232,Purdue,Ahmed & Hawksworth,734.8
+233,Oklahoma,Werner & bustos,728.31
+234,Northern Iowa,Miller & Van Buren,725.47
+235,Dartmouth,Johnson & Kirkpatrick,712.53
+236,Wake Forest,Kampine & Shakarov,684.61
+237,Texas AandM University - College Station,Langford & Sanchez,672.83
+238,Dartmouth,Florence-Smith & Li,657.73
+239,Wyoming,Lyday & Willson,649.09
+240,James Madison,Kardos & Pinto,638.82
+241,Suffolk,Israel & Ludka,627.0
+242,Missouri State,DeAngelis & Lay,623.38
+243,Wake Forest,Nguyen & Sferrazza,580.72
+244,Harvard,Facey & Kundu,512.46
