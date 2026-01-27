@@ -28,11 +28,11 @@ Rank,School,Name,Rating
 27,Baylor,Darwish & Lassen,1617.1
 28,Michigan State,Foster & Martin,1610.11
 29,Wake Forest,Leverett & Wolfe,1604.02
-30,Michigan,Chamarthy & Chen,1602.72
-31,Iowa,Eltyeb & Weimar,1600.5
-32,Harvard,Deshpande & Sridharan,1578.31
-33,Michigan State,Jarman & Scully,1572.63
-34,UC Berkeley,Boguslavsky & Urfalian,1570.14
+30,UC Berkeley,Boguslavsky & Urfalian,1604.01
+31,Michigan,Chamarthy & Chen,1602.72
+32,Iowa,Eltyeb & Weimar,1600.5
+33,Harvard,Deshpande & Sridharan,1578.31
+34,Michigan State,Jarman & Scully,1572.63
 35,Stanford,Lai & Lai,1565.54
 36,Emory,Cross & Shirts,1562.06
 37,Michigan State,Gearring & Shehzad,1561.15
@@ -45,206 +45,220 @@ Rank,School,Name,Rating
 44,Liberty,Cunningham & Layton,1529.5
 45,George Mason,Davis & Gorman,1529.41
 46,West Georgia,Keller & Kennon,1524.17
-47,Wake Forest,Patel & Sencion,1521.68
-48,UTD,Penumetcha & Ravi,1504.85
-49,Southern California,Bhadani & Rahman,1496.48
-50,Wichita State,Griffith & Molina Chavez,1474.12
-51,Michigan,Agustin & Ou,1460.87
-52,Emory,Tai & Taylor,1459.99
-53,Stanford,Lai & Yan,1456.62
-54,Emory,Aggarwal & Stumpff,1456.27
-55,Michigan,Cho & Saudek,1447.37
-56,Western Kentucky,Carter & Fournier,1445.13
-57,Wake Forest,Dingley & Elliott,1425.17
-58,Northwestern,Leonard & Lundberg,1422.36
-59,Harvard,Aoki & Bodet,1421.87
-60,Dartmouth,Jones & Rao,1418.78
-61,Kansas,Brown & Walawender,1416.9
-62,Kansas,Blaser & Chidambaranathan,1411.49
-63,UTD,D'Antuono & Dickey,1408.88
-64,Wake Forest,Hale & Namikas,1407.81
-65,Emory,Okahata & Park,1399.07
-66,Kansas,Blaser & Terreros,1396.72
-67,Dartmouth,Majhail & Ross,1395.82
-68,Georgia,Chapman & Kaidar-Heafetz,1392.69
-69,George Mason,Davis & Esteves,1381.13
-70,Macalester,Kochel & Winters,1374.87
-71,Wake Forest,Leverett & Sampat,1374.36
-72,Georgetown,Greenberg & Tamfu,1362.47
-73,Southern California,Bradley & Martin,1361.14
-74,Kansas,Boyle & June,1360.78
-75,Liberty,Cunningham & Soares,1354.34
-76,James Madison,Matzen & Oehler,1352.8
-77,Wake Forest,Aderibigbe & Brown,1348.34
-78,Emory,Jindal & Ravikumar,1345.99
-79,Kentucky,Rimpson & Schedler,1345.23
-80,Western Kentucky,Kumar & Ney,1341.74
-81,Minnesota,Haber-Fawcett & Usenov,1336.54
-82,Georgia,Cannon & Pack,1334.05
-83,Iowa,Bilicki & Sanderson,1329.48
-84,Northwestern,Lee & Weisz,1325.64
-85,Emory,Charabuddi & Ravikumar,1325.24
-86,Georgetown,Lastelick & Nanji,1324.13
-87,Dartmouth,Ben-Abdallah & Carpenter,1323.97
-88,UC Berkeley,Gilrain-Lennon & Situ,1323.03
-89,Kansas,Smith & Terreros,1320.39
-90,"Massachusetts, Amherst",Levitan & Moussavou,1312.3
-91,Kansas State,Robertson & Sum,1309.37
-92,Harvard,Jin & Synn,1305.02
-93,Gonzaga,Roe & Wellman,1299.79
-94,UTD,Hoch & Humphrey,1298.79
-95,Kansas,Bath & McConnell,1289.61
-96,Southern California,Mills & Troup,1283.05
-97,Kansas,Chaudhry & Falin,1282.09
-98,George Mason,Richter & Taxali,1280.74
-99,Southern California,Agrawal & Sood,1278.28
-100,Gonzaga,Weinhardt & Wellman,1277.93
-101,Western Kentucky,Schintgen & StPeter,1275.37
-102,Emory,Cross & Taylor,1266.95
-103,Macalester,Harrison & Winters,1260.94
-104,Kansas,Chidambaranathan & Suleman,1260.94
-105,Michigan,Hwang & McIlhenny,1259.82
-106,NYU,Jain & Theiding,1249.42
-107,Southern California,Dollinger & Turner,1246.62
-108,Wyoming,Widi & Willson,1245.08
-109,MoState,Neal & Siever,1244.93
-110,Emory,Cannaday & Stearns,1242.96
-111,Dartmouth,Guo & Hatton,1240.43
-112,Missouri State,Neal & Siever,1239.81
-113,Michigan,Almand & Moon,1239.79
-114,Wake Forest,Kampine & Sampat,1238.57
-115,Kansas,Blaser & Pace,1237.66
-116,Southern California,Bhadani & Bradley,1236.42
-117,Georgetown,Varkantham & Zaidi,1232.31
-118,Baylor,Benton & Keeler,1226.73
-119,Northwestern,LippSmith & Olorunsola,1226.58
-120,Iowa,Kleiman & Severson,1225.56
-121,Cal State Fullerton,Ayyala & Meza,1219.45
-122,Kansas State,Ardis & Sand,1216.99
-123,Iowa,Larsen & Severson,1205.46
-124,Wake Forest,Mbye & Peters,1201.47
-125,Michigan,Baba & Ledesma,1200.39
-126,Northwestern,Arceo & Kung,1199.38
-127,Houston,Fernandez & Sheffield,1193.49
-128,Emory,Charabuddi & Feldman,1193.4
-129,Minnesota,Munson & Wells,1191.87
-130,Wake Forest,Patel & Sayoto,1183.29
-131,Emory,Stearns & Tai,1180.97
-132,Liberty,Layton & Spencer,1171.65
-133,Kansas State,Day & Raines,1169.88
-134,UC Berkeley,Liu & Smith,1164.64
-135,Arizona State,Saxena & Smith,1164.03
-136,Georgetown,Li & Valame,1163.47
-137,Wyoming,Campbell & Hawley,1160.33
-138,Macalester,Costello & Winters,1150.91
-139,Kansas,Foust & Sharman,1139.8
-140,Harvard,Aoki & Levitan,1138.82
-141,Texas,Gade & Stevenson,1134.28
-142,Michigan,Garvey & Joyce,1132.12
-143,Missouri State,Cooper & Granger,1127.78
-144,Georgia,Chapman & Lackey,1123.16
-145,Dartmouth,Ben-Abdallah & Jones,1115.8
-146,Harvard,Chen & Saneyoshi,1111.68
-147,Emory,Cannaday & Feldman,1110.39
-148,Liberty,Koenig & Soares,1109.86
-149,Trinity,King & Patterson,1106.63
-150,Emory,Cross & Stumpff,1105.92
-151,Missouri State,Hahn & Neal,1093.33
-152,Missouri State,Burns & Kimmerle,1090.46
-153,Kansas,Fordyce & Verma,1088.44
-154,Liberty,Soares & Spencer,1083.95
-155,Wake Forest,Sampat & Williams,1082.2
-156,Harvard,Bodet & Shen,1078.41
-157,Liberty,Koenig & Tooley,1076.35
-158,Dartmouth,Guo & Morley,1072.28
-159,Louisville,Johnson & Van Dyke,1071.09
-160,Georgetown,Perez-Rubio & Valame,1064.36
-161,Georgetown,Klingler & Li,1062.21
-162,Emory,Wang & Yang,1059.8
-163,Dartmouth,Park & Tejavanija,1059.24
-164,Georgetown,Perez-Rubio & Tamfu,1058.41
-165,Oklahoma,Ballinger & Smith,1057.58
-166,Gonzaga,Gibson & Weinhardt,1052.01
-167,UC Davis,Mijares & Shaikh,1048.17
-168,West Georgia,Kennon & Missell,1042.68
-169,Northwestern,Arceo & Hines,1039.69
-170,Binghamton,Patel & Treulich,1037.31
-171,Minnesota,Herzer & Kathner,1036.76
-172,Emory,Pelli & Stearns,1020.52
-173,Navy,Connor & Rea,1017.25
-174,Cal State Fullerton,Catapang & Dominguez,1012.9
-175,Baylor,Li & LoCicero,1010.75
-176,Houston,Hendrix & Ibarra,1008.41
-177,Kansas,Harker & Levin,1007.75
-178,CSU Long Beach,Saenz & Smith,1007.16
-179,UT San Antonio,Carrillo & Garza,1006.48
-180,CSU Long Beach,Escobar & Saenz,1000.39
-181,Cal State Fullerton,Martinez & Nworgu,999.62
-182,Emory,So & Wang,995.09
-183,Kansas,Bauman & Persson,991.22
-184,Towson,Darden & Persaud,989.98
-185,Kentucky,Ervin & Rushing,988.36
-186,Emory,Kibe & Wang,985.12
-187,Navy,Lawrence & Satterfield,984.78
-188,Western Kentucky,Ingram & Shockley,980.12
-189,Trinity,Crowley & Khalikov,971.81
-190,Iowa,Kleiman & Larsen,970.6
-191,Rochester,Ozcayir & Rahman,962.79
-192,Dartmouth,Hatton & Park,962.66
-193,Cornell,Dye & Marcy,962.58
-194,Southwestern,Figueroa & Munoz,962.39
-195,Purdue,Hansen & Hawksworth,957.43
-196,Missouri State,Cowdrey-Mota & Neal,953.62
-197,Emory,Aggarwal & Hu,952.16
-198,Georgetown,Correa & Xiao,948.49
-199,Western Kentucky,Shockley & StPeter,947.48
-200,Central Oklahoma,Kagiri & Walker,943.73
-201,Northwestern,Heftman & Peltier,940.95
-202,Wake Forest,Mbye & Sampat,940.68
-203,Dartmouth,Brody & Goyal,935.21
-204,Kentucky,Rushing & Schedler,920.8
-205,Oklahoma,Davis & Toro,916.05
-206,Dartmouth,Katyal & Rao,909.69
-207,Dartmouth,Gonzalez Arce & Hant,908.38
-208,Southern California,Rueda & Wong,908.27
-209,Texas AandM University - College Station,Birkby & Cruz,903.0
-210,Baylor,Merriwether & Phillips,901.96
-211,Emory,Chen & Granchi,898.11
-212,North Texas,Hasper & Vazquez,897.63
-213,Indiana,Fish & Truemper,884.18
-214,Utah,Parrish & Powers,878.1
-215,Kansas State,Draeger & Spurlock,860.01
-216,Harvard,Lourenco & Synn,859.46
-217,Northwestern,Martinez & Olorunsola,849.25
-218,Macalester,Costello & Durbin,848.38
-219,Western Kentucky,Ingram & Puranik,845.45
-220,UTD,Khakoo & Ramirez,845.03
-221,UTD,Khakoo & Underwood,840.22
-222,Trinity,Barden & Khalikov,832.75
-223,NYU,Khade & Khalif,822.75
-224,George Mason,Reyes & Shananier,819.84
-225,Georgetown,Correa & Wang,801.05
-226,West Point,Opron & Song,800.27
-227,Northern Iowa,Chapman & Doyle,791.78
-228,Southern Nazarene,Horton & Stockstill,787.03
-229,Louisville,Johnson & Naidugari,784.02
-230,Texas,Hamstra & Sutton,782.46
-231,Kansas,Hernandez & Martinez,779.07
-232,Missouri State,Busenhart & Cowdrey-Mota,771.28
-233,Cornell,Dye & Vorontsova,765.5
-234,Kansas State,Lewis & Williamson,759.77
-235,North Texas,Ganesh & Vargas,736.6
-236,Liberty,Lib/JMU KJ,735.22
-237,Purdue,Ahmed & Hawksworth,734.79
-238,Oklahoma,Bustos & Werner,728.31
-239,Northern Iowa,Miller & Van Buren,724.78
-240,Dartmouth,Johnson & Kirkpatrick,712.4
-241,Wake Forest,Kampine & Shakarov,684.61
-242,Texas AandM University - College Station,Langford & Sanchez,672.83
-243,Dartmouth,Florence-Smith & Li,657.65
-244,Wyoming,Lyday & Willson,648.58
-245,Suffolk,Israel & Ludka,627.0
-246,Missouri State,DeAngelis & Lay,623.37
-247,James Madison,Kardos & Pinto,615.07
-248,Wake Forest,Nguyen & Sferrazza,562.74
-249,Harvard,Facey & Kundu,512.0
+47,Michigan,Agustin & Ou,1523.88
+48,Wake Forest,Patel & Sencion,1521.68
+49,UTD,Penumetcha & Ravi,1504.85
+50,CSU Long Beach,Escobar & Medina,1504.35
+51,Southern California,Bhadani & Rahman,1488.15
+52,Wichita State,Griffith & Molina Chavez,1474.12
+53,Emory,Tai & Taylor,1459.99
+54,Stanford,Lai & Yan,1456.62
+55,Emory,Aggarwal & Stumpff,1456.27
+56,Michigan,Cho & Saudek,1447.37
+57,Western Kentucky,Carter & Fournier,1445.13
+58,Wake Forest,Dingley & Elliott,1425.17
+59,Northwestern,Leonard & Lundberg,1422.36
+60,Harvard,Aoki & Bodet,1421.87
+61,Dartmouth,Jones & Rao,1418.78
+62,Kansas,Brown & Walawender,1416.9
+63,Kansas,Blaser & Chidambaranathan,1411.49
+64,UTD,D'Antuono & Dickey,1408.88
+65,Wake Forest,Hale & Namikas,1407.81
+66,Northwestern,Lee & Weisz,1401.4
+67,Emory,Okahata & Park,1399.07
+68,Kansas,Blaser & Terreros,1396.72
+69,Dartmouth,Majhail & Ross,1395.82
+70,Georgia,Chapman & Kaidar-Heafetz,1392.69
+71,George Mason,Davis & Esteves,1381.13
+72,Western Kentucky,Fournier & Ney,1379.78
+73,Missouri State,Neal & Neal,1377.25
+74,Macalester,Kochel & Winters,1374.87
+75,Wake Forest,Leverett & Sampat,1374.36
+76,Georgetown,Greenberg & Tamfu,1362.47
+77,Kansas,Boyle & June,1360.78
+78,Liberty,Cunningham & Soares,1354.34
+79,James Madison,Matzen & Oehler,1352.8
+80,Wake Forest,Aderibigbe & Brown,1348.34
+81,Emory,Jindal & Ravikumar,1345.99
+82,Kentucky,Rimpson & Schedler,1345.23
+83,Western Kentucky,Kumar & Ney,1341.74
+84,Minnesota,Haber-Fawcett & Usenov,1336.54
+85,Georgia,Cannon & Pack,1334.05
+86,Iowa,Bilicki & Sanderson,1329.48
+87,Emory,Charabuddi & Ravikumar,1325.24
+88,Georgetown,Lastelick & Nanji,1324.13
+89,Dartmouth,Ben-Abdallah & Carpenter,1323.97
+90,UC Berkeley,Gilrain-Lennon & Situ,1323.03
+91,Kansas,Smith & Terreros,1320.39
+92,"Massachusetts, Amherst",Levitan & Moussavou,1312.3
+93,Kansas State,Robertson & Sum,1309.37
+94,Harvard,Jin & Synn,1305.02
+95,Southern California,Mills & Troup,1304.71
+96,Gonzaga,Roe & Wellman,1299.79
+97,UTD,Hoch & Humphrey,1298.79
+98,Southern California,Bradley & Martin,1293.66
+99,Kansas,Bath & McConnell,1289.61
+100,Wyoming,Widi & Willson,1284.66
+101,Kansas,Chaudhry & Falin,1282.09
+102,George Mason,Richter & Taxali,1280.74
+103,Southern California,Agrawal & Sood,1278.28
+104,Gonzaga,Weinhardt & Wellman,1277.93
+105,Western Kentucky,Schintgen & StPeter,1275.37
+106,Emory,Cross & Taylor,1266.95
+107,Macalester,Harrison & Winters,1260.94
+108,Kansas,Chidambaranathan & Suleman,1260.94
+109,Michigan,Hwang & McIlhenny,1259.82
+110,NYU,Jain & Theiding,1249.42
+111,Southern California,Dollinger & Turner,1246.62
+112,MoState,Neal & Siever,1244.93
+113,Emory,Cannaday & Stearns,1242.96
+114,Northwestern,Arceo & Kung,1240.49
+115,Dartmouth,Guo & Hatton,1240.43
+116,Missouri State,Neal & Siever,1239.81
+117,Michigan,Almand & Moon,1239.79
+118,Wake Forest,Kampine & Sampat,1238.57
+119,Kansas,Blaser & Pace,1237.66
+120,Southern California,Bhadani & Bradley,1236.42
+121,Georgetown,Varkantham & Zaidi,1232.31
+122,Baylor,Benton & Keeler,1226.73
+123,Iowa,Kleiman & Severson,1225.56
+124,Cal State Fullerton,Ayyala & Meza,1219.45
+125,Kansas State,Ardis & Sand,1216.99
+126,Western Kentucky,Carter & Kumar,1216.81
+127,Iowa,Larsen & Severson,1205.46
+128,Wake Forest,Mbye & Peters,1201.47
+129,Michigan,Baba & Ledesma,1200.39
+130,Kentucky,Ervin & Rushing,1198.14
+131,Houston,Fernandez & Sheffield,1193.49
+132,Emory,Charabuddi & Feldman,1193.4
+133,Minnesota,Munson & Wells,1191.87
+134,Wake Forest,Patel & Sayoto,1183.29
+135,Emory,Stearns & Tai,1180.97
+136,Liberty,Layton & Spencer,1171.65
+137,Kansas State,Day & Raines,1169.88
+138,UC Berkeley,Liu & Smith,1164.64
+139,Arizona State,Saxena & Smith,1164.03
+140,Georgetown,Li & Valame,1163.47
+141,Wyoming,Campbell & Hawley,1160.33
+142,Macalester,Costello & Winters,1150.91
+143,Kansas,Foust & Sharman,1139.8
+144,Harvard,Aoki & Levitan,1138.82
+145,Texas,Gade & Stevenson,1134.28
+146,Michigan,Garvey & Joyce,1132.12
+147,Missouri State,Cooper & Granger,1127.78
+148,Georgia,Chapman & Lackey,1123.16
+149,Cal State Fullerton,Martinez & Nworgu,1122.72
+150,Dartmouth,Ben-Abdallah & Jones,1115.8
+151,Harvard,Chen & Saneyoshi,1111.68
+152,Emory,Cannaday & Feldman,1110.39
+153,Liberty,Koenig & Soares,1109.86
+154,Trinity,King & Patterson,1106.63
+155,Emory,Cross & Stumpff,1105.92
+156,Northwestern,LippSmith & Olorunsola,1105.76
+157,Missouri State,Hahn & Neal,1093.33
+158,Missouri State,Burns & Kimmerle,1090.46
+159,Kansas,Fordyce & Verma,1088.44
+160,Liberty,Soares & Spencer,1083.95
+161,Wake Forest,Sampat & Williams,1082.2
+162,Harvard,Bodet & Shen,1078.41
+163,Liberty,Koenig & Tooley,1076.35
+164,Dartmouth,Guo & Morley,1072.28
+165,North Texas,Bowman & Vargas,1072.27
+166,Louisville,Johnson & Van Dyke,1071.09
+167,Georgetown,Perez-Rubio & Valame,1064.36
+168,West Georgia,Kennon & Missell,1063.95
+169,Georgetown,Klingler & Li,1062.21
+170,Emory,Wang & Yang,1059.8
+171,Dartmouth,Park & Tejavanija,1059.24
+172,Georgetown,Perez-Rubio & Tamfu,1058.41
+173,Oklahoma,Ballinger & Smith,1057.58
+174,Missouri State,Cooper & Hahn,1055.7
+175,Gonzaga,Gibson & Weinhardt,1052.01
+176,UC Davis,Mijares & Shaikh,1048.17
+177,Northwestern,Arceo & Hines,1039.69
+178,Binghamton,Patel & Treulich,1037.31
+179,Purdue,Hansen & Hawksworth,1037.13
+180,Minnesota,Herzer & Kathner,1036.76
+181,Cal State Fullerton,Catapang & Dominguez,1022.05
+182,Emory,Pelli & Stearns,1020.52
+183,Navy,Connor & Rea,1017.25
+184,Baylor,Li & LoCicero,1010.75
+185,Southern California,Huerto & Savdharia,1009.15
+186,Houston,Hendrix & Ibarra,1008.41
+187,Kansas,Harker & Levin,1007.75
+188,CSU Long Beach,Saenz & Smith,1007.16
+189,UT San Antonio,Carrillo & Garza,1006.48
+190,Indiana,Fish & Truemper,1001.18
+191,CSU Long Beach,Escobar & Saenz,1000.39
+192,Emory,So & Wang,995.09
+193,Kansas,Bauman & Persson,991.22
+194,Towson,Darden & Persaud,989.98
+195,Emory,Kibe & Wang,985.12
+196,Navy,Lawrence & Satterfield,984.78
+197,Western Kentucky,Ingram & Shockley,980.12
+198,Trinity,Crowley & Khalikov,971.81
+199,Iowa,Kleiman & Larsen,970.6
+200,Rochester,Ozcayir & Rahman,962.79
+201,Dartmouth,Hatton & Park,962.66
+202,Cornell,Dye & Marcy,962.58
+203,Southwestern,Figueroa & Munoz,962.39
+204,North Texas,Paruchuri & Sharp,959.07
+205,Missouri State,Cowdrey-Mota & Neal,953.62
+206,Emory,Aggarwal & Hu,952.16
+207,Georgetown,Correa & Xiao,948.49
+208,Western Kentucky,Shockley & StPeter,947.48
+209,Dartmouth,Gonzalez Arce & Hant,947.13
+210,Central Oklahoma,Kagiri & Walker,943.73
+211,Northwestern,Heftman & Peltier,940.95
+212,Wake Forest,Mbye & Sampat,940.68
+213,Dartmouth,Brody & Goyal,935.21
+214,Kentucky,Rushing & Schedler,920.8
+215,CSU Long Beach,Griffin & Tobias,919.84
+216,Oklahoma,Davis & Toro,916.05
+217,Dartmouth,Katyal & Rao,909.69
+218,Southern California,Rueda & Wong,908.27
+219,Missouri State,Bates & DeAngelis,903.25
+220,Texas AandM University - College Station,Birkby & Cruz,903.0
+221,Baylor,Merriwether & Phillips,901.96
+222,Emory,Chen & Granchi,898.11
+223,North Texas,Hasper & Vazquez,897.63
+224,Utah,Parrish & Powers,878.1
+225,Kansas State,Draeger & Spurlock,860.01
+226,Harvard,Lourenco & Synn,859.46
+227,Northwestern,Martinez & Olorunsola,849.25
+228,Macalester,Costello & Durbin,848.38
+229,Western Kentucky,Ingram & Puranik,845.45
+230,UTD,Khakoo & Ramirez,845.03
+231,Indiana,Duggal & Jones,843.19
+232,UTD,Khakoo & Underwood,840.22
+233,Oklahoma,Bustos & Werner,835.18
+234,Trinity,Barden & Khalikov,832.75
+235,NYU,Khade & Khalif,822.75
+236,George Mason,Reyes & Shananier,819.84
+237,Georgetown,Correa & Wang,801.05
+238,West Point,Opron & Song,800.27
+239,Northern Iowa,Chapman & Doyle,791.78
+240,Southern Nazarene,Horton & Stockstill,787.03
+241,Louisville,Johnson & Naidugari,784.02
+242,Texas,Hamstra & Sutton,782.46
+243,Kansas,Hernandez & Martinez,779.07
+244,Missouri State,Busenhart & Cowdrey-Mota,771.28
+245,Cornell,Dye & Vorontsova,765.5
+246,Kansas State,Lewis & Williamson,759.77
+247,Oklahoma,Ballinger & Wright,751.74
+248,North Texas,Ganesh & Vargas,736.6
+249,Liberty,Lib/JMU KJ,735.22
+250,Purdue,Ahmed & Hawksworth,734.79
+251,Northern Iowa,Miller & Van Buren,724.78
+252,Dartmouth,Johnson & Kirkpatrick,712.4
+253,Wake Forest,Kampine & Shakarov,684.61
+254,Texas AandM University - College Station,Langford & Sanchez,672.83
+255,Dartmouth,Florence-Smith & Li,657.65
+256,Wyoming,Lyday & Willson,648.58
+257,Oklahoma,Duncan & Fulkerson,632.9
+258,Suffolk,Israel & Ludka,627.0
+259,Missouri State,DeAngelis & Lay,623.37
+260,James Madison,Kardos & Pinto,615.07
+261,Wyoming,Hedrick & Pierson,606.23
+262,Wake Forest,Nguyen & Sferrazza,562.74
+263,Harvard,Facey & Kundu,512.0
