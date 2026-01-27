@@ -3,6 +3,16 @@ import hashlib
 import pandas as pd
 
 
+def normalize_name(name: str) -> str:
+    """Normalizes a debater name to have proper capitalization."""
+    parts = []
+    for part in name.split():
+        if part and part[0].islower():
+            part = part[0].upper() + part[1:]
+        parts.append(part)
+    return " ".join(parts)
+
+
 def generate_player_id(
     institution: str, full_name: str, multi_team_debaters: list, format: str
 ) -> str:
@@ -10,19 +20,22 @@ def generate_player_id(
 
     For debaters who compete for multiple teams, only the name is used to ensure
     a unified ranking across all their appearances.
+    Names are normalized before hashing for consistency.
     """
+    normalized_name = normalize_name(full_name)
+
     if format == "hsld":
-        if full_name in multi_team_debaters:
-            combined = full_name
+        if normalized_name in multi_team_debaters:
+            combined = normalized_name
         else:
-            combined = f"{institution}{full_name}"
+            combined = f"{institution}{normalized_name}"
     else:
         name_arr = full_name.split("&")
 
         clean_name_arr = []
 
         for name in name_arr:
-            clean_name_arr.append(name.strip())
+            clean_name_arr.append(normalize_name(name.strip()))
 
         clean_name_arr.sort()
 
@@ -36,12 +49,13 @@ def sort_entry_names(entry: str, format: str) -> str:
 
     For CPD format, splits by '&' and sorts names.
     For HSLD format, returns the entry as-is.
+    Both formats normalize capitalization.
     """
     if format == "hsld":
-        return entry
+        return normalize_name(entry)
 
     name_arr = entry.split("&")
-    clean_name_arr = [name.strip() for name in name_arr]
+    clean_name_arr = [normalize_name(name.strip()) for name in name_arr]
     clean_name_arr.sort()
 
     return " & ".join(clean_name_arr)
