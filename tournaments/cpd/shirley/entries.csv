@@ -1,7 +1,7 @@
 Institution,Location,Entry,Code,Mode,Record,hash
 Baylor,TX/US,Benton & Keeler,Baylor BK,0,,18ed9c867c539ae83f82c3eac3825d5205c71926404150d4cedaa4f3fd3c2280
 Baylor,TX/US,Darwish & Lassen,Baylor DL,0,,eaae095389afa26f0ee420745984a25529c1ab5e6ad2316b6fa4084c811b1fd7
-Baylor,TX/US,Phillips & merriwether,Baylor MP,0,,2492e0abfe8783538936bbe6f96c8b3ab4cde15b7c8ce0c86bc0fe26189bcc9f
+Baylor,TX/US,Merriwether & Phillips,Baylor MP,0,,ae807ca073378d8059a2e52b85f0b5ebc19980abbd2c2d5f0d13875ed1e1a3d8
 Binghamton,NY/US,Cohn & King,Binghamton CK,0,,1966b54ce3fb7071dd311292cbc15b2a3f2452b18a55efa941f80ee6fca6dc91
 Binghamton,NY/US,Patel & Treulich,Binghamton TP,0,,901b53eb749ecf8b2b78a8e0e4bdf7c74397f2d16b1d6dc9b4098ce4ca24ea4c
 Cal State Fullerton,CA/US,Catapang & Dominguez,Cal State Fullerton DC,0,,97e6299b14d2c78e026ffb462a787850dbc7affe405e865ed2a4e30ba2a653e4
@@ -14,13 +14,13 @@ Dartmouth,NH/US,Guo & Hatton,Dartmouth GH,0,,5f21100d366495757a2b07a70983ccdd513
 Dartmouth,NH/US,Jones & Rao,Dartmouth JR,0,,b57f027180262be7e705051b161ab352a4d70a5335634b4e3599a126b32e3ac1
 Emory,GA/US,Aggarwal & Stumpff,Emory AS,0,,fc53d7931ee8d00ec9f4be9c4f71eb0478342910085395890e33e9b57817299e
 Emory,GA/US,Cannaday & Feldman,Emory CF,0,,df3610bb9775ef4c75a923f0ef0ba3ca501d82088c5ef40a0e69c04c3b0ec342
-Emory,GA/US,Chen & granchi,Emory CG,0,,f78699ebcd56162bbbf61e51b369028f6763c90960caa9cc6cd90430ecc46bbe
+Emory,GA/US,Chen & Granchi,Emory CG,0,,249cfeb891c35cd76a2d1506b9e5e9406ada081b37fee586398011bf1d8500c3
 Emory,GA/US,Charabuddi & Ravikumar,Emory CR,0,,029e341fe47f58b550ea5ca5adc976eb39c91a249b5bffeb4195452202fc01f5
 Emory,GA/US,Cross & Taylor,Emory CT,0,,7c36a88f3d18e003fa207b6f5ea8176f2d9437cbaa5f6990f94ab595acf48dfd
 Emory,GA/US,Kim & Shirts,Emory KS,0,,a02d76bf0da07a20b26868e8b28fd197f37ac3dddea2a0004166aa4958fa85d0
 Emory,GA/US,Kibe & Wang,Emory KW,0,,9642687342e855149c26a393a4364425c304fda417f9b67fb68b0e3d7819f345
 Emory,GA/US,Lobo & Yang,Emory LY,0,,847f24a888a76f17f73711d8afb95a4dae962578f90b12abf367331769553709
-Emory,GA/US,Park & okahata,Emory OP,0,,cfe8931d540586fb64c0fafbdb7edbace53f3115fcff08c1550830ee35bc1eed
+Emory,GA/US,Okahata & Park,Emory OP,0,,e056130b54487e25fb277ca91e5cde6d6e649c1c5c120c6152ab78e909c96a92
 Emory,GA/US,Rupp & Young,Emory RY,0,,f6bae466b8e97b5fea19efc5c95e232ee95ddaf640b37e2e974820fd906069bd
 Emory,GA/US,Gallagher & Song,Emory SG,0,,1ddfdefc74a94c170af702beb9f6936709a81fdad578e7155cd545c88e401b10
 Emory,GA/US,Stearns & Tai,Emory ST,0,,cc8e92a08a59fd831ef422e561aa4cb0228ad5e772beeefdcfafb1961ad91034
@@ -112,7 +112,7 @@ Southern Nazarene,OK/US,Horton & Stockstill,Southern Nazarene HS,0,,790aced32091
 Stanford,CA/US,Lai & Lai,Stanford LL - ONLINE,1,,57f2df2b457f8d1d4f3892529df1a9155f2f74c8466b7bb67277f8c347b595f2
 Texas,TX/US,Feinstein & Low,Texas FL,0,,36a92431aad844c542be3ff764178acc58fc934f8342f895dc625aa8c4ac4965
 Texas,TX/US,Gade & Stevenson,Texas GS,0,,9a0bdb262217aa91602bd8ea105869b88ebb74bae06069c7a7c4cc2e713b66d8
-Texas,TX/US,Sutton & hamstra,Texas SH,0,,bc40d3347ba2f68f76ee8803520d61d805509d6738d7174b311b11989f834e7f
+Texas,TX/US,Hamstra & Sutton,Texas SH,0,,a76b649ca35c398779f5ae6aca70a65d1ae259534582f319e457499474d86f0d
 Towson,MD/US,Darden & Persaud,Towson DP,0,,d25a4a123b84a5475d4c52923463777de811aac6c861122802d7cff67c4d4839
 Trinity,TX/US,Barden & Khalikov,Trinity BK,0,,d0f01eb681e3c0caf7bd67729565e4af87a0e80a57327b3cc6ffbb121be7b1ad
 UC Berkeley,CA/US,Menotti & Reichel,UC Berkeley MR,0,,ca5d91637c6bbd316587e14062a3a331690a802a8ee6eb0eae06345e0495f626

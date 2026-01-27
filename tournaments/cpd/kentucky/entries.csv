@@ -1,7 +1,7 @@
 Institution,Location,Entry,Code,Mode,Status,Record,hash
 Baylor,TX/US,Benton & Keeler,Baylor BK,0,,,18ed9c867c539ae83f82c3eac3825d5205c71926404150d4cedaa4f3fd3c2280
 Baylor,TX/US,Darwish & Lassen,Baylor DL,0,,,eaae095389afa26f0ee420745984a25529c1ab5e6ad2316b6fa4084c811b1fd7
-Baylor,TX/US,Phillips & merriwether,Baylor MP,1,,,2492e0abfe8783538936bbe6f96c8b3ab4cde15b7c8ce0c86bc0fe26189bcc9f
+Baylor,TX/US,Merriwether & Phillips,Baylor MP,1,,,ae807ca073378d8059a2e52b85f0b5ebc19980abbd2c2d5f0d13875ed1e1a3d8
 Binghamton,NY/US,Cohn & King,Binghamton CK,0,,,1966b54ce3fb7071dd311292cbc15b2a3f2452b18a55efa941f80ee6fca6dc91
 CSU Long Beach,CA/US,Medina & Ortega,CSU Long Beach OM,0,,,92c6d63cbc9e66aff9dcaa7b54c526c2c9d5f86c876b1ed1ffd3b4986fc11833
 Dartmouth,NH/US,Ben-Abdallah & Carpenter,Dartmouth BC,0,,,7194536a4699743c7b7c4d12c07c5f2d79ac112cb9864824dd73bd3be588d555
@@ -13,7 +13,7 @@ Dartmouth,NH/US,Jones & Rao,Dartmouth JR,0,,,b57f027180262be7e705051b161ab352a4d
 Dartmouth,NH/US,Majhail & Ross,Dartmouth MR,0,,,15725bd2b798a7268f1a808498fbba8c7644c4941fb9229ffeec55519cdcfc2e
 Dartmouth,NH/US,Park & Tejavanija,Dartmouth PT,0,,,7c51c521f9868f988f35f9b5b2db12bd3173acc4c7d6338309fb542ef35aa4d8
 Emory,GA/US,Aggarwal & Stumpff,Emory AS,0,,,fc53d7931ee8d00ec9f4be9c4f71eb0478342910085395890e33e9b57817299e
-Emory,GA/US,Chen & granchi,Emory CG,0,,,f78699ebcd56162bbbf61e51b369028f6763c90960caa9cc6cd90430ecc46bbe
+Emory,GA/US,Chen & Granchi,Emory CG,0,,,249cfeb891c35cd76a2d1506b9e5e9406ada081b37fee586398011bf1d8500c3
 Emory,GA/US,Cannaday & Stearns,Emory CS,0,,,7645c5003edf559b6604b991919be237bc6473b9e81c01419c1d7f509f63de7b
 Emory,GA/US,Geevarghese & Maxwell,Emory GM,0,,,018d1ccfede0494297accbd9696072496b29e492a55b29b831acd6fe0ee35ed3
 Emory,GA/US,Gallagher & Song,Emory GS,0,,,1ddfdefc74a94c170af702beb9f6936709a81fdad578e7155cd545c88e401b10
