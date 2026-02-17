@@ -9,7 +9,8 @@
     "Jason Rong",
     "Pranav Narra",
     "Mason Sterling",
-    "Victor Kang"
+    "Victor Kang",
+    "Sophia Parang"
   ],
   "tournaments": [
     "loyola",
@@ -42,7 +43,11 @@
     "emory",
     "columbia",
     "unlv",
-    "stanford"
+    "stanford",
+    "harvard-rr",
+    "cal-rr",
+    "harvard",
+    "cal"
   ],
   "majors": [
     "heart-of-texas",
