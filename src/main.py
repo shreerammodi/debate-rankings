@@ -37,6 +37,8 @@ class RankingSystem:
         )
         file = f"./tournaments/{tournament_path}/{round}.csv"
         round_data = pd.read_csv(file)
+        # Normalize PF "Pro"/"Con" column names to "Aff"/"Neg"
+        round_data = round_data.rename(columns={"Pro": "Aff", "Con": "Neg"})
         round_data = self.replace_codes_with_hashes(round_data, tournament)
 
         # Use the same timestamp for all matches in this round to avoid recency bias
@@ -59,10 +61,10 @@ class RankingSystem:
             # Process match 'weight' times for tournament importance
             # (1x for regular tournaments, 2x for majors)
             for _ in range(weight):
-                if "aff" in winner:
+                if "aff" in winner or "pro" in winner:
                     self.glicko_model.update(aff_hash, neg_hash, round_timestamp)
 
-                if "neg" in winner:
+                if "neg" in winner or "con" in winner:
                     self.glicko_model.update(neg_hash, aff_hash, round_timestamp)
 
         # Only increment counter once per round, not per match
@@ -215,6 +217,16 @@ def main():
     ld_ranking_system.run(f"{ld_format_dir}_")
 
     print("\nLD Ranking generation complete!")
+
+    print(f"\nStarting PF ranking system")
+
+    pf_config_path = "config/hspf-config.json"
+    pf_format_dir = "hspf"
+
+    pf_ranking_system = RankingSystem(pf_config_path, pf_format_dir)
+    pf_ranking_system.run(f"{pf_format_dir}_")
+
+    print("\nPF Ranking generation complete!")
 
     print(f"\nStarting CPD ranking system")
 
