@@ -39,7 +39,12 @@ def generate_player_id(
 
         clean_name_arr.sort()
 
-        combined = f"{institution}{''.join(clean_name_arr)}"
+        # If this partnership competes under multiple institutions, hash on names only
+        sorted_pair = " & ".join(clean_name_arr)
+        if sorted_pair in multi_team_debaters:
+            combined = "".join(clean_name_arr)
+        else:
+            combined = f"{institution}{''.join(clean_name_arr)}"
 
     return hashlib.sha256(combined.encode()).hexdigest()
 
