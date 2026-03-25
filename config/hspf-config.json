@@ -1,8 +1,5 @@
 {
-  "multi_team_debaters": [
-    "Balu & Iyengar",
-    "Ashok & Lohani"
-  ],
+  "multi_team_debaters": ["Balu & Iyengar", "Ashok & Lohani"],
   "tournaments": [
     "ukso-in-person",
     "ukso-online",
