@@ -52,7 +52,8 @@
     "dsds2",
     "dsds3",
     "usc",
-    "ndca"
+    "ndca",
+    "toc"
   ],
   "topic_boundaries": {
     "sepoct_end": "meadows",
@@ -66,6 +67,7 @@
     "cal",
     "harvard",
     "harvard-westlake",
-    "ndca"
+    "ndca",
+    "toc"
   ]
 }
