@@ -243,6 +243,42 @@ class RankingSystem:
         rankings_df.insert(0, "Rank", range(1, len(rankings_df) + 1))
 
         rankings_df.to_csv(f"output/{output_prefix}full_rankings.csv", index=False)
+        field_totals = {
+            key: sum(statistics[key] for statistics in self.win_statistics.values())
+            for key in (
+                "aff_wins",
+                "aff_rounds",
+                "neg_wins",
+                "neg_rounds",
+                "aff_elim_wins",
+                "aff_elim_rounds",
+                "neg_elim_wins",
+                "neg_elim_rounds",
+            )
+        }
+        field_statistics = pd.DataFrame(
+            [
+                {
+                    "Aff Win Rate": self._win_rate(
+                        field_totals["aff_wins"], field_totals["aff_rounds"]
+                    ),
+                    "Neg Win Rate": self._win_rate(
+                        field_totals["neg_wins"], field_totals["neg_rounds"]
+                    ),
+                    "Aff Elim Win Rate": self._win_rate(
+                        field_totals["aff_elim_wins"],
+                        field_totals["aff_elim_rounds"],
+                    ),
+                    "Neg Elim Win Rate": self._win_rate(
+                        field_totals["neg_elim_wins"],
+                        field_totals["neg_elim_rounds"],
+                    ),
+                }
+            ]
+        )
+        field_statistics.to_csv(
+            f"output/{output_prefix}field_statistics.csv", index=False
+        )
 
         rankings_df.drop("Hash", inplace=True, axis=1)
 
@@ -255,7 +291,9 @@ class RankingSystem:
         rankings_df.to_csv(f"output/{output_prefix}rankings.csv", index=False)
 
         print(
-            f"Rankings saved to output/{output_prefix}rankings.csv and output/{output_prefix}full_rankings.csv"
+            f"Rankings saved to output/{output_prefix}rankings.csv, "
+            f"output/{output_prefix}full_rankings.csv, and "
+            f"output/{output_prefix}field_statistics.csv"
         )
 
     def run(self, output_prefix: str = "", tournaments: list = None) -> None:

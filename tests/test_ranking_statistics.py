@@ -13,7 +13,7 @@ from main import RankingSystem
 
 
 class RankingStatisticsTest(unittest.TestCase):
-    def test_exports_side_and_elimination_win_rates_from_raw_rounds(self):
+    def test_exports_individual_and_field_wide_win_rates(self):
         with tempfile.TemporaryDirectory() as temporary_directory:
             root = Path(temporary_directory)
             tournament = root / "tournaments" / "test-format" / "invitational"
@@ -69,6 +69,11 @@ class RankingStatisticsTest(unittest.TestCase):
             full_rankings = pd.read_csv(
                 root / "output" / "test_full_rankings.csv"
             ).set_index("Name")
+            field_statistics_path = root / "output" / "test_field_statistics.csv"
+            self.assertTrue(field_statistics_path.exists())
+            field_statistics = pd.read_csv(
+                field_statistics_path
+            )
 
             expected_columns = [
                 "Aff Win Rate",
@@ -76,6 +81,16 @@ class RankingStatisticsTest(unittest.TestCase):
                 "Aff Elim Win Rate",
                 "Neg Elim Win Rate",
             ]
+            self.assertEqual(len(field_statistics), 1)
+            self.assertEqual(
+                field_statistics.loc[0, expected_columns].to_dict(),
+                {
+                    "Aff Win Rate": 50.0,
+                    "Neg Win Rate": 50.0,
+                    "Aff Elim Win Rate": 0.0,
+                    "Neg Elim Win Rate": 100.0,
+                },
+            )
             for output in (rankings, full_rankings):
                 self.assertTrue(set(expected_columns).issubset(output.columns))
                 self.assertEqual(output.loc["Alice", "Aff Win Rate"], 50.0)
