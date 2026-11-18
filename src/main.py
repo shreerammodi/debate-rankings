@@ -441,15 +441,13 @@ def partition_tournaments_by_topic(
 
 
 def main():
-    from ttt_ranking import TTTRankingSystem, previous_season_for
+    from ttt_ranking import TTTRankingSystem
 
     def run_format(format_dir: str) -> None:
         print(f"\nStarting {format_dir} ranking system")
-        system = TTTRankingSystem(
-            f"config/{format_dir}-config.json",
-            format_dir,
-            previous_season=previous_season_for(format_dir),
-        )
+        # This season only. To seed with last season's results, pass
+        # previous_season=previous_season_for(format_dir).
+        system = TTTRankingSystem(f"config/{format_dir}-config.json", format_dir)
         system.run(f"{format_dir}_")
         print(f"\n{format_dir} ranking generation complete!")
 
