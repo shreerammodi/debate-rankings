@@ -27,11 +27,11 @@ PRIOR_MU = 0.0
 PRIOR_SIGMA = 1.5
 # Skill drift per day. Variance grows by GAMMA**2 per day between tournaments.
 # Tuned with src/evaluate_models.py on LD (Blue Key through Damus held out):
-# held-out log loss falls from 0.576 at 0.02 to 0.555 at 0.12 and 0.553 at
+# held-out log loss 0.576 at 0.02, 0.561 at 0.08, 0.557 at 0.12, 0.556 at
 # 0.16. 0.12 keeps most of the gain without discounting older rounds as hard.
 GAMMA = 0.12
-# Days assumed between a season's last tournament and the next season's
-# first, for drift over the summer (on top of the real gap this season).
+# Days assumed between an undated archived season's last tournament and this
+# season's first. Seasons with dates use the real gap instead.
 OFFSEASON_DAYS = 100
 # Archived configs list tournaments in order without dates; space them a week apart.
 ARCHIVE_SPACING_DAYS = 7
@@ -42,18 +42,27 @@ AFF_PLAYER = "__AFF_SIDE__"
 LOGIT_PER_SKILL = 1.702 / (math.sqrt(2) * BETA)
 
 
-def tournament_days(config_path: str) -> dict:
-    """Maps tournament slug -> day number within its season (first tournament = 0).
-
-    Current configs map slug -> ISO date. Archived configs are a plain list in
-    order, so tournaments are spaced ARCHIVE_SPACING_DAYS apart.
-    """
+def tournament_dates(config_path: str) -> dict:
+    """Maps tournament slug -> date ordinal, or None for configs without dates."""
     with open(config_path) as config_file:
         tournaments = json.load(config_file).get("tournaments", {})
     if isinstance(tournaments, dict):
-        dates = {slug: date.fromisoformat(day) for slug, day in tournaments.items()}
+        return {slug: date.fromisoformat(day).toordinal() for slug, day in tournaments.items()}
+    return None
+
+
+def tournament_days(config_path: str) -> dict:
+    """Maps tournament slug -> day number within its season (first tournament = 0).
+
+    Configs with dates map slug -> ISO date. Archived configs that are a plain
+    list in order get their tournaments spaced ARCHIVE_SPACING_DAYS apart.
+    """
+    dates = tournament_dates(config_path)
+    if dates is not None:
         first = min(dates.values())
-        return {slug: (day - first).days for slug, day in dates.items()}
+        return {slug: day - first for slug, day in dates.items()}
+    with open(config_path) as config_file:
+        tournaments = json.load(config_file).get("tournaments", [])
     return {slug: i * ARCHIVE_SPACING_DAYS for i, slug in enumerate(tournaments)}
 
 
@@ -106,7 +115,13 @@ class TTTRankingSystem(RankingSystem):
             | set(self.config.get("multi_team_debaters", []))
         )
         days = tournament_days(config_path)
-        offset = -(max(days.values()) + OFFSEASON_DAYS) if days else 0
+        previous_dates = tournament_dates(config_path)
+        current_dates = tournament_dates(self.config_path)
+        if previous_dates and current_dates:
+            # Both seasons have dates: place last season on the real calendar.
+            offset = min(previous_dates.values()) - min(current_dates.values())
+        else:
+            offset = -(max(days.values()) + OFFSEASON_DAYS) if days else 0
         comparisons = []
         for tournament in previous.config["tournaments"]:
             start = len(previous.comparisons)
