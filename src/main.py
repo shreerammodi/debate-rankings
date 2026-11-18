@@ -80,15 +80,22 @@ class RankingSystem:
         return round(100 * wins / rounds, 2)
 
     @staticmethod
-    def _count_ballots(round_row, aff_won: bool) -> tuple[int, int]:
-        """Returns (aff ballots, neg ballots), using panel votes when present"""
+    def _count_ballots(round_row, aff_won: bool) -> tuple[float, float]:
+        """Returns (aff weight, neg weight) summing to one debate.
+
+        A panel counts as one debate, not one per judge: half goes to the
+        winner outright and half is split by ballot share, so a 5-0 is
+        1/0 and a 3-2 is 0.8/0.2.
+        """
         votes = round_row.get("Votes")
         if isinstance(votes, str):
             tokens = votes.lower().split()
             aff_ballots = sum(token in ("aff", "pro", "affirmative") for token in tokens)
             neg_ballots = sum(token in ("neg", "con", "negative") for token in tokens)
-            if aff_ballots + neg_ballots > 0:
-                return aff_ballots, neg_ballots
+            panel = aff_ballots + neg_ballots
+            if panel > 0:
+                aff_share = 0.5 * aff_won + 0.5 * aff_ballots / panel
+                return aff_share, 1 - aff_share
         return (1, 0) if aff_won else (0, 1)
 
     def run_round(self, tournament: str, round: str, weight: int = 1) -> None:
