@@ -19,14 +19,23 @@ RATING_SCALE = 400 / math.log(10)
 class RankingSystem:
     """Manages debate rankings with a Bradley-Terry model fit to every ballot"""
 
-    def __init__(self, config_path: str, format_dir: str = ""):
+    # Rank by rating minus this many deviations.
+    UNCERTAINTY_PENALTY = 2
+
+    def __init__(
+        self, config_path: str, format_dir: str = "", tournaments_root: str = "./tournaments"
+    ):
         """Initialize the ranking system with a config file
 
         Args:
             config_path: Path to the JSON config file
             format_dir: Directory name for the format (e.g., "cpd", "hsld")
+            tournaments_root: Folder holding the format directories
         """
         self.config = load_config(config_path)
+        self.tournaments_root = tournaments_root
+        # Raise on round entries missing from entries.csv (off for archived seasons).
+        self.strict_entries = True
         self.format_dir = format_dir
         self.debaters = pd.DataFrame()
         self.comparisons = []
@@ -109,7 +118,7 @@ class RankingSystem:
         tournament_path = (
             f"{self.format_dir}/{tournament}" if self.format_dir else tournament
         )
-        file = f"./tournaments/{tournament_path}/{round}.csv"
+        file = f"{self.tournaments_root}/{tournament_path}/{round}.csv"
         round_data = pd.read_csv(file)
         # Normalize "Pro"/"Con" (PF) and "Affirmative"/"Negative" column names
         round_data = round_data.rename(
@@ -180,7 +189,10 @@ class RankingSystem:
             f"{self.format_dir}/{tournament}" if self.format_dir else tournament
         )
         teams = create_player_hashes(
-            tournament_path, self.config.get("multi_team_debaters", []), self.format_dir
+            tournament_path,
+            self.config.get("multi_team_debaters", []),
+            self.format_dir,
+            self.tournaments_root,
         )
 
         code_to_hash = {}
@@ -217,7 +229,13 @@ class RankingSystem:
                     if self._is_played_side(code) and pd.isna(mapped)
                 }
             )
-            if unmapped_codes:
+            if unmapped_codes and not self.strict_entries:
+                # Archived seasons predate this check: skip those rounds.
+                print(
+                    f"Warning: {tournament} skips rounds with unmapped {side} entries: "
+                    + ", ".join(unmapped_codes)
+                )
+            elif unmapped_codes:
                 # Tabroom's entry export omits entries that dropped mid-tournament,
                 # but their rounds remain in the round CSVs.
                 raise ValueError(
@@ -225,7 +243,7 @@ class RankingSystem:
                     + ", ".join(unmapped_codes)
                     + ". Likely dropped entries missing from Tabroom's entry export;"
                     " add Institution,Location,Entry,Code rows for them to "
-                    f"./tournaments/{self.format_dir + '/' if self.format_dir else ''}"
+                    f"{self.tournaments_root}/{self.format_dir + '/' if self.format_dir else ''}"
                     f"{tournament}/entries.csv"
                 )
 
@@ -242,9 +260,10 @@ class RankingSystem:
             self.debaters,
             self.config.get("multi_team_debaters", []),
             self.format_dir,
+            self.tournaments_root,
         )
 
-        tournament_folder = f"./tournaments/{tournament_path}/"
+        tournament_folder = f"{self.tournaments_root}/{tournament_path}/"
 
         files = [
             f
@@ -291,9 +310,9 @@ class RankingSystem:
             neg_elim_rounds = statistics.get("neg_elim_rounds", 0)
             match_count = aff_rounds + neg_rounds
 
-            # Adjusted rating: Rating - 2*Deviation
+            # Adjusted rating: Rating - UNCERTAINTY_PENALTY * Deviation
             # This penalizes debaters with high uncertainty (few matches)
-            adjusted_rating = rating - 2 * deviation
+            adjusted_rating = rating - self.UNCERTAINTY_PENALTY * deviation
 
             rankings_data.append(
                 {
@@ -422,19 +441,24 @@ def partition_tournaments_by_topic(
 
 
 def main():
+    from ttt_ranking import TTTRankingSystem, previous_season_for
+
+    def run_format(format_dir: str) -> None:
+        print(f"\nStarting {format_dir} ranking system")
+        system = TTTRankingSystem(
+            f"config/{format_dir}-config.json",
+            format_dir,
+            previous_season=previous_season_for(format_dir),
+        )
+        system.run(f"{format_dir}_")
+        print(f"\n{format_dir} ranking generation complete!")
+
     ld_config_path = "config/hsld-config.json"
     ld_format_dir = "hsld"
+    run_format(ld_format_dir)
 
-    cpd_config_path = "config/cpd-config.json"
-    cpd_format_dir = "cpd"
-
-    # Run the ranking system
-    print(f"Starting LD ranking system")
-
-    ld_ranking_system = RankingSystem(ld_config_path, ld_format_dir)
-    ld_ranking_system.run(f"{ld_format_dir}_")
-
-    # Generate topic-specific LD rankings
+    # Topic-specific LD rankings: each topic's rounds alone, on the
+    # Bradley-Terry model (no drift or carried-over priors within a topic).
     ld_config = load_config(ld_config_path)
     all_tournaments = ld_config.get("tournaments", [])
     boundaries = ld_config.get("topic_boundaries", {})
@@ -455,27 +479,8 @@ def main():
         topic_system = RankingSystem(ld_config_path, ld_format_dir)
         topic_system.run(f"{ld_format_dir}_{topic_slug}_", tournaments=tournaments)
 
-    print("\nLD Ranking generation complete!")
-
-    print(f"\nStarting PF ranking system")
-
-    pf_config_path = "config/hspf-config.json"
-    pf_format_dir = "hspf"
-
-    pf_ranking_system = RankingSystem(pf_config_path, pf_format_dir)
-    pf_ranking_system.run(f"{pf_format_dir}_")
-
-    print("\nPF Ranking generation complete!")
-
-    print(f"\nStarting CPD ranking system")
-
-    cpd_ranking_system = RankingSystem(cpd_config_path, cpd_format_dir)
-    cpd_ranking_system.run(f"{cpd_format_dir}_")
-
-    print(f"\nStarting CX ranking system")
-
-    cx_ranking_system = RankingSystem("config/hscx-config.json", "hscx")
-    cx_ranking_system.run("hscx_")
+    for format_dir in ("hspf", "cpd", "hscx"):
+        run_format(format_dir)
 
 
 if __name__ == "__main__":

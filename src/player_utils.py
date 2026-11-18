@@ -67,11 +67,14 @@ def sort_entry_names(entry: str, format: str) -> str:
 
 
 def create_player_hashes(
-    tournament: str, multi_team_debaters: list, format: str
+    tournament: str,
+    multi_team_debaters: list,
+    format: str,
+    tournaments_root: str = "./tournaments",
 ) -> pd.DataFrame:
     """Creates unique hashes for each player based on their institution and entry"""
 
-    entries_file = f"./tournaments/{tournament}/entries.csv"
+    entries_file = f"{tournaments_root}/{tournament}/entries.csv"
     teams = pd.read_csv(entries_file, delimiter=",", header=0)
     teams.columns = teams.columns.str.strip()
 
@@ -96,6 +99,7 @@ def parse_debaters_from_tournament(
     debaters: pd.DataFrame,
     multi_team_debaters: list,
     format: str,
+    tournaments_root: str = "./tournaments",
 ) -> pd.DataFrame:
     """Adds tournament entries to debaters DataFrame
 
@@ -107,9 +111,9 @@ def parse_debaters_from_tournament(
     Returns:
         Updated debaters DataFrame
     """
-    teams = create_player_hashes(tournament, multi_team_debaters, format)
+    teams = create_player_hashes(tournament, multi_team_debaters, format, tournaments_root)
 
-    file = f"./tournaments/{tournament}/entries.csv"
+    file = f"{tournaments_root}/{tournament}/entries.csv"
     teams.to_csv(file, index=False)
 
     for _, team_row in teams.iterrows():

@@ -1,2 +1,3 @@
 pandas==2.3.3
 fisher-scoring==2.0.7
+trueskillthroughtime==1.1.0

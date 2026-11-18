@@ -12,6 +12,9 @@ def load_config(config_path: str):
     with open(config_path) as config_file:
         config = json.load(config_file)
     tournaments = config.get("tournaments", {})
+    if isinstance(tournaments, list):
+        # Archived seasons list slugs in order, without dates.
+        return config
     config["tournaments"] = sorted(
         tournaments, key=lambda slug: date.fromisoformat(tournaments[slug])
     )
