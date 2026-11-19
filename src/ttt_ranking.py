@@ -192,7 +192,8 @@ class TTTRankingSystem(RankingSystem):
                 "ability": LOGIT_PER_SKILL * posterior.mu,
                 "se": LOGIT_PER_SKILL * sigma,
             }
-        return pd.DataFrame.from_dict(rows, orient="index")
+        self.skills = pd.DataFrame.from_dict(rows, orient="index")
+        return self.skills
 
 
 def previous_season_for(format_dir: str, season: str = "2025-26"):

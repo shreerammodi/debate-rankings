@@ -41,6 +41,10 @@ class RankingSystem:
         self.comparisons = []
         self.aff_advantage = float("nan")
         self.win_statistics = {}
+        # tournament -> list of elim rounds, each a list of (aff, neg, winner)
+        # hashes. Byes and undecided rounds (e.g. closeouts) are kept, with
+        # neg or winner set to None, so the bracket can be rebuilt.
+        self.elim_rounds = {}
 
     @staticmethod
     def _is_elimination_round(round_name: str, columns) -> bool:
@@ -130,7 +134,10 @@ class RankingSystem:
             }
         )
         is_elimination = self._is_elimination_round(round, round_data.columns)
+        original_codes = round_data[["Aff", "Neg"]].copy()
         round_data = self.replace_codes_with_hashes(round_data, tournament)
+        if is_elimination:
+            self._record_elim_round(tournament, round_data, original_codes)
 
         for _, round_row in round_data.iterrows():
             aff_hash = str(round_row["Aff"])
@@ -162,6 +169,38 @@ class RankingSystem:
                     "neg_ballots": neg_ballots * weight,
                 }
             )
+
+    def _record_elim_round(
+        self, tournament: str, round_data: pd.DataFrame, original_codes: pd.DataFrame
+    ) -> None:
+        rows = []
+        for (_, row), (_, codes) in zip(round_data.iterrows(), original_codes.iterrows()):
+            sides = {}
+            for side in ("Aff", "Neg"):
+                mapped = row[side]
+                sides[side] = None if pd.isna(mapped) else str(mapped)
+            aff, neg = sides["Aff"], sides["Neg"]
+            if aff is None and neg is None:
+                continue
+            if aff is None or neg is None:
+                # A bye: the entry that is present advances.
+                present = aff or neg
+                rows.append((present, None, present))
+                continue
+            winner = str(row.get("Win", "")).lower()
+            aff_code = str(codes["Aff"]).strip().lower()
+            neg_code = str(codes["Neg"]).strip().lower()
+            if "advances" in winner and (aff_code in winner) != (neg_code in winner):
+                # Walkover or closeout, e.g. "Harvard-Westlake MR advances".
+                rows.append((aff, neg, aff if aff_code in winner else neg))
+            elif "aff" in winner or "pro" in winner:
+                rows.append((aff, neg, aff))
+            elif "neg" in winner or "con" in winner:
+                rows.append((aff, neg, neg))
+            else:
+                rows.append((aff, neg, None))
+        if rows:
+            self.elim_rounds.setdefault(tournament, []).append(rows)
 
     def _fit_skills(self) -> pd.DataFrame:
         """Fits Bradley-Terry skills (logit scale) with an aff-side term to all ballots
@@ -441,6 +480,7 @@ def partition_tournaments_by_topic(
 
 
 def main():
+    from resume import build_resume
     from ttt_ranking import TTTRankingSystem
 
     def run_format(format_dir: str) -> None:
@@ -449,6 +489,7 @@ def main():
         # previous_season=previous_season_for(format_dir).
         system = TTTRankingSystem(f"config/{format_dir}-config.json", format_dir)
         system.run(f"{format_dir}_")
+        build_resume(system, f"{format_dir}_")
         print(f"\n{format_dir} ranking generation complete!")
 
     ld_config_path = "config/hsld-config.json"
