@@ -111,10 +111,9 @@ def parse_debaters_from_tournament(
     Returns:
         Updated debaters DataFrame
     """
+    # Hashes are recomputed from Institution and Entry on every run, so new
+    # entries need no setup and entries.csv is never rewritten.
     teams = create_player_hashes(tournament, multi_team_debaters, format, tournaments_root)
-
-    file = f"{tournaments_root}/{tournament}/entries.csv"
-    teams.to_csv(file, index=False)
 
     for _, team_row in teams.iterrows():
         hash = team_row["hash"]

@@ -38,7 +38,7 @@ Set `DEST=tournaments/<format>/<slug>` (relative to the repo root) and `mkdir -p
 3. Check that the row count matches the "N entries" count on the page.
 4. Check the header. It must have at least `Institution,Location,Entry,Code`
    (Tabroom also adds `Status,Record`). Do not add a `hash` column; the code
-   writes that itself.
+   computes hashes from Institution and Entry on every run.
 
 ## 2. Round results
 
