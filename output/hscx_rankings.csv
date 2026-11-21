@@ -1,579 +1,601 @@
 Rank,School,Name,Rating,Aff Win Rate,Neg Win Rate,Aff Elim Win Rate,Neg Elim Win Rate
-1,Whitney Young,Boss & Mohan,2320.01,87.5,81.82,80.0,80.0
-2,Walter Payton,Bendre & Rout,2309.14,88.24,84.62,75.0,100.0
-3,Montgomery Bell,Brandes & Vari,2218.28,76.92,80.0,57.14,50.0
-4,New Trier,Ma & Yang,2198.28,75.0,81.82,66.67,80.0
-5,Quarry Lane,Khanna & Mehta,2180.05,81.82,76.92,60.0,71.43
-6,Westwood,Gupta & Laxminarasimhan,2171.03,90.0,83.33,75.0,83.33
-7,Westwood,Du & Nandigam,2165.93,62.5,86.67,50.0,100.0
-8,College Prep,Nahm & Tarnas,2148.83,72.22,86.67,77.78,83.33
-9,New Trier,Heftman & Leaker,2078.15,75.0,84.21,66.67,50.0
-10,Greenhill,He & Sunkara,2067.94,100.0,80.0,,50.0
-11,Pembroke Hill,Murphy & Zhao,2036.64,100.0,100.0,100.0,100.0
-12,Little Rock Central,Liu & Wu,2032.22,71.43,83.33,50.0,100.0
-13,Rowland Hall,Lieberman & Venkatesan,2015.09,61.54,69.23,25.0,50.0
-14,Cuttlefish independent,Chen & Olteanu,2003.42,71.43,76.92,60.0,75.0
-15,Glenbrook North,Kohler & Weisman,1992.65,63.64,84.62,0.0,75.0
-16,West HS SLC,Aoki & Krishna,1982.95,75.0,100.0,100.0,100.0
-17,Carrollton School of the Sacred Heart,Gomez-Peralta & Membiela,1975.41,66.67,73.08,75.0,63.64
-18,Woodward,Jain & Semaan,1973.86,66.67,71.43,66.67,0.0
-19,SLC Independent,Aoki & Krishna,1969.81,85.71,66.67,100.0,33.33
-20,Baltimore City,Hoard & Walter,1959.37,80.0,85.71,66.67,80.0
-21,Liberal Arts and Science,Conley & Vidal,1951.89,58.33,76.92,100.0,25.0
-22,Peninsula,Liu & Pan,1951.75,92.86,47.06,100.0,20.0
-23,Little Rock Central,Buckner & Wilkerson,1948.35,75.0,87.5,50.0,100.0
-24,Anozira Independent,Liu & Simha,1925.95,71.43,85.71,0.0,0.0
-25,Interlake,Chen & Goswami,1923.04,83.33,100.0,100.0,100.0
-26,St Paul Central,Berger & Mulrooney,1920.58,77.78,77.78,66.67,66.67
-27,Quarry Lane,Arora & Singamsetti,1911.16,70.0,57.14,50.0,100.0
-28,Pace,Royal & Washington,1905.15,60.0,83.33,50.0,
-29,Liberal Arts and Science,Liu & Raghavan,1903.48,56.25,88.89,0.0,66.67
-30,North Broward Prep,Atherton & Gujarathi,1895.08,77.78,57.14,,40.0
-31,Little Rock Central,Batcheller & Ware,1887.12,93.33,44.44,83.33,
-32,Damien-St. Lucy's,Kaissi & Nguyen,1882.5,90.0,60.0,100.0,50.0
-33,Archbishop Mitty,Tian & Wang,1881.56,85.71,77.78,0.0,66.67
-34,Liberal Arts and Science,Brooks & Tames,1880.52,50.0,80.0,0.0,60.0
-35,Bellarmine College Prep,Chang & Sontakke,1870.52,66.67,85.71,33.33,100.0
-36,Liberal Arts and Science,Jallepalli & Lim,1869.26,72.22,64.71,66.67,33.33
-37,Westminster,Huang & Zhou,1868.07,83.33,75.0,,50.0
-38,Brophy,Han & Sonawane,1867.12,56.25,73.33,50.0,100.0
-39,Liberal Arts and Science,Kummaraguntla & Martis,1861.06,64.29,64.71,50.0,60.0
-40,Greenhill,Bose & Sunkara,1851.26,60.0,77.78,25.0,33.33
-41,Montgomery Bell,Brandes & Fulwider,1845.97,50.0,100.0,0.0,100.0
-42,Collegiate,Ferreira & Kitkowski,1841.79,85.71,71.43,0.0,100.0
-43,Montgomery Bell,Kolhatkar & Roh,1822.27,61.54,64.71,0.0,40.0
-44,Somerville,Castro & Marable,1814.34,62.5,100.0,66.67,100.0
-45,Carrollton School of the Sacred Heart,Giampetruzzi & Roos,1813.79,56.25,81.25,0.0,100.0
-46,Isidore Newman,Agrawal & Wang,1812.57,71.43,85.71,0.0,100.0
-47,Peninsula,Choe & Pan,1812.55,70.0,60.0,0.0,0.0
-48,Brooklyn Technical,Grider & Sukhlal,1812.16,54.55,81.82,33.33,100.0
-49,Cuttlefish independent,Chen & Goswami,1810.73,60.0,100.0,50.0,100.0
-50,Newark Science,Odra & Olagadeyo,1807.01,82.35,68.42,100.0,71.43
-51,College Prep,Holloway-Butts & Ye,1801.83,50.0,77.78,33.33,
-52,Little Rock Central,Adams & Wilkerson,1799.97,75.0,100.0,100.0,
-53,Brophy,Chen & Reddy,1795.59,53.85,64.29,0.0,50.0
-54,Blue Valley West,Bapat & Jampana,1793.74,88.89,50.0,100.0,0.0
-55,Poly Prep,Batliboi & Londoner,1780.71,70.0,70.0,0.0,0.0
-56,Peninsula,Jiang & Li,1779.88,63.64,75.0,0.0,66.67
-57,Lowell,Chan & Yee Smith,1773.23,45.45,80.0,0.0,100.0
-58,Barack Obama MLA (HS),Jeffries & Valle,1767.94,50.0,71.43,33.33,50.0
-59,Georgetown Day,Mangalam & Xu,1763.88,33.33,88.89,33.33,100.0
-60,Northside College Prep,Garapaty & Sebastian,1756.69,63.64,69.23,50.0,50.0
-61,Barack Obama MLA,Jeffries & Valle,1742.24,37.5,100.0,0.0,100.0
-62,Edina,Weiby & Western,1737.1,57.14,73.33,50.0,33.33
-63,Avery Coonley,Friess & Narayanan,1733.68,66.67,62.5,,0.0
-64,Georgetown Day,Kim & Noland,1732.87,61.54,71.43,50.0,50.0
-65,North Broward Prep,Marder & Stein,1730.55,70.0,60.0,0.0,100.0
-66,Carrollton School of the Sacred Heart,Bracamontes & Gupta,1716.97,53.33,71.43,66.67,50.0
-67,Pembroke Hill,Aubuchon & Zweifel,1716.26,50.0,100.0,0.0,
-68,Greenhill,Haq & Khan,1714.7,46.15,71.43,0.0,100.0
-69,Glenbrook South,Martinez & Samet,1711.65,42.86,76.92,0.0,75.0
-70,ModernBrain,Jiang & Wu,1708.54,83.33,33.33,66.67,
-71,Heritage Hall,Harris & Horvath,1708.02,50.0,71.43,,0.0
-72,Patriot,Ramirez & Spaans,1707.67,100.0,60.0,100.0,50.0
-73,Free State,Fite & Walker,1693.21,83.33,57.14,,0.0
-74,Richland,Agrawal & Ganta,1688.42,54.55,63.64,0.0,50.0
-75,James Logan,Amiri & Kolluru,1685.05,66.67,75.0,66.67,100.0
-76,Quarry Lane,Hayer & Iyengar,1683.14,66.67,66.67,,
-77,Quarry Lane,Gandhi & Khan,1676.05,66.67,42.86,,0.0
-78,Unionville,Masuraha & Yu,1674.92,66.67,66.67,50.0,
-79,San Marino,Jin & Pathak,1673.06,100.0,50.0,,0.0
-80,Georgetown Day,Gerety & Kimbrell,1669.08,40.0,80.0,0.0,100.0
-81,Quarry Lane,Bhowmick & Mamdur,1663.08,33.33,100.0,,
-82,San Marino,Li & Szeto,1657.5,55.56,72.73,,0.0
-83,St Mark's School of Texas,Barnes & Keon,1656.29,27.27,88.89,50.0,
-84,Glenbrook North,Dynia & Xu,1654.4,50.0,85.71,0.0,100.0
-85,Woodward,Hemachandran & Huang,1654.26,83.33,50.0,,0.0
-86,Peninsula,Bhagat & Burchfield,1653.92,66.67,66.67,,
-87,Bellarmine College Prep,Bauman & Huynh,1653.38,71.43,62.5,0.0,50.0
-88,Huntington Park,Bucio Mondragon & Prado,1652.78,66.67,50.0,,0.0
-89,Montgomery Bell,Fulwider & Majhail,1652.15,66.67,42.86,100.0,0.0
-90,Greenhill,Ghelani & Makhani,1651.39,42.86,75.0,0.0,100.0
-91,Bellarmine College Prep,Kochar & Yoo,1645.95,50.0,66.67,,
-92,New Trier,Shah & Ye,1645.08,61.54,57.14,0.0,50.0
-93,Free State,Gonzalez & Harned,1643.78,71.43,57.14,100.0,0.0
-94,Notre Dame,Tyomkin & Valderama,1637.41,55.56,50.0,,0.0
-95,Georgetown Day,Chawla & O'Shaughnessy,1635.78,50.0,100.0,0.0,100.0
-96,BASIS DC,Applegate & Schmidt,1631.93,87.5,50.0,50.0,50.0
-97,Lindale,Davis & Martinez,1630.92,33.33,90.91,0.0,100.0
-98,Woodward,Semaan & Xuan,1623.48,33.33,75.0,,0.0
-99,Sacred Heart Cathedral Prep,Gopal & Lee,1617.42,57.14,66.67,0.0,
-100,Campbell Hall,Graber & Venison,1616.79,46.67,75.0,33.33,0.0
-101,Casady,Lin & Saha,1616.35,55.56,60.0,,0.0
-102,Cuttlefish independent,Wang & Ye,1612.34,50.0,77.78,33.33,
-103,Lexington,Patel & Wang,1611.32,66.67,62.5,,50.0
-104,Berkeley Prep,Gowda & Nestor,1608.54,57.14,66.67,0.0,
-105,New Trier,Angres & Chen,1605.28,62.5,53.33,0.0,100.0
-106,Damien-St. Lucy's,Ileto & Melstrom,1600.79,54.55,55.56,0.0,
-107,Washburn Rural,Chaudhry & Chidambaranathan,1587.47,22.22,62.5,0.0,0.0
-108,Carrollton School of the Sacred Heart,Di Mauro & Klotz,1587.3,57.14,50.0,0.0,100.0
-109,Blue Valley West,Gogireddy & Saxena,1586.46,66.67,75.0,,0.0
-110,Mamaroneck,Mincemoyer & Winter-Hamaoui,1582.98,50.0,50.0,,
-111,Bronx Science,Opitz & Salins,1582.97,50.0,77.78,,33.33
-112,Sioux Falls Lincoln Independent,Ramirez & Spaans,1572.77,66.67,66.67,,
-113,Lowell,Li & Yee Smith,1570.8,66.67,66.67,,
-114,McDonogh,Krichbaum & Label,1563.51,55.56,55.56,,0.0
-115,Eagan,Chen & Karnatak,1559.82,71.43,57.14,100.0,0.0
-116,Quarry Lane,Ravikumar & Tuli,1559.23,62.5,50.0,50.0,
-117,Collegiate,Arora & Kitkowski,1558.9,66.67,33.33,,
-118,Berkeley Prep,Kocharlakota & Nestor,1556.83,33.33,75.0,,0.0
-119,Greenhill,Ghelani & Reddy,1556.73,50.0,71.43,,0.0
-120,Northview,Nadkar & Tapaswi,1556.1,66.67,50.0,,0.0
-121,Georgetown Day,Fragale & O'Shaughnessy,1555.3,33.33,75.0,,0.0
-122,Solon Independent,Gu & Stella,1551.5,33.33,100.0,,
-123,Barstow,Parker & Turner,1545.2,33.33,66.67,,
-124,Montgomery Bell,Majhail & Stone,1544.62,25.0,100.0,0.0,
-125,Baltimore City,Maxwell & Murray,1538.87,57.14,66.67,0.0,
-126,Von Steuben,Larkin & Larkin,1538.87,50.0,55.56,0.0,
-127,Montgomery Bell,Stone & Williams,1537.72,33.33,71.43,,0.0
-128,Free State,Adedipe & Colvin,1535.53,66.67,50.0,,0.0
-129,Blue Valley North,Nandula & Parsons,1534.36,66.67,33.33,,
-130,Newark Tech,Francis & Tavarez,1532.59,75.0,50.0,0.0,
-131,DC International,Ross & Yanasak Worsley,1528.24,66.67,66.67,,
-132,Von Steuben,Perez & Santiago,1527.72,50.0,55.56,0.0,
-133,Hawken,Subhas & Zhao,1526.89,25.0,100.0,0.0,
-134,ADL,Lin & Wang,1525.78,50.0,75.0,,0.0
-135,West Campus (Sacramento),Khan & Khan,1521.16,66.67,50.0,,
-136,Baltimore City,Adler & Parran,1521.15,85.71,42.86,100.0,0.0
-137,Mamaroneck,Charalambous & Hazard,1520.74,44.44,60.0,,0.0
-138,Quarry Lane,Gavulla & Mamdur,1519.79,50.0,66.67,0.0,
-139,Lexington,Song & Sung,1514.37,22.22,81.82,,50.0
-140,BASIS Peoria,Doddagowdru & Nair,1512.52,100.0,25.0,,0.0
-141,Bellarmine College Prep,Feng & He,1512.19,33.33,100.0,,
-142,Taipei American,Maeng & Yao,1510.44,33.33,66.67,,
-143,Liberal Arts and Science,Barden & Quezada,1509.28,50.0,71.43,,100.0
-144,Jesuit,Patel & Shao,1507.05,33.33,60.0,,
-145,Okemos,Aftab & Truluck,1506.56,50.0,75.0,,50.0
-146,St Ignatius,Bentley & Gordon,1504.98,66.67,50.0,,
-147,Bellarmine College Prep,Kaustuv & Verma,1503.72,57.14,66.67,0.0,
-148,Collegiate,Arora & Arora,1501.86,100.0,33.33,,0.0
-149,Sacred Heart Cathedral Prep,Clarke & Lefberg,1498.82,50.0,66.67,0.0,
-150,Winston Churchill,Fencl & Van Klaveren,1496.66,50.0,60.0,0.0,100.0
-151,St Paul Central,Eichenberger & Washington,1494.94,66.67,62.5,,50.0
-152,Walter Payton,Chow & Porwal,1494.13,66.67,42.86,,0.0
-153,Solon Independent,Chakrabarti & Chatterjee,1494.12,50.0,50.0,,
-154,Quarry Lane,Bhowmick & Gavulla,1492.98,33.33,100.0,,
-155,Coppell,Karunadasa & Patel,1491.88,50.0,57.14,,0.0
-156,Poly Prep,Moise & Parks,1491.5,36.36,63.64,0.0,100.0
-157,Niles North,Lockett & Piatek,1489.11,77.78,33.33,,0.0
-158,St Mark's School of Texas,Choi & Lang,1481.47,33.33,50.0,,0.0
-159,Kingsnake,Hilker & Ma,1475.92,66.67,33.33,,
-160,Baltimore City,Cureton & Floyd,1474.27,37.5,83.33,0.0,
-161,Alpharetta,Baek & Shankar,1473.27,75.0,33.33,50.0,
-162,Glenbrook South,Enkhsaikhan & Van Horn,1473.18,38.46,61.54,0.0,0.0
-163,Blue Valley,Kondaparthi & Pemmasani,1467.05,60.0,66.67,50.0,
-164,Kang Chiao International,Chuo & Wang,1463.87,50.0,75.0,100.0,0.0
-165,Bellarmine College Prep,Batlanki & Mehta,1462.63,66.67,66.67,,
-166,Brooklyn Technical,Jordan & Wong,1460.65,50.0,66.67,,
-167,Washburn Rural,Ginzburg & Savenko,1458.71,66.67,33.33,,
-168,Interlake,Wang & Ye,1458.6,75.0,33.33,0.0,
-169,Woodward,Sloan & Xuan,1458.4,50.0,66.67,0.0,
-170,Northside College Prep,Sarkar & Weitekamper,1457.8,50.0,66.67,25.0,
-171,Taipei American,Chiong & Maeng,1456.74,66.67,66.67,,
-172,Bronx Science,Balyasnaya & Hagiwara,1454.94,66.67,50.0,,0.0
-173,Archbishop Mitty,Downey & Sanchez,1450.89,33.33,100.0,,
-174,Quarry Lane,Acharya & Varakala,1449.89,33.33,55.56,,
-175,Altamont,Blutter & McLain,1449.12,25.0,100.0,0.0,
-176,Solorio,Medina & Solis,1445.84,50.0,50.0,,
-177,Mamaroneck,Romita & Winter-Hamaoui,1445.05,25.0,100.0,0.0,
-178,Newark Science,Onyebuchi 2 & Smith,1443.67,70.0,40.0,0.0,0.0
-179,Coppell,Gandhari & Madhu,1443.64,44.44,55.56,0.0,
-180,James Logan,Gochez & Song,1441.81,100.0,33.33,,
-181,Bellarmine College Prep,Krishnan & Zhao,1441.7,33.33,100.0,,
-182,Quarry Lane,Jujjuru & Sunil,1440.1,100.0,33.33,,
-183,Casady,Anderson & Trice,1437.47,22.22,77.78,,
-184,Westwood,Harith & Pande,1435.46,55.56,55.56,,
-185,SWW,Abiy & Gibson,1432.58,71.43,33.33,0.0,
-186,Downtown Magnets,Flowers & Kim,1431.72,100.0,0.0,,
-187,Jesuit,Giridhar & Tran,1429.99,50.0,50.0,,
-188,Buhler,Bradley & Otto,1429.6,66.67,33.33,,
-189,Archbishop Mitty,Joseph & Varma,1427.2,16.67,100.0,,
-190,Greenhill,Reddy & Shah,1425.37,66.67,33.33,,
-191,Avery Coonley,Jain & Patalia,1414.12,0.0,100.0,,
-192,Bellarmine College Prep,Lobo & Miranda,1413.38,66.67,66.67,,
-193,Banneker,Thorpe & Thorpe,1412.31,57.14,50.0,0.0,
-194,Parsons,Corbett & Tsinnahjinnie,1411.28,33.33,75.0,,0.0
-195,Cuttlefish independent,Shen & Tran,1411.27,66.67,66.67,,
-196,Jesuit,Shu & Vopni,1409.06,33.33,50.0,,
-197,Woodward,Sampat & Wang,1407.93,66.67,50.0,,0.0
-198,Free State,Dietze & Marsh,1407.21,66.67,33.33,,
-199,Poly Prep,Batliboi & Xiang,1405.43,33.33,83.33,,
-200,Coppell,Mir & Yerram,1401.14,66.67,33.33,,
-201,Shawnee Mission South,Cook & McCracken,1400.57,33.33,66.67,,
-202,Walter Payton,Kim & Suri,1399.32,16.67,83.33,,
-203,Notre Dame,Park & Rosas,1396.77,37.5,44.44,,
-204,Maine East,Rucka & Wolf,1395.57,28.57,71.43,0.0,100.0
-205,Culver City,Linnemayr & Nadi,1394.47,66.67,33.33,,
-206,Cuttlefish independent,Chen & Kim,1393.61,66.67,50.0,,
-207,Damien-St. Lucy's,Jesson & Melstrom,1393.45,33.33,66.67,,
-208,Von Steuben,Li & Messele,1391.55,33.33,66.67,,
-209,Eagan,Maddirala & Rubin,1391.19,66.67,50.0,,0.0
-210,Glenbrook North,Mahammad & Zale,1391.13,50.0,50.0,0.0,
-211,Newark Science,Guimaraes & James,1387.58,44.44,60.0,,0.0
-212,BASIS DC,Farrow & Ting,1382.24,100.0,33.33,,
-213,Avery Coonley,Andreoli & Wilner,1381.77,33.33,66.67,,
-214,College Prep,Enderton & Savage,1381.51,66.67,33.33,,
-215,Calvert Hall,Corboy & George,1378.52,25.0,66.67,,
-216,Jesuit,Roberts & Skariah,1378.1,33.33,66.67,,
-217,Union,Morrison & Nicolas,1377.83,33.33,50.0,,
-218,DC International,Griffith & McCurty,1376.91,66.67,33.33,,
-219,Pace,Kim & Singh,1376.35,33.33,66.67,,
-220,Rowland Hall,House & Tyser,1373.63,55.56,44.44,,
-221,Quarry Lane,Nandan & Wang,1371.97,33.33,66.67,,
-222,Glenbrook South,Agrawal & Joo,1370.99,42.86,66.67,0.0,
-223,BASIS Peoria,Chong & Kanungo,1370.14,33.33,66.67,,
-224,Glenbrook North,Rentsendorj & Rose,1369.76,40.0,50.0,,
-225,Okemos,Truluck & Vancha,1369.33,33.33,66.67,,
-226,Heritage Hall,Hamadeh & Harris,1368.45,66.67,50.0,,0.0
-227,College Prep,Gordon & Norder,1365.9,33.33,66.67,,
-228,Lexington,Verma & Yoo,1364.51,66.67,33.33,,
-229,Stuyvesant,Ashraf & Li,1364.18,33.33,66.67,,
-230,Eastside,Palmer & Wu,1361.8,33.33,66.67,,
-231,Ducks Independent,Shen & Tran,1361.32,20.0,57.14,,0.0
-232,New Trier,Snyder & Verma,1360.72,25.0,100.0,0.0,100.0
-233,Interlake,Chetan & Seth,1358.82,66.67,50.0,,0.0
-234,SWW,Neuroth & Thorn,1358.64,50.0,66.67,,
-235,Mamaroneck,Andrus & Berkson,1358.19,33.33,66.67,,
-236,IBA,Cheng & Chung,1357.45,16.67,66.67,,
-237,Quarry Lane,Gavulla & Wang,1356.81,66.67,33.33,,
-238,Lexington,Venkatesh & Verma,1355.32,75.0,33.33,0.0,
-239,Avery Coonley,Sandahl & Shah,1352.76,50.0,33.33,,
-240,OES,Clayton & Rosenstein,1351.11,0.0,100.0,,
-241,Free State,Colvin & Dietze,1349.34,0.0,75.0,0.0,100.0
-242,Carrollton School of the Sacred Heart,Klotz & Prado,1347.68,50.0,66.67,0.0,
-243,Patriot,Haberman & Pfeiffer,1340.84,33.33,66.67,,
-244,OC Policy Association,Chen & Chen,1340.44,33.33,50.0,,
-245,Glenbrook South,Aparejo-Toque & Mamou,1337.2,33.33,66.67,,
-246,Cuttlefish independent,Chetan & Seth,1337.11,20.0,66.67,,
-247,Emerald,Hilker & Ma,1336.39,66.67,33.33,,
-248,Solorio,Medina & Melero,1331.78,100.0,25.0,,0.0
-249,Damien-St. Lucy's,Burke & Jesson,1330.93,100.0,0.0,,
-250,Carrollton School of the Sacred Heart,Prado & Rivadeneira,1328.94,66.67,33.33,,
-251,College Prep,Batra & Koff,1327.94,66.67,16.67,,
-252,Blue Valley West,Oruganti & Saha,1321.88,33.33,66.67,,
-253,Quarry Lane,Bharath & Gao,1318.03,66.67,33.33,,
-254,Newark Science,Ernesto & Francescon,1315.11,33.33,66.67,,
-255,Glenbrook North,Green & Vass,1314.39,44.44,44.44,,
-256,Lexington,Boonapalli & Wang,1313.56,41.67,36.36,,
-257,Sonoma,Katz & Petty,1313.21,33.33,66.67,,
-258,Bronx Science,Hossain & Nair,1312.33,33.33,66.67,,
-259,Southleaves Independent,Birjandi & Chen,1309.1,33.33,66.67,,
-260,Jesuit,Bui & Singh,1309.05,33.33,66.67,,
-261,McNeil,Kallur & Nagarakanti,1308.65,33.33,66.67,,
-262,Mamaroneck,Prins & Vasquez,1306.32,33.33,66.67,,
-263,Damien-St. Lucy's,Khan & Pedersen,1305.77,22.22,66.67,,
-264,(Frisco) Lebanon Trail,Malan & Pillai,1305.7,33.33,66.67,,
-265,Claudia Taylor Johnson,Mandhadapu & Vargas,1304.56,33.33,50.0,,
-266,Hawken,Collins & Power,1304.4,66.67,33.33,,
-267,Sidwell,Barac & Sher,1303.18,16.67,83.33,,
-268,Brooklyn Technical,Keung & Li,1300.93,50.0,50.0,,
-269,Alpharetta,Bakane & Prasad,1299.92,33.33,66.67,,
-270,Bronx Science,Ho & Shedup,1298.27,66.67,33.33,,
-271,Montgomery Bell,Keith & McKay,1297.04,60.0,33.33,,
-272,NSU,Arias & Yolbulan,1296.01,33.33,66.67,,
-273,Strath Haven,Iyer & Zhu,1294.99,66.67,33.33,,
-274,Sidwell,Andrews & Huang,1294.97,28.57,66.67,0.0,
-275,North Broward Prep,Merconchini & Spinola,1294.72,66.67,33.33,,
-276,George Washington,Cantu & Tsao,1294.17,66.67,33.33,,
-277,Mamaroneck,Steinberg & Yang,1293.37,33.33,66.67,,
-278,Northside College Prep,Lariosa & Viola,1291.58,40.0,55.56,0.0,
-279,Greenhill,Chamarthy & Li,1291.21,33.33,50.0,,
-280,Archbishop Mitty,Dinesh & Sanchez,1289.55,0.0,100.0,,
-281,Greeniest,Kim & Zelenskiy,1288.98,66.67,33.33,,
-282,Lake Balboa,Muradyan & Papazyan,1288.14,100.0,0.0,,
-283,SWW,Awad & Pinson,1285.93,33.33,66.67,,
-284,New Trier,Wick & Zhang,1282.51,66.67,22.22,,
-285,Brooklyn Technical,Atzler- David & Rowe,1282.39,50.0,50.0,,
-286,Blue Valley West,Doh & Ghosh,1282.19,66.67,33.33,,
-287,Eagan,Diep & Schwartz-Timmerman,1276.43,33.33,66.67,,
-288,Peninsula,Khaja & Quon,1273.46,33.33,50.0,,
-289,St Mark's School of Texas,Hasija & Zheng,1272.63,22.22,55.56,,
-290,Lane Tech College Prep,Berry & Gonzalez,1270.88,33.33,33.33,,
-291,Montgomery Bell,Anderson & Melehan,1268.77,33.33,50.0,,
-292,Archbishop Mitty,Downey & Rajasekar,1267.18,100.0,0.0,,
-293,SWW,McWhirter & Webster,1266.88,33.33,66.67,,
-294,Brooklyn Technical,Olimova & Ptohos,1265.98,33.33,66.67,,
-295,George Washington,Amanuel & Weaver,1265.25,33.33,66.67,,
-296,New Trier,Eatherton & Keen,1264.25,33.33,66.67,,
-297,Coppell,Pilly & Senthil Kumar,1263.28,30.0,55.56,0.0,
-298,Quarry Lane,Bhowmick & Gupta,1260.43,66.67,33.33,,
-299,SWW,Ben Shalom & Ferris-Artiga,1257.49,33.33,66.67,,
-300,Eastside,Huan & Palmer,1257.34,0.0,66.67,,
-301,Brooklyn Technical,Benn & Law,1254.86,66.67,33.33,,
-302,Casady,Ly & Shah,1254.35,66.67,33.33,,
-303,Shawnee Mission East,Drennon & Koertner,1253.79,33.33,66.67,,
-304,Alpharetta,Koduru & Vu,1252.66,66.67,0.0,,
-305,Wylie E. Groves,Burger & Patil,1252.16,66.67,33.33,,
-306,Bronx Science,Diaoune & Goldey,1252.13,66.67,33.33,,
-307,Solorio,Solis & Vicarte,1250.51,66.67,33.33,,
-308,North Hollywood,Beveridge & Luke,1249.37,33.33,55.56,,
-309,Eagan,Hoover & Risk,1248.02,66.67,33.33,,
-310,New Trier,Goodfellow & Snyder,1246.16,44.44,44.44,,
-311,Northview,Bai & Jiang,1245.13,33.33,33.33,,
-312,Rowland Hall,Previtali & Shaaban,1245.03,0.0,66.67,,
-313,Bronx Science,Anglo & Kozhakhmet,1244.22,83.33,16.67,,
-314,Hawken,Parsons & Sabarwal,1241.67,66.67,33.33,,
-315,Bronx Science,Hom & Qian,1240.01,33.33,66.67,,
-316,Whitney Young,Immergluck & Rasche,1239.08,50.0,42.86,,0.0
-317,Maine East,Garcia & Rucka,1233.64,66.67,33.33,,
-318,Northside College Prep,Ho & Kaenkumjorn,1233.17,66.67,33.33,,
-319,Alpharetta,Oberai & Thatiparthi,1233.03,33.33,66.67,,
-320,Montgomery Bell,Seibels & Yang,1230.98,33.33,50.0,,
-321,Rosemount,Govindarajan & Patel,1230.79,33.33,66.67,,
-322,Northside College Prep,Batwal & Kanabar,1228.95,66.67,66.67,,
-323,Avery Coonley,Andreoli & Jain,1228.39,66.67,33.33,,
-324,Leon Goldstein,Ahmed & Tharian,1227.81,66.67,33.33,,
-325,Chicago Labs,Lichtenbaum & Siddiqui,1227.81,33.33,66.67,,
-326,New Trier,Milbratz & Murashko,1227.47,16.67,66.67,,
-327,Damien-St. Lucy's,Garcia & Rodriguez,1225.33,0.0,66.67,,
-328,Washburn,Kasat Shors & Northrop,1223.74,50.0,20.0,,
-329,Liberal Arts and Science,Kim & Kim,1222.76,66.67,0.0,,
-330,Northside College Prep,Cummings & Patterson,1221.76,33.33,44.44,,
-331,Pace,Goldberg & Paladugu,1219.55,66.67,33.33,,
-332,Athens,Burks & Silas,1218.38,33.33,50.0,,
-333,Bellarmine College Prep,Girotra & Patel,1217.74,50.0,50.0,,
-334,Walter Payton,Yang & Yu,1214.36,33.33,33.33,,
-335,Mamaroneck,Berkson & Prins,1213.45,33.33,33.33,,
-336,Glenbrook South,Aparejo-Toque & Kim,1211.6,33.33,40.0,,
-337,DC International,McCurty & Pagan,1209.3,33.33,66.67,,
-338,Rowland Hall,Utgaard & Vezina,1205.75,50.0,16.67,,
-339,Washburn Rural,Khurana & Rapolu,1205.6,33.33,33.33,,
-340,Sonoma,Burger & Fresco,1205.26,0.0,50.0,,
-341,Duke Ellington,Ondrejcak & Tesfaye,1204.38,16.67,66.67,,
-342,Mamaroneck,Griffel & Soto,1203.83,11.11,77.78,,
-343,Taipei American,Ting & Wang,1200.07,66.67,33.33,,
-344,Bronx Science,Qu & Yang,1199.87,33.33,66.67,,
-345,Lowell,Li & Liang,1199.27,33.33,33.33,,
-346,Lexington,Kodumuru & Yoo,1199.1,33.33,66.67,,
-347,Lowell,Li & Ma,1196.81,33.33,16.67,,
-348,Stuyvesant,Nedelkovic & Wakida,1195.74,66.67,0.0,,
-349,Notre Dame,Oga & Voegele,1195.22,33.33,33.33,,
-350,BASIS Peoria,Bizuneh & Vadlamani,1194.09,33.33,66.67,,
-351,DC International,Griffith & Rodberg,1193.87,66.67,33.33,,
-352,Pine Crest,Gao & Rai,1192.8,66.67,0.0,,
-353,Niles West,Kretsos & Rahman,1191.6,50.0,66.67,,
-354,Notre Dame,Medina & Voegele,1189.67,33.33,33.33,,
-355,Memorial,Shi & Wang,1187.15,40.0,33.33,,
-356,Glenbrook North,Cheng & Morris,1185.51,33.33,66.67,,
-357,Carrollton School of the Sacred Heart,Martinez-Fraga & Roos,1184.38,50.0,33.33,,
-358,Damien-St. Lucy's,Katiyar & Rodriguez,1183.77,66.67,0.0,,
-359,Bellarmine College Prep,Deshmukh & Nanniyur,1176.96,33.33,66.67,,
-360,TAG,Alonzo & Verma,1176.05,20.0,33.33,,
-361,Solorio,Gonzalez & Vicarte,1175.65,66.67,0.0,,
-362,Notre Dame,Buskila & Gigliotti,1175.33,33.33,33.33,,
-363,Shawnee Mission East,Lewis & Snyder,1169.24,33.33,33.33,,
-364,Marist,Kilborn & Sowers,1168.8,33.33,33.33,,
-365,St Paul Central,Nagel & Wang,1167.94,66.67,0.0,,
-366,Madison Central,Arapalli & Jalf,1167.8,0.0,100.0,,
-367,Mamaroneck,Gupta & Romita,1164.34,33.33,50.0,,
-368,Hawken,Collins & Sabarwal,1160.65,33.33,33.33,,
-369,Jesuit,Magyar & Reinhart,1158.95,33.33,33.33,,
-370,Culver City,Blakely & Spellman,1155.72,33.33,50.0,,
-371,Collegiate,Arora & Belman,1152.69,66.67,0.0,,
-372,Banneker,Goldblatt & Young,1152.54,16.67,66.67,,
-373,Glenbrook North,Choi & Ju,1148.57,66.67,0.0,,
-374,Shawnee Mission South,Kosmacek & Tao,1148.12,33.33,33.33,,
-375,North Hollywood,Levine & Zhang,1148.07,18.18,41.67,,
-376,Northside College Prep,Chen & Shin,1146.78,0.0,66.67,,
-377,Glenbrook South,Nusair & Saitova,1145.18,16.67,50.0,,
-378,Solorio,Melero & Valadez,1143.81,33.33,40.0,,
-379,Melissa,Kaushik & Tiwari,1139.12,66.67,0.0,,
-380,AHS @PGCC,Atem & Rodriguez-Akande,1138.04,66.67,0.0,,
-381,Ruth Batson,Funches & Nguyen,1135.69,20.0,50.0,,
-382,Patriot,Hohn & Vostad,1133.7,66.67,0.0,,
-383,Bronx Science,Cai & Yang,1131.04,33.33,33.33,,
-384,Meadows,Kung & Stone,1129.67,40.0,33.33,,
-385,Hawken,Miller & Power,1127.65,33.33,33.33,,
-386,Glenbrook North,Krishna & Swinger,1123.63,44.44,22.22,,
-387,Keller,Amirineni & Khan,1123.02,0.0,100.0,,
-388,St Ignatius,Chen & Khawam,1122.93,33.33,33.33,,
-389,Altamont,Chava & Feinstein,1121.99,33.33,33.33,,
-390,Damien-St. Lucy's,Christopher & Katiyar,1121.9,33.33,33.33,,
-391,Leon Goldstein,Esanov & Nasimov,1118.18,0.0,66.67,,
-392,Johns Creek,Bhatt & Kim,1117.39,33.33,33.33,,
-393,Chicago Labs,Coston Criswell & Tart,1116.95,66.67,0.0,,
-394,Little Rock Central,Bean & Bolden,1113.71,50.0,33.33,,
-395,Quarry Lane,Bharath & Tuli,1112.59,33.33,33.33,,
-396,Bronx Science,Lin & Lin Zheng,1111.23,66.67,0.0,,
-397,Seneca Valley,Pishva & Zareen,1110.71,33.33,33.33,,
-398,Rosemount,Abdulahi & Prem,1109.97,33.33,33.33,,
-399,Damien-St. Lucy's,Burke & Sutfin,1108.83,0.0,66.67,,
-400,Success Academy HSLA-MANHATTAN,Success Academy HSLA-MANHATTAN LT,1108.62,0.0,0.0,,
-401,College Prep,Bhat & Tarm,1108.45,0.0,66.67,,
-402,Canyon Crest,Synn & Venkat,1108.36,33.33,33.33,,
-403,Alpharetta,Arora & Srivastava,1108.03,33.33,33.33,,
-404,George Washington,Deem & Lynn,1107.71,0.0,66.67,,
-405,Rowland Hall,Corey & Triplitt,1106.68,33.33,33.33,,
-406,Glenbrook South,Lind & Purtill,1105.37,0.0,66.67,,
-407,Rowland Hall,Syed & Syed,1103.7,0.0,66.67,,
-408,Glenbrook South,Mamou & Patel,1102.68,16.67,40.0,,
-409,Baltimore City,Brown & Futrell,1101.53,33.33,33.33,,
-410,Brooke,Natareno & Shrestha,1100.93,33.33,33.33,,
-411,Rowland Hall,Chen & Drakou,1100.86,16.67,33.33,,
-412,Northside College Prep,Asanbaeva & Chao,1100.46,50.0,33.33,,
-413,New Trier,Drew & Yao,1097.14,33.33,33.33,,
-414,Coppell,Muqtasid & Shah,1096.7,33.33,33.33,,
-415,Westwood,Balakrishnan & Zhang,1095.13,16.67,40.0,,
-416,Mamaroneck,Andrus & Vaculin,1093.23,33.33,33.33,,
-417,JBS Law Magnet,Diaz & Winston,1092.57,33.33,33.33,,
-418,Boston Latin,Cregor & Levine-Fried,1091.74,33.33,33.33,,
-419,Westwood,Mahadevan & Saranu,1088.31,33.33,33.33,,
-420,San Marino,Alexander & Chow,1087.65,33.33,33.33,,
-421,Banneker,Allen & Yeakey,1085.97,33.33,33.33,,
-422,Lexington,Mostowfi & Newman,1084.35,33.33,33.33,,
-423,New Trier,Petriello & Petrovic,1083.96,16.67,40.0,,
-424,Bronx Science,Bellur & Patel,1083.91,33.33,33.33,,
-425,Maine East,Jirobe & Young,1082.34,33.33,33.33,,
-426,san pedro,Paxton & Shimamoto,1081.62,33.33,33.33,,
-427,North Star Academy Policy,Alade & Opoola,1081.22,33.33,0.0,,
-428,Damien-St. Lucy's,Christopher & Garcia,1080.77,0.0,50.0,,
-429,McNeil,Kim & Shetty,1079.4,33.33,33.33,,
-430,Mamaroneck,Steinberg & Vaculin,1077.04,33.33,33.33,,
-431,Glenbrook North,Buyantogtokh & Singhal,1075.31,33.33,33.33,,
-432,Lowell,Li & Patil,1074.44,0.0,66.67,,
-433,BASIS Peoria,Doddagowdru & Kanungo,1073.27,0.0,50.0,,
-434,Maine East,Garcia & Voitenko,1072.28,33.33,33.33,,
-435,Forest Park,Fludd & Haider,1071.38,0.0,66.67,,
-436,Marist,Ovadje & Tan,1070.39,66.67,0.0,,
-437,SWW,Huxley & Parekh,1067.68,33.33,33.33,,
-438,Meadows,Greenman & Luh,1067.48,33.33,33.33,,
-439,Glenbrook South,Shin & Tipton,1066.3,25.0,22.22,,
-440,Brearley,Megalli & Moor,1064.38,33.33,0.0,,
-441,St Mark's School of Texas,Ding & Jakkamreddy,1062.65,22.22,33.33,,
-442,Peninsula,Kim & Quon,1062.23,33.33,33.33,,
-443,Maine East,Garcia & Singh,1060.61,33.33,33.33,,
-444,New Tech HS @ B.F. Darrell,Arias & Arias,1060.14,16.67,50.0,,
-445,Banneker,Gonzalez Ramos & Troutman-Ritchey,1060.08,33.33,33.33,,
-446,Lake Balboa,Afzal & Guitron Galindo,1059.29,33.33,33.33,,
-447,North Hollywood,Lehrer & Vaisman,1057.74,50.0,33.33,,
-448,Berkeley Prep,Jannu & Jashnani,1054.11,16.67,33.33,,
-449,New Trier,Karabatsos & Petriello,1053.93,33.33,0.0,,
-450,Avery Coonley,Jeong & Sheth,1052.38,0.0,66.67,,
-451,Glenbrook South,Aparejo-Toque & Patel,1051.87,33.33,33.33,,
-452,Newark Tech,Addai & Chambers,1051.81,33.33,33.33,,
-453,Millard North,Delashmutt & Muayad,1051.59,33.33,33.33,,
-454,Mamaroneck,Keefe & Wong,1048.97,50.0,16.67,,
-455,BASIS DC,Ganapati & Schorr,1048.32,0.0,66.67,,
-456,Lowell,Liang & Ma,1045.81,66.67,0.0,,
-457,Farmington,Assanga & Twite,1042.32,0.0,66.67,,
-458,Rowland Hall,Chen & Shaaban,1041.22,33.33,33.33,,
-459,Barstow,Parker & Willson,1038.3,33.33,33.33,,
-460,Berkeley Prep,Jannu & Li,1037.39,0.0,33.33,,
-461,ADL,Shen & Yen,1034.44,33.33,33.33,,
-462,Montgomery Bell,Keller & Thomas,1032.21,0.0,50.0,,
-463,George Washington,DeGuire & Fleisher,1027.04,66.67,0.0,,
-464,Maine East,Akram & Jirobe,1026.66,33.33,33.33,,
-465,ModernBrain,Cheng & Quon,1025.06,33.33,0.0,,
-466,Northwood,Tejani & Zhang,1024.39,0.0,33.33,,
-467,Bronx Science,Chen & Darmadi,1023.8,0.0,50.0,,
-468,New Trier,Eatherton & Pateriya,1018.81,0.0,33.33,,
-469,Northside College Prep,Batwal & Chao,1010.52,33.33,16.67,,
-470,Rosemount,Carlson & Yohannes,1009.83,66.67,0.0,,
-471,Maine East,Rafael & Singh,1009.05,33.33,33.33,,
-472,Berkley,Hines & Horowitz,1006.87,66.67,0.0,,
-473,Buhler,Harriman & Schroeder,1006.69,33.33,0.0,,
-474,Digital Pioneers,Team Digital Pioneers,1006.66,33.33,33.33,,
-475,Maine East,Akram & Hakeem,996.95,16.67,50.0,,
-476,Whitney Young,Gutierrez & Manglavil,993.71,0.0,33.33,,
-477,St Ignatius,Khawam & Quail,992.48,0.0,50.0,,
-478,Jenks,Koehling & Thurman,992.19,33.33,33.33,,
-479,Barstow,Dutton & Tabuchi,988.97,0.0,33.33,,
-480,SWW,Hoang & Schuettpelz,988.75,33.33,33.33,,
-481,Lane Tech College Prep,Kim & Labelle,987.46,0.0,33.33,,
-482,Notre Dame,Anderson & Nikkhah Bahrami,985.07,33.33,33.33,,
-483,Lane Tech College Prep,Kim & Liang-Vergara,983.29,33.33,0.0,,
-484,Athens,Parker & Tinsley,979.91,16.67,40.0,,
-485,Duke Ellington,Jones & Sesay,977.58,0.0,33.33,,
-486,Carrollton School of the Sacred Heart,Scoville & Yu,977.53,33.33,33.33,,
-487,Glenbrook South,Agrawal & Saitova,973.62,33.33,0.0,,
-488,Brock,Brock DC,973.18,0.0,0.0,,
-489,Von Steuben,Lutska & Roberts,971.71,0.0,33.33,,
-490,Damien-St. Lucy's,Bitzko-Barrett & Burke,970.86,0.0,33.33,,
-491,Meadows,Chen & Wu,961.95,0.0,33.33,,
-492,Northstar Academy HS - Newark,Alade & Opoola,961.19,50.0,0.0,,
-493,St Mark's School of Texas,Lin & McCormick,956.8,22.22,22.22,,
-494,Minneapolis South,Griffin & Hassan,956.09,0.0,33.33,,
-495,Glenbrook North,Acikgoz & Kutty,952.15,20.0,20.0,,
-496,Dowling Catholic,Beauchamp & South,951.34,0.0,33.33,,
-497,Glenbrook North,Castellucci & Ross,949.19,0.0,33.33,,
-498,san pedro,Roque & Tuazon,948.66,33.33,0.0,,
-499,Dulles,Huynh & Zhang,948.25,0.0,33.33,,
-500,Rosemount,Grellys & Yeleswarapu,946.93,50.0,0.0,,
-501,Calvert Hall,Cole & Thomas,945.96,33.33,11.11,,
-502,Sonoma,Beirne & Hemsouvanh,942.02,0.0,28.57,,
-503,Elizabeth Learning Center,Pena & Santos,940.68,50.0,0.0,,
-504,Glenbrook South,Lind & Nickolas,940.51,33.33,33.33,,
-505,New Trier,Petrovic & Yao,939.29,0.0,33.33,,
-506,Brooke,Baird & O'Farrell,934.9,33.33,0.0,,
-507,Berkeley Prep,Li & Maitra,932.66,20.0,0.0,,
-508,NSU,Feinstein & Landrove,931.0,0.0,33.33,,
-509,Elizabeth Learning Center,Brawon & Escobar,924.04,33.33,0.0,,
-510,Brooke,Lopez & Shrestha,922.21,33.33,0.0,,
-511,Von Steuben,Moustakas & Tigu,919.25,50.0,0.0,,
-512,Eastside,Wu & Zheng,913.81,0.0,0.0,,
-513,SWW,Nwagwu & Quintana Banfi,904.99,33.33,0.0,,
-514,Chicago Labs,El Bissati & Williams,903.15,33.33,0.0,,
-515,North Star Academy Policy,Adams & Davis,902.67,50.0,0.0,,
-516,Claudia Taylor Johnson,Korra & Staggs,901.39,33.33,0.0,,
-517,Shawnee Mission South,Harvey & Spizman,898.98,0.0,33.33,,
-518,Elizabeth Learning Center,Martinez & Tinajero,898.8,33.33,0.0,,
-519,Hawken,Miller & Rogers,894.69,33.33,0.0,,
-520,St Ignatius,Adams & Chen,885.12,0.0,33.33,,
-521,Jordan,Dieu & Vankadara,884.63,33.33,0.0,,
-522,Northstar Academy HS - Newark,Adams & Davis,884.03,0.0,33.33,,
-523,Rowland Hall,Aoki & Shackelford,883.38,0.0,40.0,,
-524,Bellaire,Khan & Raman,882.82,33.33,0.0,,
-525,SWW,Cha & Pinol,882.59,0.0,33.33,,
-526,Stuyvesant,Huang & Pan,881.85,0.0,50.0,,
-527,Jenks,Fisher & Hunter,880.2,0.0,33.33,,
-528,Stuart Hobson,BrucknerRust & West,879.55,0.0,33.33,,
-529,Johns Creek,Namiranian & Raskin,872.02,33.33,0.0,,
-530,NSU,Del Rosal & Dziugelis,865.71,0.0,33.33,,
-531,Bronx Science,Ho & Matvienko Sikar,862.53,0.0,33.33,,
-532,NSU,Law & Zatkowsky,857.59,33.33,0.0,,
-533,NSU,Landrove & Zatkowsky,857.38,33.33,0.0,,
-534,New Trier,Yao & Zhang,854.24,0.0,0.0,,
-535,DuVal,Alvarez & Sartani,850.47,33.33,0.0,,
-536,ADL,Ho & Lu,849.72,33.33,0.0,,
-537,San Pedro,Murai & Taase,848.93,0.0,0.0,,
-538,West Campus (Sacramento),Jacobson & Phan,844.39,16.67,20.0,,
-539,Little Rock Central,Cain & Wellborn,841.21,20.0,20.0,,
-540,George Washington,Mukayess & Stearns,840.29,0.0,33.33,,
-541,New Trier,Pateriya & Verma,838.93,0.0,33.33,,
-542,Notre Dame,Guerrero & Kitson,835.13,0.0,33.33,,
-543,California Academy of Mathematics and Science,Karthikeyan & Yang,832.9,0.0,0.0,,
-544,Coppell,Kolli & Thatipamula,832.84,33.33,0.0,,
-545,Meadows,Cruz & Ensign,831.5,0.0,0.0,,
-546,Stuyvesant,Chan & Jiang,828.98,0.0,0.0,,
-547,Edina,Lofgren & Xing,823.78,0.0,33.33,,
-548,Leon Goldstein,Balde & Rothchild,823.21,0.0,,,
-549,North Hollywood,Li & Nadel,811.46,0.0,0.0,,
-550,San Pedro,Fuchino & Leiva,795.39,0.0,0.0,,
-551,NSU,Ahamad & Mathew,787.74,20.0,16.67,,
-552,Quarry Lane,Senthil & Zhang,780.33,0.0,0.0,,
-553,Solorio,Diaz Ramirez & Martinez,779.54,16.67,0.0,,
-554,Moore,Graham & Holloway,778.75,0.0,0.0,,
-555,Meadows,Luh & Whiteley,778.49,0.0,0.0,,
-556,Alief Taylor,Nguyen & Tahir,778.25,0.0,0.0,,
-557,New Trier,Verma & Zeidler,769.51,0.0,0.0,,
-558,Northwood,Birjandi & Muraka,763.39,0.0,0.0,,
-559,Montgomery Bell,McCarley & Raggio,763.02,0.0,33.33,,
-560,Rowland Hall,Corey & Shaaban,761.3,0.0,0.0,,
-561,George Washington,Drumwright & Manago,747.54,0.0,0.0,,
-562,Kinkaid,Fu & Watts,733.12,0.0,20.0,,
-563,Von Steuben,Gordon & Roberts,729.69,0.0,0.0,,
-564,Millard North,Matya & Zaidi,725.64,0.0,0.0,,
-565,Minneapolis South,Buckley & Searls,718.07,0.0,0.0,,
-566,Casady,Farhan & Shah,717.11,0.0,0.0,,
-567,Dripping Springs,Hernandez & Ibanez Duran,714.22,0.0,0.0,,
-568,Seven Lakes,Akbarzadeh & Raad,707.93,0.0,0.0,,
-569,Forest Park,Awe & Creasey,704.51,0.0,0.0,,
-570,Poly Prep,Park & Rosenblatt,704.45,0.0,0.0,,
-571,Leon Goldstein,Khuda & MIchel,701.89,0.0,0.0,,
-572,Von Steuben,Havens & Lutska,692.9,0.0,0.0,,
-573,Downtown Magnets,Lee & Leong,689.27,0.0,0.0,,
-574,James Logan,Barragan & Shirva,674.11,0.0,0.0,,
-575,Newark Science,Ernesto & Goncalves,671.28,0.0,0.0,,
-576,Glenbrook North,Lal & Morris,665.54,0.0,0.0,,
-577,Bellarmine College Prep,Goli & Yu,647.82,0.0,0.0,,
-578,Poly Prep,Murphy & Ollivierre,624.42,0.0,0.0,,
+1,Whitney Young,Boss & Mohan,2324.06,87.5,81.82,80.0,80.0
+2,Walter Payton,Bendre & Rout,2312.88,88.24,84.62,75.0,100.0
+3,Montgomery Bell,Brandes & Vari,2223.63,76.92,80.0,57.14,50.0
+4,New Trier,Ma & Yang,2203.96,75.0,81.82,66.67,80.0
+5,Quarry Lane,Khanna & Mehta,2184.68,81.82,76.92,60.0,71.43
+6,Westwood,Gupta & Laxminarasimhan,2175.6,90.0,83.33,75.0,83.33
+7,Westwood,Du & Nandigam,2166.36,62.5,86.67,50.0,100.0
+8,College Prep,Nahm & Tarnas,2152.9,72.22,86.67,77.78,83.33
+9,New Trier,Heftman & Leaker,2082.39,75.0,84.21,66.67,50.0
+10,Greenhill,He & Sunkara,2071.41,100.0,80.0,,50.0
+11,Pembroke Hill,Murphy & Zhao,2041.49,100.0,100.0,100.0,100.0
+12,Little Rock Central,Liu & Wu,2038.7,71.43,83.33,50.0,100.0
+13,Rowland Hall,Lieberman & Venkatesan,2019.92,61.54,69.23,25.0,50.0
+14,Cuttlefish independent,Chen & Olteanu,2007.08,71.43,76.92,60.0,75.0
+15,Glenbrook North,Kohler & Weisman,1998.35,63.64,84.62,0.0,75.0
+16,West HS SLC,Aoki & Krishna,1989.33,75.0,100.0,100.0,100.0
+17,Carrollton School of the Sacred Heart,Gomez-Peralta & Membiela,1981.86,66.67,73.08,75.0,63.64
+18,Woodward,Jain & Semaan,1978.07,66.67,71.43,66.67,0.0
+19,Georgetown Day,Mangalam & Xu,1975.57,50.0,92.86,40.0,100.0
+20,Baltimore City,Hoard & Walter,1974.93,80.0,85.71,66.67,80.0
+21,SLC Independent,Aoki & Krishna,1974.88,85.71,66.67,100.0,33.33
+22,Peninsula,Liu & Pan,1956.87,92.86,47.06,100.0,20.0
+23,Liberal Arts and Science,Conley & Vidal,1956.5,58.33,76.92,100.0,25.0
+24,Little Rock Central,Buckner & Wilkerson,1952.03,75.0,87.5,50.0,100.0
+25,BASIS DC,Applegate & Schmidt,1938.94,85.71,66.67,80.0,66.67
+26,Anozira Independent,Liu & Simha,1930.45,71.43,85.71,0.0,0.0
+27,St Paul Central,Berger & Mulrooney,1922.08,77.78,77.78,66.67,66.67
+28,Interlake,Chen & Goswami,1921.53,83.33,100.0,100.0,100.0
+29,Quarry Lane,Arora & Singamsetti,1917.9,70.0,57.14,50.0,100.0
+30,Liberal Arts and Science,Liu & Raghavan,1909.83,56.25,88.89,0.0,66.67
+31,North Broward Prep,Atherton & Gujarathi,1902.67,77.78,57.14,,40.0
+32,Pace,Royal & Washington,1901.42,60.0,83.33,50.0,
+33,Little Rock Central,Batcheller & Ware,1891.0,93.33,44.44,83.33,
+34,Damien-St. Lucy's,Kaissi & Nguyen,1889.16,90.0,60.0,100.0,50.0
+35,Liberal Arts and Science,Brooks & Tames,1886.87,50.0,80.0,0.0,60.0
+36,Archbishop Mitty,Tian & Wang,1885.5,85.71,77.78,0.0,66.67
+37,Brophy,Han & Sonawane,1877.0,56.25,73.33,50.0,100.0
+38,Liberal Arts and Science,Jallepalli & Lim,1875.86,72.22,64.71,66.67,33.33
+39,Bellarmine College Prep,Chang & Sontakke,1874.21,66.67,85.71,33.33,100.0
+40,Westminster,Huang & Zhou,1873.24,83.33,75.0,,50.0
+41,Collegiate,Ferreira & Kitkowski,1869.45,85.71,71.43,0.0,100.0
+42,Liberal Arts and Science,Kummaraguntla & Martis,1867.71,64.29,64.71,50.0,60.0
+43,Greenhill,Bose & Sunkara,1855.33,60.0,77.78,25.0,33.33
+44,Montgomery Bell,Brandes & Fulwider,1849.91,50.0,100.0,0.0,100.0
+45,Somerville,Castro & Marable,1843.62,69.23,90.0,60.0,100.0
+46,Isidore Newman,Agrawal & Wang,1837.34,71.43,85.71,0.0,100.0
+47,Brooklyn Technical,Grider & Sukhlal,1837.11,54.55,81.82,33.33,100.0
+48,Montgomery Bell,Kolhatkar & Roh,1829.4,61.54,64.71,0.0,40.0
+49,Newark Science,Odra & Olagadeyo,1828.33,82.35,68.42,100.0,71.43
+50,Carrollton School of the Sacred Heart,Giampetruzzi & Roos,1819.06,56.25,81.25,0.0,100.0
+51,Peninsula,Choe & Pan,1816.72,70.0,60.0,0.0,0.0
+52,Cuttlefish independent,Chen & Goswami,1813.24,60.0,100.0,50.0,100.0
+53,Brophy,Chen & Reddy,1812.68,53.85,64.29,0.0,50.0
+54,College Prep,Holloway-Butts & Ye,1805.25,50.0,77.78,33.33,
+55,Little Rock Central,Adams & Wilkerson,1801.62,75.0,100.0,100.0,
+56,Blue Valley West,Bapat & Jampana,1794.07,88.89,50.0,100.0,0.0
+57,DC International,Ross & Yanasak Worsley,1791.2,66.67,75.0,,50.0
+58,Peninsula,Jiang & Li,1784.21,63.64,75.0,0.0,66.67
+59,Barack Obama MLA (HS),Jeffries & Valle,1778.74,50.0,71.43,33.33,50.0
+60,Lowell,Chan & Yee Smith,1777.62,45.45,80.0,0.0,100.0
+61,Northside College Prep,Garapaty & Sebastian,1762.37,63.64,69.23,50.0,50.0
+62,Avery Coonley,Friess & Narayanan,1756.53,66.67,62.5,,0.0
+63,Georgetown Day,Kim & Noland,1755.8,61.54,71.43,50.0,50.0
+64,Barack Obama MLA,Jeffries & Valle,1746.15,37.5,100.0,0.0,100.0
+65,Edina,Weiby & Western,1742.54,57.14,73.33,50.0,33.33
+66,North Broward Prep,Marder & Stein,1737.92,70.0,60.0,0.0,100.0
+67,Georgetown Day,Gerety & Kimbrell,1733.42,50.0,73.33,50.0,66.67
+68,Carrollton School of the Sacred Heart,Bracamontes & Gupta,1722.8,53.33,71.43,66.67,50.0
+69,Pembroke Hill,Aubuchon & Zweifel,1719.77,50.0,100.0,0.0,
+70,Greenhill,Haq & Khan,1719.77,46.15,71.43,0.0,100.0
+71,Glenbrook South,Martinez & Samet,1718.8,42.86,76.92,0.0,75.0
+72,Poly Prep,Moise & Parks,1715.52,50.0,64.29,0.0,50.0
+73,Heritage Hall,Harris & Horvath,1710.28,50.0,71.43,,0.0
+74,ModernBrain,Jiang & Wu,1710.09,83.33,33.33,66.67,
+75,Patriot,Ramirez & Spaans,1708.38,100.0,60.0,100.0,50.0
+76,Unionville,Masuraha & Yu,1703.26,66.67,66.67,50.0,
+77,Poly Prep,Batliboi & Londoner,1702.08,69.23,61.54,0.0,0.0
+78,Richland,Agrawal & Ganta,1693.11,54.55,63.64,0.0,50.0
+79,James Logan,Amiri & Kolluru,1692.1,66.67,75.0,66.67,100.0
+80,Free State,Fite & Walker,1689.47,83.33,57.14,,0.0
+81,Quarry Lane,Hayer & Iyengar,1686.8,66.67,66.67,,
+82,Baltimore City,Maxwell & Murray,1681.81,70.0,60.0,0.0,0.0
+83,Quarry Lane,Gandhi & Khan,1680.57,66.67,42.86,,0.0
+84,San Marino,Jin & Pathak,1675.64,100.0,50.0,,0.0
+85,Quarry Lane,Bhowmick & Mamdur,1667.35,33.33,100.0,,
+86,New Trier,Shah & Ye,1664.6,61.54,57.14,0.0,50.0
+87,Montgomery Bell,Fulwider & Majhail,1662.01,66.67,42.86,100.0,0.0
+88,San Marino,Li & Szeto,1661.4,55.56,72.73,,0.0
+89,St Mark's School of Texas,Barnes & Keon,1661.09,27.27,88.89,50.0,
+90,Bellarmine College Prep,Bauman & Huynh,1660.95,71.43,62.5,0.0,50.0
+91,Woodward,Hemachandran & Huang,1660.02,83.33,50.0,,0.0
+92,Glenbrook North,Dynia & Xu,1659.12,50.0,85.71,0.0,100.0
+93,Sidwell,Andrews & Huang,1658.29,50.0,63.64,0.0,50.0
+94,Peninsula,Bhagat & Burchfield,1657.37,66.67,66.67,,
+95,Greenhill,Ghelani & Makhani,1655.99,42.86,75.0,0.0,100.0
+96,Huntington Park,Bucio Mondragon & Prado,1655.61,66.67,50.0,,0.0
+97,Bellarmine College Prep,Kochar & Yoo,1650.31,50.0,66.67,,
+98,Georgetown Day,Chawla & O'Shaughnessy,1649.14,50.0,100.0,0.0,100.0
+99,Newark Tech,Francis & Tavarez,1646.79,62.5,60.0,0.0,
+100,Baltimore City,Cureton & Floyd,1646.72,45.45,80.0,0.0,0.0
+101,Banneker,Thorpe & Thorpe,1645.68,54.55,70.0,0.0,100.0
+102,Free State,Gonzalez & Harned,1642.84,71.43,57.14,100.0,0.0
+103,Notre Dame,Tyomkin & Valderama,1641.55,55.56,50.0,,0.0
+104,Lindale,Davis & Martinez,1634.67,33.33,90.91,0.0,100.0
+105,Casady,Lin & Saha,1634.04,55.56,60.0,,0.0
+106,Bronx Science,Opitz & Salins,1624.6,50.0,77.78,,33.33
+107,Campbell Hall,Graber & Venison,1621.09,46.67,75.0,33.33,0.0
+108,Sacred Heart Cathedral Prep,Gopal & Lee,1619.87,57.14,66.67,0.0,
+109,Woodward,Semaan & Xuan,1618.06,33.33,75.0,,0.0
+110,Cuttlefish independent,Wang & Ye,1617.88,50.0,77.78,33.33,
+111,Lexington,Patel & Wang,1613.53,66.67,62.5,,50.0
+112,Baltimore City,Adler & Parran,1613.05,83.33,40.0,66.67,0.0
+113,Berkeley Prep,Gowda & Nestor,1613.04,57.14,66.67,0.0,
+114,New Trier,Angres & Chen,1609.71,62.5,53.33,0.0,100.0
+115,Damien-St. Lucy's,Ileto & Melstrom,1603.74,54.55,55.56,0.0,
+116,Washburn Rural,Chaudhry & Chidambaranathan,1594.53,22.22,62.5,0.0,0.0
+117,Carrollton School of the Sacred Heart,Di Mauro & Klotz,1591.32,57.14,50.0,0.0,100.0
+118,Mamaroneck,Mincemoyer & Winter-Hamaoui,1590.91,50.0,50.0,,
+119,Blue Valley West,Gogireddy & Saxena,1587.81,66.67,75.0,,0.0
+120,McDonogh,Krichbaum & Label,1586.13,55.56,55.56,,0.0
+121,Georgetown Day,Fragale & O'Shaughnessy,1585.53,33.33,75.0,,0.0
+122,Sioux Falls Lincoln Independent,Ramirez & Spaans,1577.45,66.67,66.67,,
+123,Lowell,Li & Yee Smith,1575.03,66.67,66.67,,
+124,Collegiate,Arora & Kitkowski,1564.91,66.67,33.33,,
+125,Eagan,Chen & Karnatak,1563.65,71.43,57.14,100.0,0.0
+126,Quarry Lane,Ravikumar & Tuli,1562.18,62.5,50.0,50.0,
+127,Berkeley Prep,Kocharlakota & Nestor,1561.8,33.33,75.0,,0.0
+128,Greenhill,Ghelani & Reddy,1561.46,50.0,71.43,,0.0
+129,Northview,Nadkar & Tapaswi,1560.79,66.67,50.0,,0.0
+130,Newark Science,Guimaraes & James,1557.61,50.0,61.54,,0.0
+131,Solon Independent,Gu & Stella,1553.99,33.33,100.0,,
+132,Barstow,Parker & Turner,1547.08,33.33,66.67,,
+133,Montgomery Bell,Majhail & Stone,1547.07,25.0,100.0,0.0,
+134,Montgomery Bell,Stone & Williams,1543.31,33.33,71.43,,0.0
+135,Von Steuben,Larkin & Larkin,1542.92,50.0,55.56,0.0,
+136,Free State,Adedipe & Colvin,1538.98,66.67,50.0,,0.0
+137,Collegiate,Arora & Arora,1536.37,100.0,33.33,,0.0
+138,Blue Valley North,Nandula & Parsons,1536.28,66.67,33.33,,
+139,Hawken,Subhas & Zhao,1535.12,25.0,100.0,0.0,
+140,Lexington,Song & Sung,1534.69,22.22,81.82,,50.0
+141,Von Steuben,Perez & Santiago,1531.05,50.0,55.56,0.0,
+142,ADL,Lin & Wang,1530.93,50.0,75.0,,0.0
+143,SWW,Neuroth & Thorn,1529.89,40.0,77.78,0.0,
+144,West Campus (Sacramento),Khan & Khan,1526.95,66.67,50.0,,
+145,Mamaroneck,Charalambous & Hazard,1524.66,44.44,60.0,,0.0
+146,Quarry Lane,Gavulla & Mamdur,1521.85,50.0,66.67,0.0,
+147,Bellarmine College Prep,Feng & He,1520.03,33.33,100.0,,
+148,Walter Payton,Chow & Porwal,1518.88,66.67,42.86,,0.0
+149,Liberal Arts and Science,Barden & Quezada,1518.63,50.0,71.43,,100.0
+150,SWW,Abiy & Gibson,1516.15,63.64,44.44,0.0,
+151,Taipei American,Maeng & Yao,1515.57,33.33,66.67,,
+152,BASIS Peoria,Doddagowdru & Nair,1514.87,100.0,25.0,,0.0
+153,Quarry Lane,Bhowmick & Gavulla,1512.47,33.33,100.0,,
+154,Jesuit,Patel & Shao,1510.19,33.33,60.0,,
+155,St Ignatius,Bentley & Gordon,1509.94,66.67,50.0,,
+156,Okemos,Aftab & Truluck,1509.4,50.0,75.0,,50.0
+157,Bellarmine College Prep,Kaustuv & Verma,1507.87,57.14,66.67,0.0,
+158,Solon Independent,Chakrabarti & Chatterjee,1503.68,50.0,50.0,,
+159,Brooklyn Technical,Jordan & Wong,1502.93,50.0,66.67,,
+160,Winston Churchill,Fencl & Van Klaveren,1502.37,50.0,60.0,0.0,100.0
+161,Sacred Heart Cathedral Prep,Clarke & Lefberg,1500.85,50.0,66.67,0.0,
+162,St Paul Central,Eichenberger & Washington,1500.1,66.67,62.5,,50.0
+163,Niles North,Lockett & Piatek,1496.71,77.78,33.33,,0.0
+164,Coppell,Karunadasa & Patel,1495.28,50.0,57.14,,0.0
+165,St Mark's School of Texas,Choi & Lang,1485.5,33.33,50.0,,0.0
+166,Bronx Science,Balyasnaya & Hagiwara,1482.61,66.67,50.0,,0.0
+167,Glenbrook South,Enkhsaikhan & Van Horn,1479.33,38.46,61.54,0.0,0.0
+168,Kingsnake,Hilker & Ma,1478.3,66.67,33.33,,
+169,Alpharetta,Baek & Shankar,1473.76,75.0,33.33,50.0,
+170,Banneker,Goldblatt & Young,1469.53,33.33,66.67,,
+171,Blue Valley,Kondaparthi & Pemmasani,1468.35,60.0,66.67,50.0,
+172,Bellarmine College Prep,Batlanki & Mehta,1467.13,66.67,66.67,,
+173,Kang Chiao International,Chuo & Wang,1464.96,50.0,75.0,100.0,0.0
+174,Taipei American,Chiong & Maeng,1463.4,66.67,66.67,,
+175,Woodward,Sloan & Xuan,1463.25,50.0,66.67,0.0,
+176,Northside College Prep,Sarkar & Weitekamper,1462.91,50.0,66.67,25.0,
+177,Washburn Rural,Ginzburg & Savenko,1461.76,66.67,33.33,,
+178,Newark Science,Onyebuchi 2 & Smith,1460.47,61.54,46.15,0.0,0.0
+179,Interlake,Wang & Ye,1460.09,75.0,33.33,0.0,
+180,Solorio,Medina & Solis,1455.11,50.0,50.0,,
+181,Archbishop Mitty,Downey & Sanchez,1455.05,33.33,100.0,,
+182,SWW,Ben Shalom & Ferris-Artiga,1454.24,66.67,50.0,,
+183,Quarry Lane,Acharya & Varakala,1453.84,33.33,55.56,,
+184,Altamont,Blutter & McLain,1452.52,25.0,100.0,0.0,
+185,Mamaroneck,Romita & Winter-Hamaoui,1450.58,25.0,100.0,0.0,
+186,Coppell,Gandhari & Madhu,1448.69,44.44,55.56,0.0,
+187,Boston Latin,Cregor & Levine-Fried,1446.35,50.0,60.0,,
+188,Bellarmine College Prep,Krishnan & Zhao,1445.14,33.33,100.0,,
+189,James Logan,Gochez & Song,1444.87,100.0,33.33,,
+190,Casady,Anderson & Trice,1442.37,22.22,77.78,,
+191,Quarry Lane,Jujjuru & Sunil,1442.01,100.0,33.33,,
+192,Westwood,Harith & Pande,1440.77,55.56,55.56,,
+193,BASIS DC,Farrow & Ting,1436.01,50.0,60.0,,
+194,Downtown Magnets,Flowers & Kim,1434.21,100.0,0.0,,
+195,Jesuit,Giridhar & Tran,1433.58,50.0,50.0,,
+196,Buhler,Bradley & Otto,1431.53,66.67,33.33,,
+197,Archbishop Mitty,Joseph & Varma,1431.41,16.67,100.0,,
+198,McDonogh,Klein & Raman,1429.08,66.67,66.67,,
+199,Greenhill,Reddy & Shah,1428.46,66.67,33.33,,
+200,Avery Coonley,Jain & Patalia,1421.31,0.0,100.0,,
+201,Maine East,Rucka & Wolf,1420.67,28.57,71.43,0.0,100.0
+202,Bellarmine College Prep,Lobo & Miranda,1418.47,66.67,66.67,,
+203,Cuttlefish independent,Shen & Tran,1417.75,66.67,66.67,,
+204,SWW,McWhirter & Webster,1414.95,50.0,60.0,,
+205,Parsons,Corbett & Tsinnahjinnie,1413.19,33.33,75.0,,0.0
+206,Jesuit,Shu & Vopni,1412.8,33.33,50.0,,
+207,Woodward,Sampat & Wang,1411.54,66.67,50.0,,0.0
+208,DC International,Griffith & McCurty,1409.34,66.67,33.33,,
+209,Free State,Dietze & Marsh,1408.51,66.67,33.33,,
+210,Calvert Hall,Corboy & George,1407.74,25.0,66.67,,
+211,Coppell,Mir & Yerram,1404.62,66.67,33.33,,
+212,DC International,Griffith & Rodberg,1404.23,66.67,50.0,,
+213,Shawnee Mission South,Cook & McCracken,1404.22,33.33,66.67,,
+214,Walter Payton,Kim & Suri,1402.59,16.67,83.33,,
+215,McDonogh,Noah Krichbaum,1401.96,66.67,66.67,,
+216,Notre Dame,Park & Rosas,1400.73,37.5,44.44,,
+217,Von Steuben,Li & Messele,1399.62,33.33,66.67,,
+218,Damien-St. Lucy's,Jesson & Melstrom,1398.12,33.33,66.67,,
+219,Culver City,Linnemayr & Nadi,1396.85,66.67,33.33,,
+220,Glenbrook North,Mahammad & Zale,1395.57,50.0,50.0,0.0,
+221,Cuttlefish independent,Chen & Kim,1395.49,66.67,50.0,,
+222,Eagan,Maddirala & Rubin,1393.58,66.67,50.0,,0.0
+223,Strath Haven,Iyer & Zhu,1393.23,70.0,33.33,0.0,
+224,Lexington,Verma & Yoo,1390.24,66.67,33.33,,
+225,Sidwell,Barac & Sher,1389.03,22.22,77.78,,
+226,Avery Coonley,Andreoli & Wilner,1385.37,33.33,66.67,,
+227,College Prep,Enderton & Savage,1383.14,66.67,33.33,,
+228,Pace,Kim & Singh,1382.46,33.33,66.67,,
+229,Union,Morrison & Nicolas,1381.66,33.33,50.0,,
+230,Jesuit,Roberts & Skariah,1381.14,33.33,66.67,,
+231,Mamaroneck,Andrus & Berkson,1377.37,33.33,66.67,,
+232,Rowland Hall,House & Tyser,1376.75,55.56,44.44,,
+233,Glenbrook South,Agrawal & Joo,1374.71,42.86,66.67,0.0,
+234,Quarry Lane,Nandan & Wang,1374.09,33.33,66.67,,
+235,BASIS Peoria,Chong & Kanungo,1373.46,33.33,66.67,,
+236,Stuyvesant,Ashraf & Li,1373.19,33.33,66.67,,
+237,Okemos,Truluck & Vancha,1373.11,33.33,66.67,,
+238,Heritage Hall,Hamadeh & Harris,1370.86,66.67,50.0,,0.0
+239,Eastside,Palmer & Wu,1369.24,33.33,66.67,,
+240,Glenbrook North,Rentsendorj & Rose,1368.37,40.0,50.0,,
+241,College Prep,Gordon & Norder,1368.23,33.33,66.67,,
+242,Ducks Independent,Shen & Tran,1366.29,20.0,57.14,,0.0
+243,Newark Science,Ernesto & Francescon,1365.16,33.33,66.67,,
+244,IBA,Cheng & Chung,1363.26,16.67,66.67,,
+245,New Trier,Snyder & Verma,1360.54,25.0,100.0,0.0,100.0
+246,Interlake,Chetan & Seth,1360.28,66.67,50.0,,0.0
+247,Quarry Lane,Gavulla & Wang,1359.71,66.67,33.33,,
+248,Avery Coonley,Sandahl & Shah,1357.93,50.0,33.33,,
+249,OES,Clayton & Rosenstein,1352.98,0.0,100.0,,
+250,Carrollton School of the Sacred Heart,Klotz & Prado,1352.25,50.0,66.67,0.0,
+251,Bronx Science,Hossain & Nair,1351.42,33.33,66.67,,
+252,OC Policy Association,Chen & Chen,1345.28,33.33,50.0,,
+253,Cuttlefish independent,Chetan & Seth,1343.71,20.0,66.67,,
+254,Emerald,Hilker & Ma,1343.54,66.67,33.33,,
+255,Patriot,Haberman & Pfeiffer,1341.99,33.33,66.67,,
+256,Glenbrook South,Aparejo-Toque & Mamou,1340.26,33.33,66.67,,
+257,Free State,Colvin & Dietze,1337.52,0.0,75.0,0.0,100.0
+258,Solorio,Medina & Melero,1334.83,100.0,25.0,,0.0
+259,Damien-St. Lucy's,Burke & Jesson,1332.8,100.0,0.0,,
+260,Banneker,Gonzalez Ramos & Troutman-Ritchey,1332.72,66.67,16.67,,
+261,Mamaroneck,Steinberg & Yang,1332.64,33.33,66.67,,
+262,Lexington,Kendircioglu & Yoo,1331.37,33.33,66.67,,
+263,College Prep,Batra & Koff,1330.5,66.67,16.67,,
+264,Lexington,Mandell & Mostowfi,1330.32,66.67,66.67,,
+265,Poly Prep,Batliboi & Xiang,1329.61,44.44,66.67,,
+266,Carrollton School of the Sacred Heart,Prado & Rivadeneira,1326.88,66.67,33.33,,
+267,Glenbrook North,Green & Vass,1326.14,44.44,44.44,,
+268,Brooklyn Technical,Atzler- David & Rowe,1325.1,50.0,50.0,,
+269,Blue Valley West,Oruganti & Saha,1323.24,33.33,66.67,,
+270,Lexington,Boonapalli & Wang,1322.39,41.67,36.36,,
+271,Quarry Lane,Bharath & Gao,1320.29,66.67,33.33,,
+272,Southleaves Independent,Birjandi & Chen,1318.94,33.33,66.67,,
+273,Sonoma,Katz & Petty,1316.07,33.33,66.67,,
+274,SWW,Awad & Pinson,1315.97,33.33,66.67,,
+275,Jesuit,Bui & Singh,1312.67,33.33,66.67,,
+276,Brooklyn Technical,Olimova & Ptohos,1312.59,33.33,66.67,,
+277,McNeil,Kallur & Nagarakanti,1311.32,33.33,66.67,,
+278,Mamaroneck,Prins & Vasquez,1310.53,33.33,66.67,,
+279,Hawken,Collins & Power,1309.46,66.67,33.33,,
+280,Damien-St. Lucy's,Khan & Pedersen,1309.22,22.22,66.67,,
+281,(Frisco) Lebanon Trail,Malan & Pillai,1308.8,33.33,66.67,,
+282,Claudia Taylor Johnson,Mandhadapu & Vargas,1307.69,33.33,50.0,,
+283,Northside College Prep,Lariosa & Viola,1307.36,40.0,55.56,0.0,
+284,Brooklyn Technical,Keung & Li,1306.46,50.0,50.0,,
+285,Ruth Batson,Funches & Nguyen,1302.29,28.57,50.0,,0.0
+286,Montgomery Bell,Keith & McKay,1301.16,60.0,33.33,,
+287,NSU,Arias & Yolbulan,1300.22,33.33,66.67,,
+288,North Broward Prep,Merconchini & Spinola,1297.84,66.67,33.33,,
+289,George Washington,Cantu & Tsao,1297.09,66.67,33.33,,
+290,Greenhill,Chamarthy & Li,1294.44,33.33,50.0,,
+291,Archbishop Mitty,Dinesh & Sanchez,1291.54,0.0,100.0,,
+292,Greeniest,Kim & Zelenskiy,1291.48,66.67,33.33,,
+293,Lake Balboa,Muradyan & Papazyan,1290.1,100.0,0.0,,
+294,Bronx Science,Ho & Shedup,1289.72,66.67,33.33,,
+295,Alpharetta,Bakane & Prasad,1288.79,33.33,66.67,,
+296,New Trier,Wick & Zhang,1287.14,66.67,22.22,,
+297,Blue Valley West,Doh & Ghosh,1285.05,66.67,33.33,,
+298,Lexington,Venkatesh & Verma,1281.08,42.86,50.0,0.0,
+299,Eagan,Diep & Schwartz-Timmerman,1280.93,33.33,66.67,,
+300,St Mark's School of Texas,Hasija & Zheng,1275.83,22.22,55.56,,
+301,Peninsula,Khaja & Quon,1275.49,33.33,50.0,,
+302,Somerville,Chin & Urrunaga,1274.79,50.0,33.33,,
+303,Montgomery Bell,Anderson & Melehan,1274.75,33.33,50.0,,
+304,Lane Tech College Prep,Berry & Gonzalez,1274.4,33.33,33.33,,
+305,Brooklyn Technical,Benn & Law,1272.97,66.67,33.33,,
+306,Mamaroneck,Gupta & Romita,1272.52,44.44,44.44,,
+307,Mamaroneck,Geise & Yang,1269.95,33.33,66.67,,
+308,Archbishop Mitty,Downey & Rajasekar,1268.7,100.0,0.0,,
+309,Bronx Science,Anglo & Kozhakhmet,1268.37,83.33,16.67,,
+310,George Washington,Amanuel & Weaver,1267.85,33.33,66.67,,
+311,New Trier,Eatherton & Keen,1266.55,33.33,66.67,,
+312,Coppell,Pilly & Senthil Kumar,1266.27,30.0,55.56,0.0,
+313,Bronx Science,Hom & Qian,1264.99,33.33,66.67,,
+314,Quarry Lane,Bhowmick & Gupta,1262.49,66.67,33.33,,
+315,Eastside,Huan & Palmer,1261.43,0.0,66.67,,
+316,Bronx Science,Diaoune & Goldey,1256.92,66.67,33.33,,
+317,Casady,Ly & Shah,1256.13,66.67,33.33,,
+318,New Trier,Goodfellow & Snyder,1254.59,44.44,44.44,,
+319,Shawnee Mission East,Drennon & Koertner,1254.39,33.33,66.67,,
+320,Alpharetta,Koduru & Vu,1254.22,66.67,0.0,,
+321,Leon Goldstein,Ahmed & Tharian,1253.87,66.67,33.33,,
+322,Solorio,Solis & Vicarte,1253.73,66.67,33.33,,
+323,Wylie E. Groves,Burger & Patil,1252.46,66.67,33.33,,
+324,North Hollywood,Beveridge & Luke,1252.33,33.33,55.56,,
+325,Bronx Science,Qu & Yang,1249.06,33.33,66.67,,
+326,Rowland Hall,Previtali & Shaaban,1248.01,0.0,66.67,,
+327,Northview,Bai & Jiang,1247.97,33.33,33.33,,
+328,Eagan,Hoover & Risk,1247.76,66.67,33.33,,
+329,Stuyvesant,Nedelkovic & Wakida,1247.39,66.67,0.0,,
+330,Whitney Young,Immergluck & Rasche,1244.11,50.0,42.86,,0.0
+331,Hawken,Parsons & Sabarwal,1243.6,66.67,33.33,,
+332,Maine East,Garcia & Rucka,1236.67,66.67,33.33,,
+333,Northside College Prep,Ho & Kaenkumjorn,1234.75,66.67,33.33,,
+334,Montgomery Bell,Seibels & Yang,1234.72,33.33,50.0,,
+335,Alpharetta,Oberai & Thatiparthi,1233.73,33.33,66.67,,
+336,Rosemount,Govindarajan & Patel,1232.52,33.33,66.67,,
+337,Avery Coonley,Andreoli & Jain,1232.41,66.67,33.33,,
+338,Chicago Labs,Lichtenbaum & Siddiqui,1231.83,33.33,66.67,,
+339,Northside College Prep,Batwal & Kanabar,1231.2,66.67,66.67,,
+340,New Trier,Milbratz & Murashko,1230.52,16.67,66.67,,
+341,Damien-St. Lucy's,Garcia & Rodriguez,1228.05,0.0,66.67,,
+342,Washburn,Kasat Shors & Northrop,1227.42,50.0,20.0,,
+343,Northside College Prep,Cummings & Patterson,1225.97,33.33,44.44,,
+344,Duke Ellington,Ondrejcak & Tesfaye,1225.26,16.67,66.67,,
+345,AHS @PGCC,Atem & Rodriguez-Akande,1224.58,50.0,20.0,,
+346,Liberal Arts and Science,Kim & Kim,1223.79,66.67,0.0,,
+347,Bellarmine College Prep,Girotra & Patel,1221.25,50.0,50.0,,
+348,Pace,Goldberg & Paladugu,1221.24,66.67,33.33,,
+349,Athens,Burks & Silas,1220.16,33.33,50.0,,
+350,Mamaroneck,Griffel & Soto,1219.22,11.11,77.78,,
+351,Glenbrook South,Aparejo-Toque & Kim,1218.69,33.33,40.0,,
+352,Walter Payton,Yang & Yu,1216.76,33.33,33.33,,
+353,Mamaroneck,Berkson & Prins,1214.91,33.33,33.33,,
+354,Lexington,Kodumuru & Yoo,1212.83,33.33,66.67,,
+355,Sonoma,Burger & Fresco,1209.49,0.0,50.0,,
+356,Rowland Hall,Utgaard & Vezina,1208.29,50.0,16.67,,
+357,Washburn Rural,Khurana & Rapolu,1208.1,33.33,33.33,,
+358,Taipei American,Ting & Wang,1203.05,66.67,33.33,,
+359,Lowell,Li & Liang,1201.25,33.33,33.33,,
+360,Notre Dame,Oga & Voegele,1199.07,33.33,33.33,,
+361,Lowell,Li & Ma,1199.01,33.33,16.67,,
+362,BASIS Peoria,Bizuneh & Vadlamani,1195.78,33.33,66.67,,
+363,Pine Crest,Gao & Rai,1195.26,66.67,0.0,,
+364,Niles West,Kretsos & Rahman,1194.35,50.0,66.67,,
+365,Notre Dame,Medina & Voegele,1192.28,33.33,33.33,,
+366,Memorial,Shi & Wang,1191.24,40.0,33.33,,
+367,Carrollton School of the Sacred Heart,Martinez-Fraga & Roos,1188.72,50.0,33.33,,
+368,Solorio,Gonzalez & Vicarte,1188.57,66.67,0.0,,
+369,Glenbrook North,Cheng & Morris,1188.3,33.33,66.67,,
+370,Damien-St. Lucy's,Katiyar & Rodriguez,1185.0,66.67,0.0,,
+371,Eleanor Roosevelt,Ankrah & Woubeshet,1181.38,0.0,100.0,,
+372,Bellarmine College Prep,Deshmukh & Nanniyur,1179.82,33.33,66.67,,
+373,TAG,Alonzo & Verma,1179.52,20.0,33.33,,
+374,Notre Dame,Buskila & Gigliotti,1177.85,33.33,33.33,,
+375,Marist,Kilborn & Sowers,1171.13,33.33,33.33,,
+376,Shawnee Mission East,Lewis & Snyder,1170.76,33.33,33.33,,
+377,Baltimore City,Brown & Futrell,1168.76,44.44,22.22,,
+378,Madison Central,Arapalli & Jalf,1167.11,0.0,100.0,,
+379,Brooke,Lopez & Shrestha,1165.96,20.0,40.0,,
+380,Hawken,Collins & Sabarwal,1165.92,33.33,33.33,,
+381,Jesuit,Magyar & Reinhart,1164.01,33.33,33.33,,
+382,St Paul Central,Nagel & Wang,1163.9,66.67,0.0,,
+383,Culver City,Blakely & Spellman,1158.12,33.33,50.0,,
+384,North Hollywood,Levine & Zhang,1156.17,18.18,41.67,,
+385,Collegiate,Arora & Belman,1154.88,66.67,0.0,,
+386,Glenbrook North,Choi & Ju,1152.45,66.67,0.0,,
+387,Shawnee Mission South,Kosmacek & Tao,1150.81,33.33,33.33,,
+388,Northside College Prep,Chen & Shin,1150.68,0.0,66.67,,
+389,Glenbrook South,Nusair & Saitova,1150.42,16.67,50.0,,
+390,Solorio,Melero & Valadez,1149.3,33.33,40.0,,
+391,DC International,McCurty & Pagan,1148.57,33.33,50.0,,
+392,DuVal,Alvarez & Collier,1146.47,50.0,0.0,,
+393,Alexandria City,Rahman & Rahmani,1146.42,33.33,33.33,,
+394,Bronx Science,Cai & Yang,1145.49,33.33,33.33,,
+395,Melissa,Kaushik & Tiwari,1140.96,66.67,0.0,,
+396,Lexington,Amineni & Patil,1140.86,33.33,33.33,,
+397,Bronx Science,Bellur & Patel,1139.67,33.33,33.33,,
+398,Charles Flowers,Kourouma / Calva,1136.24,33.33,33.33,,
+399,Patriot,Hohn & Vostad,1134.0,66.67,0.0,,
+400,Hawken,Miller & Power,1132.5,33.33,33.33,,
+401,Meadows,Kung & Stone,1131.73,40.0,33.33,,
+402,Leon Goldstein,Esanov & Nasimov,1128.75,0.0,66.67,,
+403,Altamont,Chava & Feinstein,1128.65,33.33,33.33,,
+404,Glenbrook North,Krishna & Swinger,1127.81,44.44,22.22,,
+405,St Ignatius,Chen & Khawam,1126.11,33.33,33.33,,
+406,Chicago Labs,Coston Criswell & Tart,1125.1,66.67,0.0,,
+407,Keller,Amirineni & Khan,1124.38,0.0,100.0,,
+408,Damien-St. Lucy's,Christopher & Katiyar,1124.33,33.33,33.33,,
+409,Mamaroneck,Steinberg & Vaculin,1120.88,33.33,33.33,,
+410,Johns Creek,Bhatt & Kim,1120.78,33.33,33.33,,
+411,Seneca Valley,Pishva & Zareen,1117.04,33.33,33.33,,
+412,Little Rock Central,Bean & Bolden,1115.79,50.0,33.33,,
+413,Quarry Lane,Bharath & Tuli,1114.78,33.33,33.33,,
+414,George Washington,Deem & Lynn,1113.18,0.0,66.67,,
+415,Success Academy HSLA-MANHATTAN,Success Academy HSLA-MANHATTAN LT,1112.92,0.0,0.0,,
+416,Canyon Crest,Synn & Venkat,1112.52,33.33,33.33,,
+417,Brooke,Natareno & Shrestha,1111.75,33.33,33.33,,
+418,Bronx Science,Lin & Lin Zheng,1111.64,66.67,0.0,,
+419,Damien-St. Lucy's,Burke & Sutfin,1110.68,0.0,66.67,,
+420,College Prep,Bhat & Tarm,1110.49,0.0,66.67,,
+421,Alpharetta,Arora & Srivastava,1109.5,33.33,33.33,,
+422,Charles Flowers,Garner & Jean,1109.12,0.0,66.67,,
+423,Glenbrook South,Lind & Purtill,1108.99,0.0,66.67,,
+424,Rowland Hall,Corey & Triplitt,1108.63,33.33,33.33,,
+425,Rowland Hall,Syed & Syed,1106.4,0.0,66.67,,
+426,Glenbrook South,Mamou & Patel,1106.07,16.67,40.0,,
+427,Rosemount,Abdulahi & Prem,1104.94,33.33,33.33,,
+428,Rowland Hall,Chen & Drakou,1104.88,16.67,33.33,,
+429,Northside College Prep,Asanbaeva & Chao,1103.08,50.0,33.33,,
+430,New Trier,Drew & Yao,1100.82,33.33,33.33,,
+431,Coppell,Muqtasid & Shah,1099.34,33.33,33.33,,
+432,Banneker,McPherson & Ozturk,1099.18,66.67,0.0,,
+433,Lowell,Li & Patil,1099.09,0.0,66.67,,
+434,Westwood,Balakrishnan & Zhang,1098.1,16.67,40.0,,
+435,Mamaroneck,Andrus & Vaculin,1098.1,33.33,33.33,,
+436,JBS Law Magnet,Diaz & Winston,1095.27,33.33,33.33,,
+437,Westwood,Mahadevan & Saranu,1090.87,33.33,33.33,,
+438,San Marino,Alexander & Chow,1090.66,33.33,33.33,,
+439,Lexington,Mostowfi & Newman,1089.26,33.33,33.33,,
+440,BASIS DC,Ganapati & Schorr,1088.92,0.0,66.67,,
+441,SWW,Huxley & Parekh,1085.91,33.33,33.33,,
+442,Maine East,Jirobe & Young,1084.54,33.33,33.33,,
+443,san pedro,Paxton & Shimamoto,1083.58,33.33,33.33,,
+444,New Trier,Petriello & Petrovic,1083.21,16.67,40.0,,
+445,North Star Academy Policy,Alade & Opoola,1082.49,33.33,0.0,,
+446,McNeil,Kim & Shetty,1081.79,33.33,33.33,,
+447,Damien-St. Lucy's,Christopher & Garcia,1081.78,0.0,50.0,,
+448,Glenbrook South,Shin & Tipton,1080.17,25.0,22.22,,
+449,Banneker,Allen & Yeakey,1079.68,33.33,33.33,,
+450,Glenbrook North,Buyantogtokh & Singhal,1079.56,33.33,33.33,,
+451,Maine East,Garcia & Voitenko,1074.98,33.33,33.33,,
+452,BASIS Peoria,Doddagowdru & Kanungo,1074.45,0.0,50.0,,
+453,Marist,Ovadje & Tan,1072.04,66.67,0.0,,
+454,Brearley,Megalli & Moor,1071.96,33.33,0.0,,
+455,North Hollywood,Lehrer & Vaisman,1069.86,50.0,33.33,,
+456,Meadows,Greenman & Luh,1069.59,33.33,33.33,,
+457,New Trier,Karabatsos & Petriello,1067.63,33.33,0.0,,
+458,Eastern,Brown & Morin,1067.49,33.33,33.33,,
+459,Mamaroneck,Keefe & Wong,1066.2,50.0,16.67,,
+460,St Mark's School of Texas,Ding & Jakkamreddy,1065.33,22.22,33.33,,
+461,Maine East,Garcia & Singh,1065.09,33.33,33.33,,
+462,Peninsula,Kim & Quon,1064.24,33.33,33.33,,
+463,New Tech HS @ B.F. Darrell,Arias & Arias,1062.27,16.67,50.0,,
+464,Lake Balboa,Afzal & Guitron Galindo,1061.6,33.33,33.33,,
+465,Avery Coonley,Jeong & Sheth,1057.3,0.0,66.67,,
+466,Berkeley Prep,Jannu & Jashnani,1057.23,16.67,33.33,,
+467,Glenbrook South,Aparejo-Toque & Patel,1052.31,33.33,33.33,,
+468,Millard North,Delashmutt & Muayad,1049.71,33.33,33.33,,
+469,Lowell,Liang & Ma,1048.31,66.67,0.0,,
+470,Rowland Hall,Chen & Shaaban,1047.96,33.33,33.33,,
+471,Farmington,Assanga & Twite,1043.92,0.0,66.67,,
+472,ADL,Shen & Yen,1043.67,33.33,33.33,,
+473,Bronx Science,Chen & Darmadi,1042.12,0.0,50.0,,
+474,Berkeley Prep,Jannu & Li,1041.34,0.0,33.33,,
+475,SWW,Nwagwu & Quintana-Banfi,1040.24,50.0,0.0,,
+476,Barstow,Parker & Willson,1039.81,33.33,33.33,,
+477,Montgomery Bell,Keller & Thomas,1038.11,0.0,50.0,,
+478,George Washington,DeGuire & Fleisher,1030.68,66.67,0.0,,
+479,Alexandria City,Chowdhury & Sola,1029.52,33.33,0.0,,
+480,Maine East,Akram & Jirobe,1028.5,33.33,33.33,,
+481,Northwood,Tejani & Zhang,1027.53,0.0,33.33,,
+482,SWW,Hoang & Schuettpelz,1027.34,33.33,33.33,,
+483,ModernBrain,Cheng & Quon,1026.81,33.33,0.0,,
+484,Brooke,Baird & O'Farrell,1023.02,33.33,0.0,,
+485,New Trier,Eatherton & Pateriya,1022.06,0.0,33.33,,
+486,Northside College Prep,Batwal & Chao,1016.74,33.33,16.67,,
+487,Digital Pioneers,Team Digital Pioneers,1015.14,33.33,33.33,,
+488,Berkley,Hines & Horowitz,1012.37,66.67,0.0,,
+489,Rosemount,Carlson & Yohannes,1012.27,66.67,0.0,,
+490,Maine East,Rafael & Singh,1012.06,33.33,33.33,,
+491,Buhler,Harriman & Schroeder,1008.42,33.33,0.0,,
+492,Forest Park,Fludd & Haider,1007.23,20.0,33.33,,
+493,Maine East,Akram & Hakeem,1002.87,16.67,50.0,,
+494,Whitney Young,Gutierrez & Manglavil,996.59,0.0,33.33,,
+495,St Ignatius,Khawam & Quail,994.8,0.0,50.0,,
+496,Jenks,Koehling & Thurman,993.72,33.33,33.33,,
+497,BASIS DC,Ganapati & Wong,992.57,0.0,33.33,,
+498,Lane Tech College Prep,Kim & Labelle,991.04,0.0,33.33,,
+499,Barstow,Dutton & Tabuchi,990.55,0.0,33.33,,
+500,Notre Dame,Anderson & Nikkhah Bahrami,986.57,33.33,33.33,,
+501,Lane Tech College Prep,Kim & Liang-Vergara,985.77,33.33,0.0,,
+502,Northstar Academy HS - Newark,Alade & Opoola,983.75,50.0,0.0,,
+503,Athens,Parker & Tinsley,982.16,16.67,40.0,,
+504,Carrollton School of the Sacred Heart,Scoville & Yu,979.43,33.33,33.33,,
+505,Glenbrook South,Agrawal & Saitova,979.37,33.33,0.0,,
+506,Duke Ellington,Jones & Sesay,978.92,0.0,33.33,,
+507,Von Steuben,Lutska & Roberts,975.03,0.0,33.33,,
+508,Brock,Brock DC,974.17,0.0,0.0,,
+509,Damien-St. Lucy's,Bitzko-Barrett & Burke,973.35,0.0,33.33,,
+510,Banneker,Alexander & Marshall,970.81,0.0,33.33,,
+511,Meadows,Chen & Wu,964.02,0.0,33.33,,
+512,Minneapolis South,Griffin & Hassan,963.1,0.0,33.33,,
+513,St Mark's School of Texas,Lin & McCormick,959.19,22.22,22.22,,
+514,Calvert Hall,Cole & Thomas,957.29,33.33,11.11,,
+515,Glenbrook North,Castellucci & Ross,955.04,0.0,33.33,,
+516,Glenbrook North,Acikgoz & Kutty,952.84,20.0,20.0,,
+517,Watkins Mill,Pishva & Zareen,952.44,0.0,33.33,,
+518,Dulles,Huynh & Zhang,950.61,0.0,33.33,,
+519,san pedro,Roque & Tuazon,949.74,33.33,0.0,,
+520,Rosemount,Grellys & Yeleswarapu,948.11,50.0,0.0,,
+521,BASIS DC,Schorr & Spitzer,947.95,0.0,33.33,,
+522,Dowling Catholic,Beauchamp & South,945.06,0.0,33.33,,
+523,Sonoma,Beirne & Hemsouvanh,944.9,0.0,28.57,,
+524,Glenbrook South,Lind & Nickolas,942.31,33.33,33.33,,
+525,Elizabeth Learning Center,Pena & Santos,942.11,50.0,0.0,,
+526,New Trier,Petrovic & Yao,942.09,0.0,33.33,,
+527,NSU,Feinstein & Landrove,939.48,0.0,33.33,,
+528,Berkeley Prep,Li & Maitra,936.76,20.0,0.0,,
+529,SWW,Nwagwu & Quintana Banfi,931.93,33.33,0.0,,
+530,Elizabeth Learning Center,Brawon & Escobar,925.57,33.33,0.0,,
+531,Von Steuben,Moustakas & Tigu,921.05,50.0,0.0,,
+532,Eastside,Wu & Zheng,915.91,0.0,0.0,,
+533,Newark Tech,Addai & Chambers,914.04,16.67,33.33,,
+534,North Star Academy Policy,Adams & Davis,906.4,50.0,0.0,,
+535,Chicago Labs,El Bissati & Williams,905.89,33.33,0.0,,
+536,Hawken,Miller & Rogers,903.48,33.33,0.0,,
+537,Claudia Taylor Johnson,Korra & Staggs,902.56,33.33,0.0,,
+538,Shawnee Mission South,Harvey & Spizman,901.21,0.0,33.33,,
+539,Elizabeth Learning Center,Martinez & Tinajero,900.26,33.33,0.0,,
+540,SWW,Cha & Pinol,896.89,0.0,33.33,,
+541,Stuyvesant,Huang & Pan,891.04,0.0,50.0,,
+542,Northstar Academy HS - Newark,Adams & Davis,890.69,0.0,33.33,,
+543,St Ignatius,Adams & Chen,889.2,0.0,33.33,,
+544,Stuart Hobson,BrucknerRust & West,888.35,0.0,33.33,,
+545,Jordan,Dieu & Vankadara,885.72,33.33,0.0,,
+546,Banneker,Adames & Simmons,885.63,0.0,0.0,,
+547,Rowland Hall,Aoki & Shackelford,885.61,0.0,40.0,,
+548,Bellaire,Khan & Raman,884.39,33.33,0.0,,
+549,Jenks,Fisher & Hunter,882.34,0.0,33.33,,
+550,DuVal,Alvarez & Sartani,882.28,33.33,0.0,,
+551,Johns Creek,Namiranian & Raskin,877.59,33.33,0.0,,
+552,NSU,Del Rosal & Dziugelis,870.19,0.0,33.33,,
+553,NSU,Law & Zatkowsky,869.14,33.33,0.0,,
+554,Bronx Science,Ho & Matvienko Sikar,866.42,0.0,33.33,,
+555,George Washington,Mukayess & Stearns,861.61,0.0,33.33,,
+556,NSU,Landrove & Zatkowsky,861.13,33.33,0.0,,
+557,New Trier,Yao & Zhang,860.55,0.0,0.0,,
+558,ADL,Ho & Lu,852.99,33.33,0.0,,
+559,San Pedro,Murai & Taase,850.11,0.0,0.0,,
+560,West Campus (Sacramento),Jacobson & Phan,847.59,16.67,20.0,,
+561,Little Rock Central,Cain & Wellborn,843.58,20.0,20.0,,
+562,New Trier,Pateriya & Verma,840.4,0.0,33.33,,
+563,Coppell,Kolli & Thatipamula,837.32,33.33,0.0,,
+564,Notre Dame,Guerrero & Kitson,836.55,0.0,33.33,,
+565,Stuyvesant,Chan & Jiang,835.42,0.0,0.0,,
+566,Leon Goldstein,Balde & Rothchild,834.17,0.0,,,
+567,California Academy of Mathematics and Science,Karthikeyan & Yang,834.16,0.0,0.0,,
+568,Meadows,Cruz & Ensign,832.78,0.0,0.0,,
+569,Edina,Lofgren & Xing,824.69,0.0,33.33,,
+570,North Hollywood,Li & Nadel,812.6,0.0,0.0,,
+571,NSU,Ahamad & Mathew,797.27,20.0,16.67,,
+572,San Pedro,Fuchino & Leiva,796.49,0.0,0.0,,
+573,Alief Taylor,Nguyen & Tahir,782.07,0.0,0.0,,
+574,Quarry Lane,Senthil & Zhang,782.02,0.0,0.0,,
+575,Solorio,Diaz Ramirez & Martinez,781.75,16.67,0.0,,
+576,Meadows,Luh & Whiteley,779.91,0.0,0.0,,
+577,Moore,Graham & Holloway,779.68,0.0,0.0,,
+578,Montgomery Bell,McCarley & Raggio,774.87,0.0,33.33,,
+579,New Trier,Verma & Zeidler,772.38,0.0,0.0,,
+580,Northwood,Birjandi & Muraka,764.88,0.0,0.0,,
+581,Rowland Hall,Corey & Shaaban,760.05,0.0,0.0,,
+582,George Washington,Drumwright & Manago,751.56,0.0,0.0,,
+583,Kinkaid,Fu & Watts,735.25,0.0,20.0,,
+584,Von Steuben,Gordon & Roberts,731.68,0.0,0.0,,
+585,Millard North,Matya & Zaidi,726.23,0.0,0.0,,
+586,Leon Goldstein,Khuda & MIchel,724.55,0.0,0.0,,
+587,Forest Park,Awe & Creasey,723.16,0.0,0.0,,
+588,Casady,Farhan & Shah,721.22,0.0,0.0,,
+589,Minneapolis South,Buckley & Searls,720.94,0.0,0.0,,
+590,Dripping Springs,Hernandez & Ibanez Duran,715.99,0.0,0.0,,
+591,Poly Prep,Park & Rosenblatt,715.06,0.0,0.0,,
+592,Seven Lakes,Akbarzadeh & Raad,709.69,0.0,0.0,,
+593,Alexandria City,Averyna & Yassin,696.95,0.0,0.0,,
+594,Von Steuben,Havens & Lutska,693.41,0.0,0.0,,
+595,Downtown Magnets,Lee & Leong,691.02,0.0,0.0,,
+596,Newark Science,Ernesto & Goncalves,680.8,0.0,0.0,,
+597,James Logan,Barragan & Shirva,679.53,0.0,0.0,,
+598,Glenbrook North,Lal & Morris,666.69,0.0,0.0,,
+599,Bellarmine College Prep,Goli & Yu,656.85,0.0,0.0,,
+600,Poly Prep,Murphy & Ollivierre,630.87,0.0,0.0,,
