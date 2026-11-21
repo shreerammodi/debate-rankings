@@ -12,26 +12,19 @@ import sys
 
 import pandas as pd
 
-import main as rankings_main
 import ttt_ranking
 from main import RankingSystem
 from ttt_ranking import AFF_PLAYER, BETA, TTTRankingSystem, previous_season_for, tournament_days
 
 
-def load_season(format_dir: str, majors_weight: bool):
+def load_season(format_dir: str):
     """Returns (system, comparisons tagged with day and tournament, ordered tournaments)."""
-    original = rankings_main.determine_weight
-    if not majors_weight:
-        rankings_main.determine_weight = lambda tournament, majors: 1
-    try:
-        config_path = f"config/{format_dir}-config.json"
-        system = TTTRankingSystem(config_path, format_dir)
-        days = tournament_days(config_path)
-        for tournament in system.config["tournaments"]:
-            system._day = days[tournament]
-            system.update_from_tournament(tournament)
-    finally:
-        rankings_main.determine_weight = original
+    config_path = f"config/{format_dir}-config.json"
+    system = TTTRankingSystem(config_path, format_dir)
+    days = tournament_days(config_path)
+    for tournament in system.config["tournaments"]:
+        system._day = days[tournament]
+        system.update_from_tournament(tournament)
     return system, system.comparisons, system.config["tournaments"]
 
 
@@ -90,8 +83,7 @@ def main():
     if len(sys.argv) > 3:
         grid = [tuple(float(x) for x in pair.split(",")) for pair in sys.argv[3:]]
 
-    system, weighted, order = load_season(format_dir, majors_weight=True)
-    _, unweighted, _ = load_season(format_dir, majors_weight=False)
+    system, comparisons, order = load_season(format_dir)
     previous = []
     if previous_season_for(format_dir):
         system.previous_season = previous_season_for(format_dir)
@@ -102,23 +94,21 @@ def main():
         holdouts = holdouts[:1]
     results = {}
     for tournament in holdouts:
-        cutoff = min(c["day"] for c in unweighted if c["tournament"] == tournament)
-        train_w = [c for c in weighted if c["day"] < cutoff]
-        train_u = [c for c in unweighted if c["day"] < cutoff]
-        test = [c for c in unweighted if c["tournament"] == tournament]
+        cutoff = min(c["day"] for c in comparisons if c["tournament"] == tournament)
+        train = [c for c in comparisons if c["day"] < cutoff]
+        test = [c for c in comparisons if c["tournament"] == tournament]
         if not test:
             continue
         print(f"Held out {tournament}: {len(test)} rounds", flush=True)
         runs = {
-            "BT, majors 2x (current)": lambda: predict_bradley_terry(train_w, test),
-            "BT, majors 1x": lambda: predict_bradley_terry(train_u, test),
+            "BT": lambda: predict_bradley_terry(train, test),
         }
         for gamma, sigma in grid:
             runs[f"TTT g={gamma} s={sigma}"] = (
-                lambda g=gamma, s=sigma: predict_ttt(previous + train_u, test, g, s)
+                lambda g=gamma, s=sigma: predict_ttt(previous + train, test, g, s)
             )
             runs[f"TTT g={gamma} s={sigma}, no last season"] = (
-                lambda g=gamma, s=sigma: predict_ttt(train_u, test, g, s)
+                lambda g=gamma, s=sigma: predict_ttt(train, test, g, s)
             )
         for name, run in runs.items():
             results.setdefault(name, []).extend(run())

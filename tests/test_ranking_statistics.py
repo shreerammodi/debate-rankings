@@ -26,7 +26,6 @@ class RankingStatisticsTest(unittest.TestCase):
                 json.dumps(
                     {
                         "tournaments": {"invitational": "2026-09-01"},
-                        "majors": ["invitational"],
                         "multi_team_debaters": [],
                     }
                 )
@@ -125,7 +124,6 @@ class RankingStatisticsTest(unittest.TestCase):
                 json.dumps(
                     {
                         "tournaments": {"kentucky-rr": "2026-09-01"},
-                        "majors": [],
                         "multi_team_debaters": [],
                     }
                 )

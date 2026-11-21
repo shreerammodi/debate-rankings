@@ -91,7 +91,7 @@ results depend on that order.
 Add `"<slug>": "<YYYY-MM-DD>"` to the `"tournaments"` map in
 `config/<format>-config.json`, using the event's start date from Tabroom (for a
 round robin, use the day before its main tournament starts). The code sorts
-tournaments by this date. Entries with the same date run in file order. Don't touch `majors` unless the user says so.
+tournaments by this date. Entries with the same date run in file order.
 
 ## 4. Verify
 

@@ -4,7 +4,6 @@ import os
 import pandas as pd
 from fisher_scoring import BradleyTerry, pairs_from_counts
 
-from determine_tournament_weight import determine_weight
 from load_config import load_config
 from player_utils import create_player_hashes, parse_debaters_from_tournament
 
@@ -111,13 +110,12 @@ class RankingSystem:
                 return aff_share, 1 - aff_share
         return (1, 0) if aff_won else (0, 1)
 
-    def run_round(self, tournament: str, round: str, weight: int = 1) -> None:
+    def run_round(self, tournament: str, round: str) -> None:
         """Records ballots and win statistics from a round
 
         Args:
             tournament: tournament name
             round: round name
-            weight: likelihood weight for this round's ballots (2 for majors)
         """
         tournament_path = (
             f"{self.format_dir}/{tournament}" if self.format_dir else tournament
@@ -160,13 +158,12 @@ class RankingSystem:
             self._record_result(aff_hash, "aff", aff_won, is_elimination)
             self._record_result(neg_hash, "neg", neg_won, is_elimination)
             aff_ballots, neg_ballots = self._count_ballots(round_row, aff_won)
-            # Tournament weight affects ratings, not the raw win-rate sample.
             self.comparisons.append(
                 {
                     "aff": aff_hash,
                     "neg": neg_hash,
-                    "aff_ballots": aff_ballots * weight,
-                    "neg_ballots": neg_ballots * weight,
+                    "aff_ballots": aff_ballots,
+                    "neg_ballots": neg_ballots,
                 }
             )
 
@@ -316,8 +313,7 @@ class RankingSystem:
 
         for file in files:
             round_name = file.replace(".csv", "")
-            weight = determine_weight(tournament, self.config.get("majors", []))
-            self.run_round(tournament, round_name, weight)
+            self.run_round(tournament, round_name)
 
     def generate_rankings(self, output_prefix: str = "") -> None:
         """Generate and save rankings to CSV files
@@ -496,8 +492,7 @@ def main():
     ld_format_dir = "hsld"
     run_format(ld_format_dir)
 
-    # Topic-specific LD rankings: each topic's rounds alone, on the
-    # Bradley-Terry model (no drift or carried-over priors within a topic).
+    # Topic-specific LD rankings: each topic's rounds alone, same TTT model.
     ld_config = load_config(ld_config_path)
     all_tournaments = ld_config.get("tournaments", [])
     boundaries = ld_config.get("topic_boundaries", {})
@@ -515,7 +510,7 @@ def main():
             f"\nGenerating LD {topic_name} rankings "
             f"({tournaments[0]} → {tournaments[-1]})"
         )
-        topic_system = RankingSystem(ld_config_path, ld_format_dir)
+        topic_system = TTTRankingSystem(ld_config_path, ld_format_dir)
         topic_system.run(f"{ld_format_dir}_{topic_slug}_", tournaments=tournaments)
 
     for format_dir in ("hspf", "cpd", "hscx"):

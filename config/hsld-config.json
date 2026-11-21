@@ -38,16 +38,5 @@
   "topic_boundaries": {
     "sepoct_end": "meadows",
     "novdec_end": "isidore"
-  },
-  "majors": [
-    "heart-of-texas",
-    "glenbrooks",
-    "greenhill",
-    "emory",
-    "cal",
-    "harvard",
-    "harvard-westlake",
-    "ndca",
-    "toc"
-  ]
+  }
 }
