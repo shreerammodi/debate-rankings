@@ -74,7 +74,7 @@ def bracket_depths(rounds: list) -> list:
 
     from_end = [longest(a) for a in range(n)]
     levels = [math.ceil(math.log2(len(r))) if len(r) > 1 else 0 for r in rounds]
-    shift = max(0, max(level - d for level, d in zip(levels, from_end)))
+    shift = max(0, max((level - d for level, d in zip(levels, from_end)), default=0))
     return [d + shift for d in from_end]
 
 
